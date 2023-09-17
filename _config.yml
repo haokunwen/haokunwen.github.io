@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Haokun Wen's Homepage"
+title                    : "Haokun Wen"
 title_separator          : "-"
 name                     : &name "Haokun Wen"
 description              : &description "Haokun Wen"
