@@ -15,3 +15,8 @@ author_profile: true
     [[Paper]]([https://arxiv.org/pdf/2309.01366.pdf](https://github.com/haokunwen/haokunwen.github.io/blob/master/files/tcsvt2023.pdf)https://github.com/haokunwen/haokunwen.github.io/blob/master/files/tcsvt2023.pdf) [[Code]](https://trace729.wixsite.com/trace)
 
 **2022**
+  - **Personalized Fashion Compatibility Modeling via Metapath-guided Heterogeneous Graph Learning**
+    Weili Guan, Fangkai Jiao, Xuemeng Song, **Haokun Wen**, Chung-Hsing Yeh, Xiaojun Chang. In ACM SIGIR 2022 (full paper).
+    [[Paper]](https://arxiv.org/pdf/2309.01366.pdf) [[Code]](https://anosite.wixsite.com/tg-cir)  
+
+
