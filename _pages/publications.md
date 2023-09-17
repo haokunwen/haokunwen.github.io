@@ -6,7 +6,8 @@ author_profile: true
 ---
 
 **2023**
-  - a
-  - b
+  - **Target-Guided Composed Image Retrieval**
+    **Haokun Wen**, Xian Zhang, Xuemeng Song^*^, Yinwei Wei, Liqiang Nie^*^.
+    [Paper]()[Code]()
 
 **2022**
