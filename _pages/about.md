@@ -12,19 +12,19 @@ Haokun Wen is currently a Ph.D. candidate in the [School of Computer Science and
 
 Education
 ---
-- **National University of Singapore** <font size=2.5>Aug.2023 -</font>    
+- **National University of Singapore** Aug.2023 -    
   Joint Ph.D. Student in the School of Computing  
   Supervisor: Prof. [Tat-Seng Chua](https://www.comp.nus.edu.sg/cs/people/chuats/).  
   
-- **Harbin Institute of Technology (Shenzhen)** <font size=2.5>Feb.2023 —</font>  
+- **Harbin Institute of Technology (Shenzhen)** Feb.2023 —  
   Ph.D. Student in the School of Computer Science and Technology  
   Supervisor: Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Xuemeng Song](https://xuemengsong.github.io/).  
 
-- **Shandong University** <font size=2.5>Sep.2019 — Jun.2022</font>  
+- **Shandong University** Sep.2019 — Jun.2022  
   Master in the School of Computer Science and Technology  
   Supervisor: Prof. [Xuemeng Song](https://xuemengsong.github.io/) and Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html).  
 
-- **Ocean University of China** <font size=2.5>Sep.2015 —— Jun.2019</font>  
+- **Ocean University of China** Sep.2015 —— Jun.2019  
   Bachelor in the School of Computer Science and Technology  
   
 
