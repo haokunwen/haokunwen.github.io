@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Haokun Wen / 温皓琨"
   avatar           : "微信图片_20220620185949.jpg"
-  bio              : "PHD Candidate"
-  location         : "HIT Campus of University Town of Shenzhen, Shenzhen, China "
+  bio              : "CS Ph.D. Candidate from HITSZ"
+  location         : # "HIT Campus of University Town of Shenzhen, Shenzhen, China "
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=_fnIwU8AAAAJ&hl=zh-CN"
