@@ -12,6 +12,6 @@ author_profile: true
 
   - **Egocentric Early Action Prediction via Multimodal Transformer-Based Dual Action Prediction**
     Weili Guan, Xuemeng Song, Kejie Wang, **Haokun Wen**, Hongda Ni, Yaowei Wang, Xiaojun Chang. IEEE TCSVT, 2023.    
-    [[Paper]](https://arxiv.org/pdf/2309.01366.pdf) [[Code]](https://anosite.wixsite.com/tg-cir)
+    [[Paper]]([https://arxiv.org/pdf/2309.01366.pdf](https://github.com/haokunwen/haokunwen.github.io/blob/master/files/tcsvt2023.pdf)https://github.com/haokunwen/haokunwen.github.io/blob/master/files/tcsvt2023.pdf) [[Code]](https://trace729.wixsite.com/trace)
 
 **2022**
