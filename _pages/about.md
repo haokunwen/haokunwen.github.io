@@ -12,7 +12,6 @@ Haokun Wen is currently a Ph.D. candidate in the [School of Computer Science and
 
 Education
 ---
-======
 - **National University of Singapore** <font size=2.5>Aug.2023 -</font>    
   Joint Ph.D. Student in the School of Computing  
   Supervisor: Prof. [Tat-Seng Chua](https://www.comp.nus.edu.sg/cs/people/chuats/).  
@@ -31,5 +30,4 @@ Education
 
 News
 ---
-======
 
