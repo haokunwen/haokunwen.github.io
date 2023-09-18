@@ -10,7 +10,7 @@ author_profile: true
     **Haokun Wen**, Xian Zhang, Xuemeng Song, Yinwei Wei, and Liqiang Nie.    
     In ACM MM 2023 (full paper). [[Paper]](https://arxiv.org/pdf/2309.01366.pdf) [[Code]](https://anosite.wixsite.com/tg-cir)
 
-  - **Egocentric Early Action Prediction via Multimodal Transformer-Based Dual Action Prediction**    
+  - [**Egocentric Early Action Prediction via Multimodal Transformer-Based Dual Action Prediction**](https://ieeexplore.ieee.org/document/10050878)    
     Weili Guan, Xuemeng Song, Kejie Wang, **Haokun Wen**, Hongda Ni, Yaowei Wang, and Xiaojun Chang.   
     IEEE TCSVT, 2023. [[Paper]](http://haokunwen.github.io/files/tcsvt2023.pdf) [[Code]](https://trace729.wixsite.com/trace)  
 
