@@ -7,7 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 Short Bio
 ---   
 I'm currently a Ph.D. candidate in the [School of Computer Science and Technology](http://cs.hitsz.edu.cn/), [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/index.html), under the supervision of Professor [Liqiang Nie](https://liqiangnie.github.io/index.html) and Associate Professor [Xuemeng Song](https://xuemengsong.github.io/). My research interests include multimedia computing and information retrieval.
@@ -28,8 +27,7 @@ Education
 
 - **Ocean University of China** Sep.2015 — Jun.2019  
   Bachelor in the School of Computer Science and Technology  
-  
 
-News
+News  
 ---
 
