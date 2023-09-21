@@ -22,3 +22,4 @@ author_profile: true
   - IEEE TKDE
   - Information Science
   - IET Image Processing
+  - Qeios
