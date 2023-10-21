@@ -12,8 +12,8 @@ author_profile: true
 
   - **Finetuning Language Models for Multimodal Question Answering**
     Xin Zhang^1, Wen Xie^1, Ziqi Dai^1, Jun Rao, **Haokun Wen**, Xuan Luo, Meishan Zhang, Min Zhang.
-    In ACM MM 2023 (grand challenge). [[Paper]]()  
-    Ranked 1st in both Chinese and English tracks of the VTQA 2023.  
+    In ACM MM 2023 (grand challenge). [[Paper]](http://haokunwen.github.io/files/acmmm2023_grandchallenge.pdf)  
+    **Ranked 1st** in both Chinese and English tracks of the [VTQA 2023](https://visual-text-QA.github.io/).  
 
   - **Egocentric Early Action Prediction via Multimodal Transformer-Based Dual Action Prediction**    
     Weili Guan, Xuemeng Song, Kejie Wang, **Haokun Wen**, Hongda Ni, Yaowei Wang, and Xiaojun Chang.   
