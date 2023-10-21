@@ -10,6 +10,11 @@ author_profile: true
     **Haokun Wen**, Xian Zhang, Xuemeng Song, Yinwei Wei, and Liqiang Nie.    
     In ACM MM 2023 (full paper). [[Paper]](https://arxiv.org/pdf/2309.01366.pdf) [[Code]](https://anosite.wixsite.com/tg-cir)
 
+  - **Finetuning Language Models for Multimodal Question Answering**
+    Xin Zhang^1, Wen Xie^1, Ziqi Dai^1, Jun Rao, **Haokun Wen**, Xuan Luo, Meishan Zhang, Min Zhang.
+    In ACM MM 2023 (grand challenge). [[Paper]]()  
+    Ranked 1st in both Chinese and English tracks of the VTQA 2023.  
+
   - **Egocentric Early Action Prediction via Multimodal Transformer-Based Dual Action Prediction**    
     Weili Guan, Xuemeng Song, Kejie Wang, **Haokun Wen**, Hongda Ni, Yaowei Wang, and Xiaojun Chang.   
     IEEE TCSVT, 2023. [[Paper]](http://haokunwen.github.io/files/tcsvt2023.pdf) [[Code]](https://trace729.wixsite.com/trace)  
