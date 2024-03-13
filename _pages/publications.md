@@ -6,6 +6,10 @@ author_profile: true
 ---
 
 **2023**  
+  - **Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval**    
+    **Haokun Wen**, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.   
+    IEEE TPAMI, 2023. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10373096)  
+
   - **CLIP-based Composed Image Retrieval with Comprehensive Fusion and Data Augmentation**  
     Haoqiang Lin, **Haokun Wen**, Xiaolin Chen, and Xuemeng Song.  
     In AJCAI 2023 (full paper). [[Paper]](http://haokunwen.github.io/files/AJCAI2023.pdf)  
