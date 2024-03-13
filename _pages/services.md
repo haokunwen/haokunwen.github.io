@@ -5,7 +5,7 @@ permalink: /services/
 author_profile: true
 ---
 
-**Conference Reviewer**  
+**Conference PC Member**  
   - ACM WSDM 2024  
   - ACM SIGIR-AP 2023
   - PRCV 2023, 2024
