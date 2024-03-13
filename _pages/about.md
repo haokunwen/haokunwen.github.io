@@ -17,7 +17,7 @@ Education
   Joint Ph.D. Student in the School of Computing  
   Supervisor: Prof. [Tat-Seng Chua](https://www.comp.nus.edu.sg/cs/people/chuats/).  
   
-- **Harbin Institute of Technology (Shenzhen)** Feb.2023 — Present    
+- **Harbin Institute of Technology (Shenzhen)** Mar.2023 — Present    
   Ph.D. Student in the School of Computer Science and Technology  
   Supervisor: Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Xuemeng Song](https://xuemengsong.github.io/).  
 
