@@ -5,6 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
+**2024**  
+  - **Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval**   
+    **Haokun Wen**, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.      
+    In ACM SIGIR 2024 (full paper).
+
+  - **Fine-Grained Textual Inversion Network for Zero-Shot Composed Image Retrieval**   
+    Haoqiang Lin, **Haokun Wen**, Xuemeng Song, Meng Liu, Yupeng Hu, and Liqiang Nie.      
+    In ACM SIGIR 2024 (full paper). 
+
 **2023**  
   - **Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval**    
     **Haokun Wen**, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.   
