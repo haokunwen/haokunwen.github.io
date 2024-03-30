@@ -25,7 +25,7 @@ Education
   Master in the School of Computer Science and Technology  
   Supervisor: Prof. [Xuemeng Song](https://xuemengsong.github.io/) and Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html).  
 
-- **Ocean University of China** Sep.2015 — Jun.2019 <br> ![](OUC.jpeg)  
+- **Ocean University of China** Sep.2015 — Jun.2019 <br> <img src="OUC.jpeg" alt="OUC Logo" style="width:100px;height:100px;">  
   Bachelor in the School of Computer Science and Technology  
 
 
