@@ -9,7 +9,7 @@ author_profile: true
   - ACM WSDM 2024  
   - ACM SIGIR-AP 2023
   - PRCV 2023, 2024
-  - ACM MM 2023
+  - ACM MM 2023, 2024
   - ACM SIGIR 2023, 2024
   - IJCAI 2023, 2024
   - MCFR MM 2022
