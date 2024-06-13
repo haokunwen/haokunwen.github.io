@@ -19,10 +19,6 @@ author_profile: true
     **Haokun Wen**, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.   
     IEEE TPAMI, 2023. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10373096)  
 
-  - **CLIP-based Composed Image Retrieval with Comprehensive Fusion and Data Augmentation**  
-    Haoqiang Lin, **Haokun Wen**, Xiaolin Chen, and Xuemeng Song.  
-    In AJCAI 2023 (full paper). [[Paper]](http://haokunwen.github.io/files/AJCAI2023.pdf)  
-
   - **Target-Guided Composed Image Retrieval**   
     **Haokun Wen**, Xian Zhang, Xuemeng Song, Yinwei Wei, and Liqiang Nie.    
     In ACM MM 2023 (full paper). [[Paper]](https://arxiv.org/pdf/2309.01366.pdf) [[Code]](https://anosite.wixsite.com/tg-cir)
