@@ -13,7 +13,7 @@ author_profile: true
   - IJCAI 2023, 2024
   - SIGKDD 2022  
   - PRCV 2023, 2024
-  - ACM SIGIR-AP 2023  
+  - ACM SIGIR-AP 2023, 2024  
   - MCFR MM 2022  
 
 **Journal Reviewer**  
