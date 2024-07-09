@@ -17,7 +17,7 @@ author_profile: true
 **2023**  
   - **Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval**    
     **Haokun Wen**, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.   
-    IEEE TPAMI, 2023. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10373096)  
+    IEEE TPAMI, 2023. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10373096) [[Code]](https://anosite.wixsite.com/limn)  
 
   - **Target-Guided Composed Image Retrieval**   
     **Haokun Wen**, Xian Zhang, Xuemeng Song, Yinwei Wei, and Liqiang Nie.    
