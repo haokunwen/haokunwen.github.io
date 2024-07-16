@@ -12,7 +12,11 @@ author_profile: true
 
   - **Fine-Grained Textual Inversion Network for Zero-Shot Composed Image Retrieval**   
     Haoqiang Lin, **Haokun Wen**, Xuemeng Song, Meng Liu, Yupeng Hu, and Liqiang Nie.      
-    In ACM SIGIR 2024 (full paper).  [[Paper]]( ) [[Code]](https://github.com/ZiChao111/FTI4CIR)  
+    In ACM SIGIR 2024 (full paper).  [[Paper]](https://dl.acm.org/doi/10.1145/3626772.3657831) [[Code]](https://github.com/ZiChao111/FTI4CIR)
+
+  - **Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning**
+    Xian Zhang, **Haokun Wen**, Jianlong Wu, Pengda Qin, Hui Xue', and Liqiang Nie.
+    In ACM MMM 2024 (full paper).  
 
 **2023**  
   - **Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval**    
