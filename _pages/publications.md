@@ -6,11 +6,13 @@ author_profile: true
 ---
 
 **Preprints**  
-  - **Interactive Garment Recommendation with User in the Loop** [[Paper]](https://arxiv.org/abs/2402.11627)  
-    Federico Becattini, Xiaolin Chen, Andrea Puccia, **Haokun Wen**, Xuemeng Song, Liqiang Nie, and Alberto Del Bimbo.  
+  - **Interactive Garment Recommendation with User in the Loop**    
+    Federico Becattini, Xiaolin Chen, Andrea Puccia, **Haokun Wen**, Xuemeng Song, Liqiang Nie, and Alberto Del Bimbo.
+    [[Paper]](https://arxiv.org/abs/2402.11627)  
 
-  - **Pseudo-triplet Guided Few-shot Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2407.06001)  
-    Bohan Hou, Haoqiang Lin, **Haokun Wen**, Meng Liu, Xuemeng Song.  
+  - **Pseudo-triplet Guided Few-shot Composed Image Retrieval**    
+    Bohan Hou, Haoqiang Lin, **Haokun Wen**, Meng Liu, Xuemeng Song.
+    [[Paper]](https://arxiv.org/abs/2407.06001)  
 
 **2024**  
   - **Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval**   
