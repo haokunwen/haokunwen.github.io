@@ -14,7 +14,7 @@ author_profile: true
     Haoqiang Lin, **Haokun Wen**, Xuemeng Song, Meng Liu, Yupeng Hu, and Liqiang Nie.      
     In ACM SIGIR 2024 (full paper).  [[Paper]](https://dl.acm.org/doi/10.1145/3626772.3657831) [[Code]](https://github.com/ZiChao111/FTI4CIR)
 
-  - **Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning**
+  - **Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning**  
     Xian Zhang, **Haokun Wen**, Jianlong Wu, Pengda Qin, Hui Xue', and Liqiang Nie.
     In ACM MMM 2024 (full paper).  
 
