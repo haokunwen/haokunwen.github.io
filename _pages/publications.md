@@ -17,7 +17,11 @@ author_profile: true
 **2024**  
   - **Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval**   
     **Haokun Wen**, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.      
-    In ACM SIGIR 2024 (full paper). [[Paper]](https://arxiv.org/abs/2404.15875) [[Code]](https://github.com/haokunwen/DQU-CIR) [[Slides]](http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf)  
+    In ACM SIGIR 2024 (full paper). [[Paper]](https://arxiv.org/abs/2404.15875) [[Code]](https://github.com/haokunwen/DQU-CIR) [[Slides]](http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf)
+
+  - **Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval**    
+    **Haokun Wen**, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.   
+    IEEE TPAMI, 2024. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10373096) [[Code]](https://anosite.wixsite.com/limn)  
 
   - **Fine-Grained Textual Inversion Network for Zero-Shot Composed Image Retrieval**   
     Haoqiang Lin, **Haokun Wen**, Xuemeng Song, Meng Liu, Yupeng Hu, and Liqiang Nie.      
@@ -25,13 +29,9 @@ author_profile: true
 
   - **Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning**  
     Xian Zhang, **Haokun Wen**, Jianlong Wu, Pengda Qin, Hui Xue', and Liqiang Nie.  
-    In ACM MM 2024 (full paper).  
+    In ACM MM 2024 (full paper). [[Paper]](https://openreview.net/attachment?id=eiGs5VCsYM&name=pdf)    
 
 **2023**  
-  - **Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval**    
-    **Haokun Wen**, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.   
-    IEEE TPAMI, 2023. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10373096) [[Code]](https://anosite.wixsite.com/limn)  
-
   - **Target-Guided Composed Image Retrieval**   
     **Haokun Wen**, Xian Zhang, Xuemeng Song, Yinwei Wei, and Liqiang Nie.    
     In ACM MM 2023 (full paper). [[Paper]](https://arxiv.org/pdf/2309.01366.pdf) [[Code]](https://anosite.wixsite.com/tg-cir) [[Slides]](http://haokunwen.github.io/files/mm23-TG-CIR.pdf)  
