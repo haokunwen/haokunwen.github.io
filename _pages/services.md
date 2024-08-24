@@ -17,7 +17,8 @@ author_profile: true
   - MCFR MM 2022  
 
 **Journal Reviewer**  
-  - ACM ToMM
+  - ACM ToMM  
+  - IEEE TIP  
   - IEEE TMM
   - IEEE TCSVT
   - IEEE TKDE
