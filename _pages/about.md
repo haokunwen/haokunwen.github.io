@@ -13,7 +13,7 @@ I'm currently a Ph.D. student in the [School of Computer Science and Technology]
 
 Education
 ---
-- **City University of Hong Kong** Sep.2024 —    
+- **City University of Hong Kong** Sep.2024 — Present    
   Joint Ph.D. Student in the School of Data Science    
   Supervisor: Prof. [Xiangyu Zhao](https://www.cityu.edu.hk/)
   
