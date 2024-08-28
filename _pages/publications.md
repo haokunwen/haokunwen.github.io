@@ -11,7 +11,7 @@ author_profile: true
     ArXiv preprint. [[Paper]](https://arxiv.org/abs/2402.11627)  
 
   - **Pseudo-triplet Guided Few-shot Composed Image Retrieval**    
-    Bohan Hou, Haoqiang Lin, **Haokun Wen**, Meng Liu, Xuemeng Song.  
+    Bohan Hou, Haoqiang Lin, **Haokun Wen**, Meng Liu, and Xuemeng Song.  
     ArXiv preprint. [[Paper]](https://arxiv.org/abs/2407.06001)  
 
 **2024**  
