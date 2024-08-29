@@ -15,7 +15,7 @@ Education
 ---
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="CityU.jpg" align="left" width="90" height="50", style="margin-left: 1000px;">
+            <img border="0" src="CityU.jpg" align="left" width="90" height="50", style="margin-right: 1000px;">
           </a>     
   </div>   
   
