@@ -33,11 +33,10 @@ Education
   <div align="left">
           <a target="_blank" rel="external">
             <img border="0" src="OUC.jpeg" align="right" width="80" height="80">
-          </a> 
-        <ul>
-        <p style="margin-left:0px;">Bachelor in the School of Computer Science and Technology </p>
-      </ul>      
-      </div>
+          </a>     
+  </div>
+  Bachelor in the School of Computer Science and Technology
+  
 
 
 
