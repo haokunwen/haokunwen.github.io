@@ -25,7 +25,7 @@ Education
 
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="NUS.jfif" align="right" width="58" height="70", style="margin-left: 650px;">
+            <img border="0" src="NUS.jfif" align="right" width="58" height="70", style="margin-left: 1000px;">
           </a>     
   </div>  
   
