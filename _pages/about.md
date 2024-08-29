@@ -20,7 +20,7 @@ Education
   </div>   
   
 - **City University of Hong Kong** Sep.2024 — Present    
-  Joint Ph.D. Student in the School of Data Science, [AML](https://aml-cityu.github.io/) lab    
+  Joint Ph.D. Student in the School of Data Science, AML lab    
   Supervisor: Prof. [Xiangyu Zhao](https://www.cityu.edu.hk/) 
 
   <div align="left">
@@ -30,7 +30,7 @@ Education
   </div>  
   
 - **National University of Singapore** Aug.2023 — Aug.2024        
-  Joint Ph.D. Student in the School of Computing, [NExT++](https://www.nextcenter.org/) lab    
+  Joint Ph.D. Student in the School of Computing, NExT++ lab    
   Supervisor: Prof. [Tat-Seng Chua](https://www.comp.nus.edu.sg/cs/people/chuats/).  
 
   <div align="left">
@@ -40,7 +40,7 @@ Education
   </div>  
   
 - **Harbin Institute of Technology (Shenzhen)** Mar.2023 — Present    
-  Ph.D. Student in the School of Computer Science and Technology, [iLearn]() lab  
+  Ph.D. Student in the School of Computer Science and Technology, iLearn lab  
   Supervisor: Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Xuemeng Song](https://xuemengsong.github.io/).  
 
   <div align="left">
@@ -50,7 +50,7 @@ Education
   </div>  
   
 - **Shandong University** Sep.2019 — Jun.2022  
-  Master in the School of Computer Science and Technology, [iLearn]() lab  
+  Master in the School of Computer Science and Technology, iLearn lab  
   Supervisor: Prof. [Xuemeng Song](https://xuemengsong.github.io/) and Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html).  
 
   <div align="left">
