@@ -15,7 +15,7 @@ Education
 ---
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="CityU-LOGO.png" align="right" width="100" height="45">
+            <img border="0" src="CityU-LOGO.png" align="right" width="200" height="90">
           </a>     
   </div>   
   
@@ -25,7 +25,7 @@ Education
 
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="NUS-LOGO.png" align="right" width="100" height="45">
+            <img border="0" src="NUS-LOGO.png" align="right" width="200" height="90">
           </a>     
   </div>  
   
@@ -35,7 +35,7 @@ Education
 
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="HIT-LOGO.png" align="right" width="100" height="45">
+            <img border="0" src="HIT-LOGO.png" align="right" width="200" height="90">
           </a>     
   </div>  
   
@@ -45,7 +45,7 @@ Education
 
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="SDU-LOGO.png" align="right" width="100" height="45">
+            <img border="0" src="SDU-LOGO.png" align="right" width="200" height="90">
           </a>     
   </div>  
   
@@ -55,7 +55,7 @@ Education
 
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="OUC-LOGO.png" align="right" width="100" height="45">
+            <img border="0" src="OUC-LOGO.png" align="right" width="200" height="90">
           </a>     
   </div>  
   
