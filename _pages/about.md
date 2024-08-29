@@ -21,7 +21,7 @@ Education
   
 - **City University of Hong Kong** Sep.2024 — Present    
   Joint Ph.D. Student in the School of Data Science, AML Lab    
-  Supervisor: Prof. [Xiangyu Zhao](https://www.cityu.edu.hk/) 
+  Supervisor: Prof. [Xiangyu Zhao](https://www.cityu.edu.hk/).   
 
   <div align="left">
           <a target="_blank" rel="external">
