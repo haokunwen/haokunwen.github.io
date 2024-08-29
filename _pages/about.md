@@ -13,14 +13,15 @@ I'm currently a Ph.D. student in the [School of Computer Science and Technology]
 
 Education
 ---
-- **City University of Hong Kong** Sep.2024 — Present    
-  Joint Ph.D. Student in the School of Data Science    
-  Supervisor: Prof. [Xiangyu Zhao](https://www.cityu.edu.hk/)
   <div align="left">
           <a target="_blank" rel="external">
             <img border="0" src="CityU.jpg" align="right" width="100" height="60">
           </a>     
-  </div>  
+  </div>   
+  
+- **City University of Hong Kong** Sep.2024 — Present    
+  Joint Ph.D. Student in the School of Data Science    
+  Supervisor: Prof. [Xiangyu Zhao](https://www.cityu.edu.hk/) 
 
   <div align="left">
           <a target="_blank" rel="external">
