@@ -38,6 +38,7 @@ Education
             <img border="0" src="OUC.jpeg" align="right" width="80" height="80">
           </a> 
         <ul>
-      <li>Bachelor in the School of Computer Science and Technology</li>
+    Bachelor in the School of Computer Science and Technology
+    xxxxx
       </ul>      
       </div>
