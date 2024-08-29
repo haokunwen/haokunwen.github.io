@@ -31,13 +31,12 @@ Education
 
 - **Ocean University of China** Sep.2015 — Jun.2019  
   Bachelor in the School of Computer Science and Technology  
-  <span style="float: right; margin-left: 20px; margin-bottom: 20px;">
-    <img src="ouc.png" alt="Ocean University of China Logo" style="width: 100px; height: auto;">
-  </span>
 
 <p>
   <img src="ouc.png" alt="Ocean University of China Logo" style="float: left; margin-right: 20px; width: 100px; height: auto;">
-  <strong>Ocean University of China</strong> Sep.2015 — Jun.2019    
+  <strong>Ocean University of China</strong> Sep.2015 — Jun.2019  
+</p>
+<p style="margin: 0;">
   Bachelor in the School of Computer Science and Technology  
 </p>
 
