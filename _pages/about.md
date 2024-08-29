@@ -33,7 +33,7 @@ Education
   Bachelor in the School of Computer Science and Technology
 
 
-- **Ocean University of China**  
-  - Sep. 2015 — Jun. 2019  
-  - ![Ocean University of China Logo](ouc.png) Bachelor in the School of Computer Science and Technology
+- **Ocean University of China** Sep.2015 — Jun.2019<br>
+  ![Ocean University of China Logo](ouc.png "Ocean University of China Logo")<br>
+  - Bachelor in the School of Computer Science and Technology
 
