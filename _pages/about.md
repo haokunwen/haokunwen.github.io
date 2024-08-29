@@ -39,7 +39,6 @@ Education
           </a> 
         <ul>
     <p>Bachelor in the School of Computer Science and Technology</p>
-    <p>xxxxx</p>
       </ul>      
       </div>
 
