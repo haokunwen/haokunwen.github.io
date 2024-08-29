@@ -15,9 +15,9 @@ Education
 ---
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="CityU.jpg" align="right" width="120" height="70">
+            <img border="0" src="CityU.jpg" align="right" width="110" height="65">
           </a>     
-  </div>
+  </div>  
 - **City University of Hong Kong** Sep.2024 — Present    
   Joint Ph.D. Student in the School of Data Science    
   Supervisor: Prof. [Xiangyu Zhao](https://www.cityu.edu.hk/)
@@ -26,16 +26,16 @@ Education
           <a target="_blank" rel="external">
             <img border="0" src="NUS.jfif" align="right" width="60" height="80">
           </a>     
-  </div>
+  </div>  
 - **National University of Singapore** Aug.2023 — Aug.2024        
   Joint Ph.D. Student in the School of Computing  
   Supervisor: Prof. [Tat-Seng Chua](https://www.comp.nus.edu.sg/cs/people/chuats/).  
 
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="HIT.png" align="right" width="80" height="80">
+            <img border="0" src="HIT.png" align="right" width="90" height="80">
           </a>     
-  </div>
+  </div>  
 - **Harbin Institute of Technology (Shenzhen)** Mar.2023 — Present    
   Ph.D. Student in the School of Computer Science and Technology  
   Supervisor: Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Xuemeng Song](https://xuemengsong.github.io/).  
@@ -44,7 +44,7 @@ Education
           <a target="_blank" rel="external">
             <img border="0" src="SDU.jpg" align="right" width="80" height="80">
           </a>     
-  </div>
+  </div>  
 - **Shandong University** Sep.2019 — Jun.2022  
   Master in the School of Computer Science and Technology  
   Supervisor: Prof. [Xuemeng Song](https://xuemengsong.github.io/) and Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html).  
@@ -53,7 +53,7 @@ Education
           <a target="_blank" rel="external">
             <img border="0" src="OUC.jpeg" align="right" width="80" height="80">
           </a>     
-  </div>
+  </div>  
 - **Ocean University of China** Sep.2015 — Jun.2019    
   Bachelor in the School of Computer Science and Technology
   
