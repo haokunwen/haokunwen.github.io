@@ -15,7 +15,7 @@ Education
 ---
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="CityU.jpg" align="left" width="90" height="50">
+            <img border="0" src="CityU.jpg" align="left" width="80" height="50">
           </a>     
   </div>   
   
@@ -25,7 +25,7 @@ Education
 
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="NUS.jfif" align="left" width="58" height="70">
+            <img border="0" src="NUS.jfif" align="left" width="52" height="70">
           </a>     
   </div>  
   
