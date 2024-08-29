@@ -25,7 +25,7 @@ Education
 
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="NUS.jfif" align="right" width="65" height="80", style="margin-right: 60px;">
+            <img border="0" src="NUS.jfif" align="right" width="65" height="80", style="margin-right: 120px;">
           </a>     
   </div>  
   
@@ -35,7 +35,7 @@ Education
 
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="HIT.jpg" align="right" width="80" height="80">
+            <img border="0" src="HIT.jpg" align="right" width="80" height="70">
           </a>     
   </div>  
   
@@ -45,7 +45,7 @@ Education
 
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="SDU.jpg" align="right" width="80" height="75">
+            <img border="0" src="SDU.jpg" align="right" width="70" height="70">
           </a>     
   </div>  
   
@@ -55,7 +55,7 @@ Education
 
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="OUC.jpeg" align="right" width="80" height="80">
+            <img border="0" src="OUC.jpeg" align="right" width="70" height="70">
           </a>     
   </div>  
   
