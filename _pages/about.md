@@ -45,7 +45,7 @@ Education
 
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="SDU.jpg" align="right" width="80" height="80">
+            <img border="0" src="SDU.jpg" align="right" width="80" height="75">
           </a>     
   </div>  
   
