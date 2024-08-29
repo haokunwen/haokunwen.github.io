@@ -35,9 +35,9 @@ Education
 <div align="left">
         <li><strong> Ocean University of China</strong> Sep.2015 — Jun.2019 </li>
           <a target="_blank" rel="external">
-            <img border="0" src="OUC.jpeg" align="right" width="100" height="100">
+            <img border="0" src="OUC.jpeg" align="right" width="80" height="80">
           </a> 
         <ul>
-        Bachelor in the School of Computer Science and Technology
+      Bachelor in the School of Computer Science and Technology
       </ul>      
       </div>
