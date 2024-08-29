@@ -42,3 +42,15 @@ Education
       </ul>      
       </div>
 
+<div style="text-align:left;">
+  <ul>
+    <li>
+      <strong>Ocean University of China</strong> Sep.2015 — Jun.2019
+      <a target="_blank" rel="external">
+        <img src="OUC.jpeg" alt="Ocean University of China Logo" style="margin-left: 10px; width:80px; height:auto;">
+      </a>
+    </li>
+  </ul>
+  <p style="margin-left: 20px;">Bachelor in the School of Computer Science and Technology</p>
+</div>
+
