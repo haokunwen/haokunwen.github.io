@@ -25,6 +25,11 @@ Education
   Ph.D. Student in the School of Computer Science and Technology  
   Supervisor: Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Xuemeng Song](https://xuemengsong.github.io/).  
 
+  <div align="left">
+          <a target="_blank" rel="external">
+            <img border="0" src="SDU.jpg" align="right" width="80" height="80">
+          </a>     
+  </div>
 - **Shandong University** Sep.2019 — Jun.2022  
   Master in the School of Computer Science and Technology  
   Supervisor: Prof. [Xuemeng Song](https://xuemengsong.github.io/) and Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html).  
