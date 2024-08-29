@@ -33,12 +33,11 @@ Education
   Bachelor in the School of Computer Science and Technology
 
 <div align="left">
-        <li><strong> Ocean University of China</strong> </li>
+        <li><strong> Ocean University of China</strong> Sep.2015 — Jun.2019 </li>
           <a target="_blank" rel="external">
-            <img border="0" src="ouc.png" align="right" width="80" height="80">
+            <img border="0" src="OUC.jpeg" align="right" width="100" height="100">
           </a> 
         <ul>
-        <li>Bachelor in the School of Computer Science and Technology, Sep.2015 — Jun.2019 </li>
-        <li>xx</li>
+        Bachelor in the School of Computer Science and Technology
       </ul>      
       </div>
