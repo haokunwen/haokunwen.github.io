@@ -35,7 +35,7 @@ Education
 
   <div align="left">
           <a target="_blank" rel="external">
-            <img border="0" src="HIT.jpg" align="right" width="65" height="70">
+            <img border="0" src="HIT.jpg" align="right" width="70" height="65">
           </a>     
   </div>  
   
