@@ -42,3 +42,13 @@ Education
     <p>xxxxx</p>
       </ul>      
       </div>
+
+<div align="left">
+        <strong> Ocean University of China</strong> Sep.2015 — Jun.2019
+          <a target="_blank" rel="external">
+            <img border="0" src="ouc.png" align="right" width="80" height="80">
+          </a> 
+        <ul>
+        <li>Bachelor in the School of Computer Science and Technology </li>
+      </ul>      
+      </div>
