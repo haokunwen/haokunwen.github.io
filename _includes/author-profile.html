@@ -118,7 +118,13 @@
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
-      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=2LZOyCE1YChNbhAZ_LFpNXlGFPvRSGg5iycCv852tdk&cl=ffffff&w=a"></script>
+      
     </ul>
   </div>
 </div>
+
+    <div id="clustrmaps-container" style="width: 300px; height: 300px; position: absolute; top: 100px; left: 50px;">
+    </div>
+    <script type="text/javascript">
+        document.write('<script src="//clustrmaps.com/map_v2.js?d=2LZOyCE1YChNbhAZ_LFpNXlGFPvRSGg5iycCv852tdk&cl=ffffff&w=a"></' + 'script>');
+    </script>
