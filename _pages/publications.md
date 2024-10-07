@@ -29,7 +29,7 @@ author_profile: true
 
   - **Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning**  
     Xian Zhang, **Haokun Wen**, Jianlong Wu, Pengda Qin, Hui Xue, and Liqiang Nie.  
-    In ACM MM 2024 (full paper). [[Paper]](https://openreview.net/attachment?id=eiGs5VCsYM&name=pdf)    
+    In ACM MM 2024 (full paper). [[Paper]](https://openreview.net/attachment?id=eiGs5VCsYM&name=pdf) [[Code]](https://github.com/xianzhangzx/FINER-MLLM)    
 
 **2023**  
   - **Target-Guided Composed Image Retrieval**   
