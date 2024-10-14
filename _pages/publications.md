@@ -6,10 +6,6 @@ author_profile: true
 ---
 
 **Preprints**  
-  - **Interactive Garment Recommendation with User in the Loop**    
-    Federico Becattini, Xiaolin Chen, Andrea Puccia, **Haokun Wen**, Xuemeng Song, Liqiang Nie, and Alberto Del Bimbo.  
-    ArXiv preprint. [[Paper]](https://arxiv.org/abs/2402.11627)  
-
   - **Pseudo-triplet Guided Few-shot Composed Image Retrieval**    
     Bohan Hou, Haoqiang Lin, **Haokun Wen**, Meng Liu, and Xuemeng Song.  
     ArXiv preprint. [[Paper]](https://arxiv.org/abs/2407.06001)  
@@ -29,7 +25,11 @@ author_profile: true
 
   - **Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning**  
     Xian Zhang, **Haokun Wen**, Jianlong Wu, Pengda Qin, Hui Xue, and Liqiang Nie.  
-    In ACM MM 2024 (full paper). [[Paper]](https://openreview.net/attachment?id=eiGs5VCsYM&name=pdf) [[Code]](https://github.com/xianzhangzx/FINER-MLLM)    
+    In ACM MM 2024 (full paper). [[Paper]](https://openreview.net/attachment?id=eiGs5VCsYM&name=pdf) [[Code]](https://github.com/xianzhangzx/FINER-MLLM)
+
+  - **Interactive Garment Recommendation with User in the Loop**    
+    Federico Becattini, Xiaolin Chen, Andrea Puccia, **Haokun Wen**, Xuemeng Song, Liqiang Nie, and Alberto Del Bimbo.  
+    ACM ToMM 2024. [[Paper]](https://arxiv.org/abs/2402.11627)  
 
 **2023**  
   - **Target-Guided Composed Image Retrieval**   
