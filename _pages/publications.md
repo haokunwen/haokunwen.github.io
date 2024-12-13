@@ -13,7 +13,7 @@ author_profile: true
 **2025**  
   - **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval**   
     Zixu Li, Zhiwei Chen, **Haokun Wen**, Zhiheng Fu, Yupeng Hu, and Weili Guan.      
-    In AAAI 2024.  
+    In AAAI 2025.  
 
 **2024**  
   - **Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval**   
