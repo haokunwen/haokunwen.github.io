@@ -8,7 +8,12 @@ author_profile: true
 **Preprints**  
   - **Pseudo-triplet Guided Few-shot Composed Image Retrieval**    
     Bohan Hou, Haoqiang Lin, **Haokun Wen**, Meng Liu, and Xuemeng Song.  
-    ArXiv preprint. [[Paper]](https://arxiv.org/abs/2407.06001)  
+    ArXiv preprint. [[Paper]](https://arxiv.org/abs/2407.06001)
+
+**2025**  
+  - **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval**   
+    Zixu Li, Zhiwei Chen, **Haokun Wen**, Zhiheng Fu, Yupeng Hu, and Weili Guan.      
+    In AAAI 2024.  
 
 **2024**  
   - **Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval**   
