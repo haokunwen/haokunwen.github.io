@@ -7,7 +7,7 @@ author_profile: true
 
 **Preprints**  
   - **A Comprehensive Survey on Composed Image Retrieval**    
-    Xuemeng Song, Haoqiang Lin, **Haokun Wen**, Bohan Hou, and Liqiang Nie.    
+    Xuemeng Song, Haoqiang Lin, **Haokun Wen**, Bohan Hou, Mingzhu Xu, and Liqiang Nie.    
     ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2502.18495)    
   - **Pseudo-triplet Guided Few-shot Composed Image Retrieval**    
     Bohan Hou, Haoqiang Lin, **Haokun Wen**, Meng Liu, and Xuemeng Song.  
