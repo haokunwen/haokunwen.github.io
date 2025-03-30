@@ -7,7 +7,7 @@ author_profile: true
 
 **Preprints**  
   - **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval**     
-     Zixu Li, Zhiheng Fu, Yupeng Hu, Zhiwei Chen, **Haokun Wen**, and Liqiang Nie.    
+    Zixu Li, Zhiheng Fu, Yupeng Hu, Zhiwei Chen, **Haokun Wen**, and Liqiang Nie.    
     ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2503.21309)    
   - **A Comprehensive Survey on Composed Image Retrieval**    
     Xuemeng Song, Haoqiang Lin, **Haokun Wen**, Bohan Hou, Mingzhu Xu, and Liqiang Nie.    
