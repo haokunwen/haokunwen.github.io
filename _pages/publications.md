@@ -12,14 +12,17 @@ author_profile: true
   - **A Comprehensive Survey on Composed Image Retrieval**    
     Xuemeng Song, Haoqiang Lin, **Haokun Wen**, Bohan Hou, Mingzhu Xu, and Liqiang Nie.    
     ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2502.18495)    
-  - **Pseudo-triplet Guided Few-shot Composed Image Retrieval**    
-    Bohan Hou, Haoqiang Lin, **Haokun Wen**, Meng Liu, and Xuemeng Song.  
-    ArXiv preprint. [[Paper]](https://arxiv.org/abs/2407.06001)
 
-**2025**  
-  - **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval**   
-    Zixu Li, Zhiwei Chen, **Haokun Wen**, Zhiheng Fu, Yupeng Hu, and Weili Guan.      
-    In AAAI 2025.  
+**2025**   
+  - **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval**     
+    Zixu Li, Zhiwei Chen, **Haokun Wen**, Zhiheng Fu, Yupeng Hu, and Weili Guan.        
+    In AAAI 2025.    
+  - **FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex Image Retrieval**    
+    Bohan Hou, Haoqiang Lin, Xuemeng Song, **Haokun Wen**, Meng Liu, Yupeng Hu, and Xiangyu Zhao.    
+    In SIGIR 2025.    
+  - **Pseudo-triplet Guided Few-shot Composed Image Retrieval**      
+    Bohan Hou, Haoqiang Lin, **Haokun Wen**, Meng Liu, and Xuemeng Song.    
+    In IJCNN 2025. [[Paper]](https://arxiv.org/abs/2407.06001)    
 
 **2024**  
   - **Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval**   
