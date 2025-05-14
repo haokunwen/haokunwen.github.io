@@ -16,7 +16,7 @@ author_profile: true
 **2025**   
   - **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval**     
     Zixu Li, Zhiwei Chen, **Haokun Wen**, Zhiheng Fu, Yupeng Hu, and Weili Guan.        
-    In AAAI 2025.    
+    In AAAI 2025. [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/32541)       
   - **FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex Image Retrieval**    
     Bohan Hou, Haoqiang Lin, Xuemeng Song, **Haokun Wen**, Meng Liu, Yupeng Hu, and Xiangyu Zhao.    
     In SIGIR 2025.    
