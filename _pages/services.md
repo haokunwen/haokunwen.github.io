@@ -13,7 +13,7 @@ author_profile: true
   - IJCAI 2023, 2024, 2025
   - ICML 2025    
   - SIGKDD 2022  
-  - PRCV 2023, 2024
+  - PRCV 2023, 2024, 2025
   - ACM SIGIR-AP 2023, 2024  
   - MCFR MM 2022  
 
