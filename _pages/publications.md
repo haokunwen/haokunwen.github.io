@@ -23,7 +23,7 @@ author_profile: true
   - **Pseudo-triplet Guided Few-shot Composed Image Retrieval**      
     Bohan Hou, Haoqiang Lin, **Haokun Wen**, Meng Liu, and Xuemeng Song.    
     In IJCNN 2025. [[Paper]](https://arxiv.org/abs/2407.06001)    
-  - **HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval**
+  - **HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval**    
     Zhiwei Chen, Yupeng Hu, Zixu Li, Zhiheng Fu, **Haokun Wen**, and Weili Guan.
     In ACM MM 2025.    
 
