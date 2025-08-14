@@ -11,7 +11,10 @@ author_profile: true
     ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2503.21309)    
   - **A Comprehensive Survey on Composed Image Retrieval**    
     Xuemeng Song, Haoqiang Lin, **Haokun Wen**, Bohan Hou, Mingzhu Xu, and Liqiang Nie.    
-    ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2502.18495)    
+    ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2502.18495)
+  - **Spatial Understanding from Videos: Structured Prompts Meet Simulation Data**
+    Haoyu Zhang, Meng Liu, Zaijing Li, **Haokun Wen**, Weili Guan, Yaowei Wang, and Liqiang Nie.
+    ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2506.03642?)        
 
 **2025**   
   - **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval**     
