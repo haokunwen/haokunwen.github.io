@@ -9,14 +9,14 @@ author_profile: true
   - **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval**     
     Zixu Li, Zhiheng Fu, Yupeng Hu, Zhiwei Chen, **Haokun Wen**, and Liqiang Nie.    
     ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2503.21309)    
-  - **A Comprehensive Survey on Composed Image Retrieval**    
-    Xuemeng Song, Haoqiang Lin, **Haokun Wen**, Bohan Hou, Mingzhu Xu, and Liqiang Nie.    
-    ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2502.18495)
   - **Spatial Understanding from Videos: Structured Prompts Meet Simulation Data**    
     Haoyu Zhang, Meng Liu, Zaijing Li, **Haokun Wen**, Weili Guan, Yaowei Wang, and Liqiang Nie.    
     ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2506.03642?)        
 
 **2025**   
+  - **A Comprehensive Survey on Composed Image Retrieval**     
+    Xuemeng Song, Haoqiang Lin, **Haokun Wen**, Bohan Hou, Mingzhu Xu, and Liqiang Nie.    
+    ACM TOIS. [[Paper]](https://arxiv.org/pdf/2502.18495)    
   - **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval**     
     Zixu Li, Zhiwei Chen, **Haokun Wen**, Zhiheng Fu, Yupeng Hu, and Weili Guan.        
     In AAAI 2025. [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Code]](https://sdu-l.github.io/ENCODER.github.io/)         
