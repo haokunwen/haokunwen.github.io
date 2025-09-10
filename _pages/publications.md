@@ -11,7 +11,10 @@ author_profile: true
     ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2503.21309)    
   - **Spatial Understanding from Videos: Structured Prompts Meet Simulation Data**    
     Haoyu Zhang, Meng Liu, Zaijing Li, **Haokun Wen**, Weili Guan, Yaowei Wang, and Liqiang Nie.    
-    ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2506.03642?)        
+    ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2506.03642?)
+  - **Dual Knowledge-Enhanced Two-Stage Reasoner for Multimodal Dialog Systems**    
+    Xiaolin Chen, Xuemeng Song, **Haokun Wen**, Weili Guan, Xiangyu Zhao, and Liqiang Nie.    
+    ArXiv preprint. [[Paper]](https://arxiv.org/abs/2509.07817v1)     
 
 **2025**   
   - **A Comprehensive Survey on Composed Image Retrieval**     
