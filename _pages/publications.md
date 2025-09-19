@@ -9,14 +9,14 @@ author_profile: true
   - **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval**     
     Zixu Li, Zhiheng Fu, Yupeng Hu, Zhiwei Chen, **Haokun Wen**, and Liqiang Nie.    
     ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2503.21309)    
-  - **Spatial Understanding from Videos: Structured Prompts Meet Simulation Data**    
-    Haoyu Zhang, Meng Liu, Zaijing Li, **Haokun Wen**, Weili Guan, Yaowei Wang, and Liqiang Nie.    
-    ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2506.03642?)
   - **Dual Knowledge-Enhanced Two-Stage Reasoner for Multimodal Dialog Systems**    
     Xiaolin Chen, Xuemeng Song, **Haokun Wen**, Weili Guan, Xiangyu Zhao, and Liqiang Nie.    
     ArXiv preprint. [[Paper]](https://arxiv.org/abs/2509.07817v1)     
 
-**2025**   
+**2025**     
+  - **Spatial Understanding from Videos: Structured Prompts Meet Simulation Data**      
+    Haoyu Zhang, Meng Liu, Zaijing Li, **Haokun Wen**, Weili Guan, Yaowei Wang, and Liqiang Nie.    
+    In NeruIPS 2025. [[Paper]](https://arxiv.org/pdf/2506.03642?)    
   - **A Comprehensive Survey on Composed Image Retrieval**     
     Xuemeng Song, Haoqiang Lin, **Haokun Wen**, Bohan Hou, Mingzhu Xu, and Liqiang Nie.    
     ACM TOIS 2025. [[Paper]](https://arxiv.org/pdf/2502.18495)    
