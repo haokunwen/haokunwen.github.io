@@ -8,14 +8,15 @@ author_profile: true
 **Conference PC Member**  
   - ACM SIGIR 2023, 2024, 2025  
   - ACM MM 2023, 2024, 2025      
-  - ACM WSDM 2024, 2025
+  - ACM WSDM 2024, 2025, 2026    
   - ACM CIKM 2024, 2025    
-  - IJCAI 2023, 2024, 2025
+  - IJCAI 2023, 2024, 2025    
   - ICML 2025    
+  - ICLR 2026    
   - SIGKDD 2022  
-  - PRCV 2023, 2024, 2025
-  - ACM SIGIR-AP 2023, 2024  
-  - MCFR MM 2022  
+  - PRCV 2023, 2024, 2025    
+  - ACM SIGIR-AP 2023, 2024      
+  - MCFR MM 2022      
 
 **Journal Reviewer**  
   - ACM ToMM  
