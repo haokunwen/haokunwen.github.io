@@ -14,6 +14,9 @@ author_profile: true
     ArXiv preprint. [[Paper]](https://arxiv.org/abs/2509.07817v1)     
 
 **2025**     
+  - **Multi-modal Recommendation with Joint Content and Interaction Augmentation**     
+    Jiajie Deng, **Haokun Wen**, Xiao Han, Xuemeng Song, and Xiangyu Zhao.     
+    In MMAsia 2025.     
   - **Spatial Understanding from Videos: Structured Prompts Meet Simulation Data**      
     Haoyu Zhang, Meng Liu, Zaijing Li, **Haokun Wen**, Weili Guan, Yaowei Wang, and Liqiang Nie.    
     In NeurIPS 2025. [[Paper]](https://arxiv.org/pdf/2506.03642?)    
