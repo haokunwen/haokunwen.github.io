@@ -31,7 +31,7 @@ author_profile: true
     In IJCNN 2025. [[Paper]](https://arxiv.org/abs/2407.06001)    
   - **HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval**    
     Zhiwei Chen, Yupeng Hu, Zixu Li, Zhiheng Fu, **Haokun Wen**, and Weili Guan.    
-    In ACM MM 2025.    
+    In ACM MM 2025. [[Paper]](https://dl.acm.org/doi/10.1145/3746027.3755445)        
 
 **2024**  
   - **Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval**   
