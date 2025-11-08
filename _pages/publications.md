@@ -11,8 +11,13 @@ author_profile: true
     ArXiv preprint. [[Paper]](https://arxiv.org/pdf/2503.21309)    
   - **Dual Knowledge-Enhanced Two-Stage Reasoner for Multimodal Dialog Systems**    
     Xiaolin Chen, Xuemeng Song, **Haokun Wen**, Weili Guan, Xiangyu Zhao, and Liqiang Nie.    
-    ArXiv preprint. [[Paper]](https://arxiv.org/abs/2509.07817v1)     
+    ArXiv preprint. [[Paper]](https://arxiv.org/abs/2509.07817v1)    
 
+**2026**    
+  - **D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation**    
+    Jianhui Zuo, Xuemeng Song, **Haokun Wen**, Meng Liu, Yupeng Hu, Jiuru Wang, and Liqiang Nie.    
+    In AAAI 2026.    
+    
 **2025**     
   - **Multi-modal Recommendation with Joint Content and Interaction Augmentation**     
     Jiajie Deng, **Haokun Wen**, Xiao Han, Xuemeng Song, and Xiangyu Zhao.     
