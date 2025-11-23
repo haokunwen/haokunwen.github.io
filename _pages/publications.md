@@ -99,7 +99,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   Zixu Li, Zhiwei Chen, <b>Haokun Wen</b>, Zhiheng Fu, Yupeng Hu, and Weili Guan.<br>
-  AAAI 2025.
+  <span class="pub-tag tag-conf">AAAI 2025</span>
   <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://sdu-l.github.io/ENCODER.github.io/" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
 </div>
@@ -115,7 +115,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   Bohan Hou, Haoqiang Lin, Xuemeng Song, <b>Haokun Wen</b>, Meng Liu, Yupeng Hu, and Xiangyu Zhao.<br>
-  SIGIR 2025.
+  <span class="pub-tag tag-conf">SIGIR 2025</span>
   <a href="https://dl.acm.org/doi/10.1145/3726302.3729979" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
@@ -130,7 +130,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   Bohan Hou, Haoqiang Lin, <b>Haokun Wen</b>, Meng Liu, and Xuemeng Song.<br>
-  IJCNN 2025
+  <span class="pub-tag tag-conf">IJCNN 2025</span>
   <a href="https://arxiv.org/abs/2407.06001" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>  
    
@@ -145,7 +145,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   Zhiwei Chen, Yupeng Hu, Zixu Li, Zhiheng Fu, <b>Haokun Wen</b>, and Weili Guan.<br>
-  ACM MM 2025.
+  <span class="pub-tag tag-conf">ACM MM 2025</span>
   <a href="https://dl.acm.org/doi/10.1145/3746027.3755445" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
      
