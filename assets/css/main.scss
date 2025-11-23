@@ -386,6 +386,23 @@ details pre {
     border: 1px solid;
 }
 
+/* 申请中/审查中 (Pending) - 使用蓝灰色，低调专业 */
+.tag-pending {
+    color: #535c68;            /* 蓝灰色文字 */
+    border-color: #535c68;     /* 蓝灰色边框 */
+    background-color: #f1f2f6; /* 极淡的灰背景 */
+    
+    /* 保持和其他标签一样的尺寸 */
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-right: 8px;
+    vertical-align: middle;
+    border: 1px solid;
+}
+
 /* 2. 获奖列表样式 (时间轴风格) */
 .award-list {
     list-style: none;
@@ -433,3 +450,7 @@ details pre {
     margin-top: 2px;
     display: block;
 }
+
+/* === 专利状态区分 === */
+
+
