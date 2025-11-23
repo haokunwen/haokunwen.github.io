@@ -8,10 +8,9 @@ author_profile: true
 <!-- 这里使用了 main.scss 里定义的 .pub-content 样式，保持和论文列表对齐 -->
 
 <div class="pub-content">
+  基于属性可解释的服装信息推荐方法、系统、介质及设备<br>
   宋雪萌；杨鑫；<b>温皓琨</b>；姚一杨；朱磊；刘萌<br>
-  <span class="tag-patent">Granted</span>
-  <i>基于属性可解释的服装信息推荐方法、系统、介质及设备</i><br>
-  China Patent, No. ZL201910445961.6, Authorized in 2020.
+    <span class="tag-patent">Granted</span>China Patent, No. ZL201910445961.6, Authorized in 2020.
 </div>
 
 <div class="pub-content">
