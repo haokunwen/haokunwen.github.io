@@ -305,8 +305,10 @@ numpages = {54},
   <pre><code>@inproceedings{wen2023target,
   title={Target-Guided Composed Image Retrieval},
   author={Wen, Haokun and Zhang, Xian and Song, Xuemeng and Wei, Yinwei and Nie, Liqiang},
-  booktitle={ACM Multimedia (ACM MM)},
-  year={2023}
+  booktitle    = {Proceedings of the {ACM} International Conference on Multimedia},
+  pages        = {915--923},
+  publisher    = {{ACM}},
+  year         = {2023}
 }</code></pre>
 </details>
 <div class="pub-content">
