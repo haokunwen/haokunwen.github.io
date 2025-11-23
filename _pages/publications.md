@@ -35,7 +35,7 @@ author_profile: true
 </details>
 <div style="margin-top: 2px; margin-bottom: 30px;">
   Zixu Li, Zhiheng Fu, Yupeng Hu, Zhiwei Chen, <b>Haokun Wen</b>, and Liqiang Nie.<br>
-  <i>ArXiv preprint.</i>
+  ArXiv preprint.
   <a href="https://arxiv.org/pdf/2503.21309" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
