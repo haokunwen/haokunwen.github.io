@@ -55,3 +55,62 @@ h1, h2, h3 {
     font-family: 'Inter', sans-serif !important;
     letter-spacing: -0.3px; /* 稍微收紧字间距，显得精致 */
 }
+
+/* === Publications 列表美化 === */
+
+/* 每一篇论文的容器 */
+.pub-item {
+    margin-bottom: 25px; /* 论文之间的间距 */
+    padding-left: 10px;
+    border-left: 3px solid #eee; /* 左侧加一条淡淡的线，增加设计感 */
+    transition: all 0.2s;
+}
+
+.pub-item:hover {
+    border-left-color: #0056b3; /* 鼠标悬停时左侧线变蓝 */
+}
+
+/* 论文标题 */
+.pub-title {
+    font-weight: 700;
+    font-size: 1.1em;
+    color: #000; /* 标题纯黑 */
+    display: block;
+    margin-bottom: 4px;
+}
+
+/* 作者列表 */
+.pub-authors {
+    font-size: 0.95em;
+    color: #555;
+    margin-bottom: 4px;
+}
+
+/* 会议/期刊名称 */
+.pub-venue {
+    font-style: italic;
+    color: #0056b3; /* 使用你的主题蓝 */
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-bottom: 6px;
+    display: block;
+}
+
+/* 链接按钮组 */
+.pub-links a {
+    display: inline-block;
+    padding: 2px 8px;
+    margin-right: 5px;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #0056b3 !important;
+    border: 1px solid #0056b3;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.pub-links a:hover {
+    background-color: #0056b3;
+    color: #fff !important; /* 悬停变成实心蓝 */
+}
