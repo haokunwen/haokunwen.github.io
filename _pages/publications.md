@@ -324,7 +324,9 @@ numpages = {54},
   <pre><code>@inproceedings{zhang2023finetuning,
   title={Finetuning Language Models for Multimodal Question Answering},
   author={Zhang, Xin and Xie, Wen and Dai, Ziqi and Rao, Jun and Wen, Haokun and Luo, Xuan and Zhang, Meishan and Zhang, Min},
-  booktitle={ACM Multimedia (ACM MM)},
+  booktitle={Proceedings of the ACM International Conference on Multimedia},
+  pages={9420--9424},
+  publisher    = {{ACM}},
   year={2023}
 }</code></pre>
 </details>
@@ -339,8 +341,12 @@ numpages = {54},
   <pre><code>@article{guan2023egocentric,
   title={Egocentric Early Action Prediction via Multimodal Transformer-Based Dual Action Prediction},
   author={Guan, Weili and Song, Xuemeng and Wang, Kejie and Wen, Haokun and Ni, Hongda and Wang, Yaowei and Chang, Xiaojun},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)},
-  year={2023}
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  volume={33},
+  number={9},
+  pages={4472--4483},
+  year={2023},
+  publisher={IEEE}
 }</code></pre>
 </details>
 <div class="pub-content">
@@ -358,7 +364,9 @@ numpages = {54},
   <pre><code>@inproceedings{guan2022personalized,
   title={Personalized Fashion Compatibility Modeling via Metapath-guided Heterogeneous Graph Learning},
   author={Guan, Weili and Jiao, Fangkai and Song, Xuemeng and Wen, Haokun and Yeh, Chung-Hsing and Chang, Xiaojun},
-  booktitle={ACM SIGIR},
+  booktitle={Proceedings of the international ACM SIGIR conference on research and development in information retrieval},
+  pages={482--491},
+  publisher    = {{ACM}},
   year={2022}
 }</code></pre>
 </details>
@@ -374,8 +382,11 @@ numpages = {54},
   <pre><code>@article{guan2022partially,
   title={Partially Supervised Compatibility Modeling},
   author={Guan, Weili and Wen, Haokun and Song, Xuemeng and Wang, Chun and Yeh, Chung-Hsing and Chang, Xiaojun and Nie, Liqiang},
-  journal={IEEE Transactions on Image Processing (TIP)},
-  year={2022}
+  journal={IEEE Transactions on Image Processing},
+  volume={31},
+  pages={4733--4745},
+  year={2022},
+  publisher={IEEE}
 }</code></pre>
 </details>
 <div class="pub-content">
@@ -393,7 +404,9 @@ numpages = {54},
   <pre><code>@inproceedings{wen2021comprehensive,
   title={Comprehensive Linguistic-Visual Composition Network for Image Retrieval},
   author={Wen, Haokun and Song, Xuemeng and Yang, Xin and Zhan, Yibing and Nie, Liqiang},
-  booktitle={ACM SIGIR},
+  booktitle={Proceedings of the International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={1369--1378},
+  publisher    = {{ACM}},
   year={2021}
 }</code></pre>
 </details>
@@ -409,7 +422,9 @@ numpages = {54},
   <pre><code>@inproceedings{guan2021multimodal,
   title={Multimodal Compatibility Modeling via Exploring the Consistent and Complementary Correlations},
   author={Guan, Weili and Wen, Haokun and Song, Xuemeng and Yeh, Chung-Hsing and Chang, Xiaojun and Nie, Liqiang},
-  booktitle={ACM Multimedia (ACM MM)},
+  booktitle={Proceedings of the ACM international conference on multimedia},
+  pages={2299--2307},
+  publisher    = {{ACM}},
   year={2021}
 }</code></pre>
 </details>
@@ -425,7 +440,11 @@ numpages = {54},
   <pre><code>@article{yang2021attribute,
   title={Attribute-wise Explainable Fashion Compatibility Modeling},
   author={Yang, Xin and Song, Xuemeng and Feng, Fuli and Wen, Haokun and Duan, Ling-Yu and Nie, Liqiang},
-  journal={ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)},
+  journal={ACM Transactions on Multimedia Computing, Communications, and Applications},
+  volume={17},
+  number={1},
+  pages={1--21},
+  publisher={{ACM}},
   year={2021}
 }</code></pre>
 </details>
@@ -444,7 +463,9 @@ numpages = {54},
   <pre><code>@inproceedings{yang2020generative,
   title={Generative Attribute Manipulation Scheme for Flexible Fashion Search},
   author={Yang, Xin and Song, Xuemeng and Han, Xianjing and Wen, Haokun and Nie, Jie and Nie, Liqiang},
-  booktitle={ACM SIGIR},
+  booktitle={Proceedings of the international acm sigir conference on research and development in information retrieval},
+  pages={941--950},
+  publisher={{ACM}},
   year={2020}
 }</code></pre>
 </details>
