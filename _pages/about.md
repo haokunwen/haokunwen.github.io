@@ -72,14 +72,14 @@ I'm currently a Ph.D. student in the [School of Computer Science and Technology]
     <div class="award-year">2024</div>
     <div class="award-content">
       <span class="award-title">
-        <i class="fas fa-trophy" style="color: #d48806;"></i> 
+        <i class="fas fa-trophy" style="color: #f1c40f;"></i> 
         National Scholarship
       </span>
       <span class="award-desc">Ministry of Education of China</span>
     </div>
   </li>
 
-
+  <!-- 2. 优秀毕业生 -->
   <li class="award-item">
     <div class="award-year">2022</div>
     <div class="award-content">
