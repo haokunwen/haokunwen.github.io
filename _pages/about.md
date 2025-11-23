@@ -67,22 +67,19 @@ I'm currently a Ph.D. student in the [School of Computer Science and Technology]
 
 <ul class="award-list">
 
-  <!-- 1. 国家奖学金 (高亮显示) -->
-  <!-- 注意：class里加了 "gold" -->
+
   <li class="award-item gold">
     <div class="award-year">2024</div>
     <div class="award-content">
       <span class="award-title">
         <i class="fas fa-trophy" style="color: #d48806;"></i> 
         National Scholarship
-        <!-- 可以在这里加一个小标签说明含金量 -->
-        <span class="award-badge badge-gold">Top 0.2%</span>
       </span>
       <span class="award-desc">Ministry of Education of China</span>
     </div>
   </li>
 
-  <!-- 2. 优秀毕业生 (普通显示) -->
+
   <li class="award-item">
     <div class="award-year">2022</div>
     <div class="award-content">
