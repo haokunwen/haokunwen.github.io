@@ -409,32 +409,32 @@ details pre {
 
 .award-list {
     list-style: none;
-    padding: 0 0 0 20px; /* 左侧留出空间给线条 */
+    padding: 0 0 0 20px;
     margin: 20px 0;
-    border-left: 2px solid #f0f0f0; /* 线条颜色更淡，更优雅 */
+    border-left: 2px solid #f0f0f0;
     position: relative;
 }
 
 .award-item {
     display: flex;
-    align-items: flex-start; /* 顶部对齐 */
-    margin-bottom: 25px;     /* 卡片间距 */
+    align-items: flex-start; /* 保持顶部对齐，通过margin微调 */
+    margin-bottom: 25px;
     position: relative;
 }
 
-/* 时间轴上的小圆点 */
+/* 1. 修复圆点位置 */
 .award-item::before {
     content: '';
     position: absolute;
-    left: -27px; /* 圆点定位 */
-    top: 22px;   /* ✨重点：让圆点对齐卡片中心或标题 */
+    left: -27px; 
+    top: 26px;   /* ✨关键修改：加大这个值，让圆点下移，对齐标题中心 */
     width: 12px;
     height: 12px;
     background: #fff;
     border: 3px solid #ced4da;
     border-radius: 50%;
     z-index: 1;
-    box-shadow: 0 0 0 3px #fff; /* 增加一圈白色光晕，隔断线条 */
+    box-shadow: 0 0 0 3px #fff; 
     transition: all 0.3s ease;
 }
 
@@ -448,65 +448,50 @@ details pre {
     background: #fffbe6;
 }
 
-/* 年份样式 */
+/* 2. 修复年份位置 */
 .award-year {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 1em;       /* 稍微加大一点 */
-    color: #0e2e4e;       /* 改成你的主题深蓝色，更清晰 */
-    min-width: 45px;
-    margin-right: 15px;
-    margin-top: 18px;     /* ✨重点：下移年份，使其与圆点和卡片视觉对齐 */
+    font-size: 1em;
+    color: #0e2e4e;
+    min-width: 50px;
+    margin-right: 20px;
+    padding-top: 18px; /* ✨关键修改：增加顶部内边距，让年份文字下移 */
     text-align: right;
+    line-height: 1.2;  /* 控制行高，防止本身太高 */
 }
 
-/* 奖项卡片内容 - 变成白底阴影 */
+/* 3. 卡片样式 (保持舒适的留白) */
 .award-content {
     flex-grow: 1;
-    background: #fff;      /* 白底 */
-    padding: 15px 20px;
+    background: #fcfcfc; /* 稍微带一点点灰度的白，更有质感 */
+    padding: 18px 20px;  /* 上下留白 */
     border-radius: 8px;
-    border: 1px solid #f0f0f0; /* 极淡的边框 */
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04); /* ✨重点：柔和的阴影 */
-    position: relative;    /* 为了放小三角 */
+    border: 1px solid #f0f0f0;
+    /* box-shadow: 0 2px 8px rgba(0,0,0,0.02);  如果不想要阴影可以注释掉这一行 */
+    position: relative;
     transition: all 0.2s ease;
 }
 
 .award-item:hover .award-content {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08); /* 悬停时阴影加深 */
-    transform: translateY(-2px); /* 微微上浮 */
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transform: translateY(-2px);
     border-color: #e9ecef;
 }
 
-/* 卡片左侧的小三角箭头 (Speech Bubble效果) */
-.award-content::after {
-    content: '';
-    position: absolute;
-    top: 24px;   /* 三角形高度位置 */
-    left: -6px;  /* 贴在左边 */
-    width: 10px;
-    height: 10px;
-    background: #fff;
-    border-left: 1px solid #f0f0f0;
-    border-bottom: 1px solid #f0f0f0;
-    transform: rotate(45deg); /* 旋转变成菱形的一半 */
-}
-
-/* 奖项标题 */
+/* 4. 标题样式 */
 .award-title {
     font-size: 1.1em;
     font-weight: 700;
     color: #222;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 4px; /* 标题和机构名称的间距 */
+    line-height: 1.2;   /* 确保标题行高紧凑 */
 }
 
 .award-desc {
     font-size: 0.95em;
-    color: #666; /* 字体颜色稍微加深一点，防止太淡看不清 */
-}
-
-/* 图标间距 */
-.award-title i {
-    margin-right: 8px;
+    color: #666;
+    display: block;
 }
