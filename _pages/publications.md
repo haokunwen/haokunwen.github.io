@@ -7,7 +7,6 @@ author_profile: true
 
 ## Preprints
 ---
-
 <details>
   <summary>FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval</summary>
   <pre><code>@article{li2025finecir,
@@ -41,9 +40,14 @@ author_profile: true
 
 ## 2026
 ---
-  - **D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation**    
-    Jianhui Zuo, Xuemeng Song, **Haokun Wen**, Meng Liu, Yupeng Hu, Jiuru Wang, and Liqiang Nie.    
-    In AAAI 2026.
+<details>
+  <summary>D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation</summary>
+  <pre><code> </code></pre>
+</details>
+<div class="pub-content">
+  Jianhui Zuo, Xuemeng Song, <b>Haokun Wen</b>, Meng Liu, Yupeng Hu, Jiuru Wang, and Liqiang Nie. <br>
+  AAAI 2026.
+</div>
 
 
     
