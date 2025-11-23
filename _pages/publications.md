@@ -198,26 +198,75 @@ author_profile: true
 <div class="pub-content">
   Haoqiang Lin, <b>Haokun Wen</b>, Xuemeng Song, Meng Liu, Yupeng Hu, and Liqiang Nie.<br>
   <span class="pub-tag tag-conf">ACM SIGIR 2024</span>
-  <a href="https://dl.acm.org/doi/10.1145/3626772.3657831"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
-  <a href="https://github.com/ZiChao111/FTI4CIR"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
+  <a href="https://dl.acm.org/doi/10.1145/3626772.3657831" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://github.com/ZiChao111/FTI4CIR" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
 </div>
 
-  - **Fine-Grained Textual Inversion Network for Zero-Shot Composed Image Retrieval**   
-    Haoqiang Lin, **Haokun Wen**, Xuemeng Song, Meng Liu, Yupeng Hu, and Liqiang Nie.      
-    In ACM SIGIR 2024 (full paper).  [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://dl.acm.org/doi/10.1145/3626772.3657831) [[Code]](https://github.com/ZiChao111/FTI4CIR) [[BibTex]](https://dblp.org/rec/conf/sigir/LinWS0HN24.html?view=bibtex)  
+<details>
+  <summary>Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning</summary>
+  <pre><code>@inproceedings{zhang2024differential,
+  title={Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning},
+  author={Zhang, Xian and Wen, Haokun and Wu, Jianlong and Qin, Pengda and Xue, Hui and Nie, Liqiang},
+  booktitle={ACM Multimedia (ACM MM)},
+  year={2024}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Xian Zhang, <b>Haokun Wen</b>, Jianlong Wu, Pengda Qin, Hui Xue, and Liqiang Nie.<br>
+  <span class="pub-tag tag-conf">ACM MM 2024</span>
+  <a href="https://openreview.net/attachment?id=eiGs5VCsYM&name=pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://github.com/xianzhangzx/FINER-MLLM" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
+</div>
 
-  - **Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning**  
-    Xian Zhang, **Haokun Wen**, Jianlong Wu, Pengda Qin, Hui Xue, and Liqiang Nie.  
-    In ACM MM 2024 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://openreview.net/attachment?id=eiGs5VCsYM&name=pdf) [[Code]](https://github.com/xianzhangzx/FINER-MLLM)
+<details>
+  <summary>Interactive Garment Recommendation with User in the Loop</summary>
+  <pre><code>@article{becattini2024interactive,
+  title={Interactive Garment Recommendation with User in the Loop},
+  author={Becattini, Federico and Chen, Xiaolin and Puccia, Andrea and Wen, Haokun and Song, Xuemeng and Nie, Liqiang and Del Bimbo, Alberto},
+  journal={ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)},
+  year={2024}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Federico Becattini, Xiaolin Chen, Andrea Puccia, <b>Haokun Wen</b>, Xuemeng Song, Liqiang Nie, and Alberto Del Bimbo.<br>
+  <span class="pub-tag tag-journal">ACM ToMM 2024</span>
+  <a href="https://arxiv.org/abs/2402.11627" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+</div>
 
-  - **Interactive Garment Recommendation with User in the Loop**    
-    Federico Becattini, Xiaolin Chen, Andrea Puccia, **Haokun Wen**, Xuemeng Song, Liqiang Nie, and Alberto Del Bimbo.  
-    ACM ToMM 2024. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/abs/2402.11627)  
+## 2023
+---
+<details>
+  <summary>Target-Guided Composed Image Retrieval</summary>
+  <pre><code>@inproceedings{wen2023target,
+  title={Target-Guided Composed Image Retrieval},
+  author={Wen, Haokun and Zhang, Xian and Song, Xuemeng and Wei, Yinwei and Nie, Liqiang},
+  booktitle={ACM Multimedia (ACM MM)},
+  year={2023}
+}</code></pre>
+</details>
+<div class="pub-content">
+  <b>Haokun Wen</b>, Xian Zhang, Xuemeng Song, Yinwei Wei, and Liqiang Nie.<br>
+  <span class="pub-tag tag-conf">ACM MM 2023</span>
+  <a href="https://arxiv.org/pdf/2309.01366.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://anosite.wixsite.com/tg-cir" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
+  <a href="http://haokunwen.github.io/files/mm23-TG-CIR.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Slides-PDF-0056b3"></a>
+</div>
 
-**2023**  
-  - **Target-Guided Composed Image Retrieval**   
-    **Haokun Wen**, Xian Zhang, Xuemeng Song, Yinwei Wei, and Liqiang Nie.    
-    In ACM MM 2023 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/pdf/2309.01366.pdf) [[Code]](https://anosite.wixsite.com/tg-cir) [[Slides]](http://haokunwen.github.io/files/mm23-TG-CIR.pdf) [[BibTex]](https://dblp.org/rec/conf/mm/WenZSWN23.html?view=bibtex)    
+<details>
+  <summary>Finetuning Language Models for Multimodal Question Answering</summary>
+  <pre><code>@inproceedings{zhang2023finetuning,
+  title={Finetuning Language Models for Multimodal Question Answering},
+  author={Zhang, Xin and Xie, Wen and Dai, Ziqi and Rao, Jun and Wen, Haokun and Luo, Xuan and Zhang, Meishan and Zhang, Min},
+  booktitle={ACM Multimedia (ACM MM)},
+  year={2023}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Xin Zhang, Wen Xie, Ziqi Dai, Jun Rao, <b>Haokun Wen</b>, Xuan Luo, Meishan Zhang, and Min Zhang.<br>
+  <b>Ranked 1st in VTQA 2023.</b>
+  <span class="pub-tag tag-conf">ACM MM 2023 (Grand Challenge)</span>
+  <a href="http://haokunwen.github.io/files/acmmm2023_grandchallenge.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+</div>
 
   - **Finetuning Language Models for Multimodal Question Answering**  
     Xin Zhang$^1$, Wen Xie$^1$, Ziqi Dai$^1$, Jun Rao, **Haokun Wen**, Xuan Luo, Meishan Zhang, and Min Zhang.  
