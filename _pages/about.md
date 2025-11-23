@@ -71,8 +71,8 @@ I'm currently a Ph.D. student in the [School of Computer Science and Technology]
   <li class="award-item">
     <div class="award-year">2024</div>
     <div class="award-content">
-      <span class="award-title">National Scholarship (Doctoral)</span>
-      <span class="award-desc">Ministry of Education of China (Top 0.2%)</span>
+      <span class="award-title">National Scholarship</span>
+      <span class="award-desc">Ministry of Education of China</span>
     </div>
   </li>
 
@@ -86,29 +86,12 @@ I'm currently a Ph.D. student in the [School of Computer Science and Technology]
   </li>
   
   <li class="award-item">
-    <div class="award-year">2023</div>
-    <div class="award-content">
-      <span class="award-title">Outstanding Graduate Student</span>
-      <span class="award-desc">Harbin Institute of Technology (Shenzhen)</span>
-    </div>
-  </li>
-
-  <!-- 2022年 -->
-  <li class="award-item">
     <div class="award-year">2022</div>
     <div class="award-content">
-      <span class="award-title">Best Paper Award Nomination</span>
-      <span class="award-desc">ACM SIGIR 2022</span>
-    </div>
-  </li>
-
-  <!-- 2021年 -->
-  <li class="award-item">
-    <div class="award-year">2021</div>
-    <div class="award-content">
-      <span class="award-title">First Class Academic Scholarship</span>
+      <span class="award-title">Outstanding Graduate Student</span>
       <span class="award-desc">Shandong University</span>
     </div>
   </li>
+
 
 </ul>
