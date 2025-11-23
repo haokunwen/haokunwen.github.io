@@ -80,12 +80,7 @@ author_profile: true
 
 <details>
   <summary>A Comprehensive Survey on Composed Image Retrieval</summary>
-  <pre><code>@inproceedings{zhang2025spatial,
-  title={Spatial Understanding from Videos: Structured Prompts Meet Simulation Data},
-  author={Zhang, Haoyu and Liu, Meng and Li, Zaijing and Wen, Haokun and Guan, Weili and Wang, Yaowei and Nie, Liqiang},
-  booktitle={NeurIPS},
-  year={2025}
-}</code></pre>
+  <pre><code> </code></pre>
 </details>
 <div class="pub-content">
   Xuemeng Song, Haoqiang Lin, <b>Haokun Wen</b>, Bohan Hou, Mingzhu Xu, and Liqiang Nie.<br>
