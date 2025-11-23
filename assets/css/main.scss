@@ -243,13 +243,13 @@ details pre {
 
 .pub-tag {
     display: inline-block;
-    padding: 1px 6px;
-    border-radius: 4px;
-    font-size: 0.75em;
-    font-weight: 700;
-    margin-right: 6px;
-    vertical-align: text-bottom; /* 对齐文字底部 */
-    border: 1px solid; /* 保留边框，显得精致 */
+    padding: 2px 8px;       /* 左右变宽，字显得大气 */
+    border-radius: 4px;     /* 圆角 */
+    font-size: 0.8em;       /* 字体稍微调大一点点 */
+    font-weight: 700;       /* 加粗 */
+    margin-right: 8px;      /* 右边留出间距 */
+    vertical-align: middle; /* 垂直居中对齐 */
+    border: 1px solid;      /* 保留精致边框 */
 }
 
 /* 会议标签 (使用你的主题蓝) */
