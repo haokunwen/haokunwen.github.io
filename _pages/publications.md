@@ -19,7 +19,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   Zixu Li, Zhiheng Fu, Yupeng Hu, Zhiwei Chen, <b>Haokun Wen</b>, and Liqiang Nie.<br>
-  ArXiv preprint.
+  <span class="pub-tag tag-preprint">Preprint</span> ArXiv preprint.
   <a href="https://arxiv.org/pdf/2503.21309" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
@@ -34,7 +34,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   Xiaolin Chen, Xuemeng Song, <b>Haokun Wen</b>, Weili Guan, Xiangyu Zhao, and Liqiang Nie.<br>
-  ArXiv preprint.
+  <span class="pub-tag tag-preprint">Preprint</span> ArXiv preprint.
   <a href="https://arxiv.org/abs/2509.07817v1" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
@@ -48,7 +48,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   Jianhui Zuo, Xuemeng Song, <b>Haokun Wen</b>, Meng Liu, Yupeng Hu, Jiuru Wang, and Liqiang Nie. <br>
-  AAAI 2026.
+  <span class="pub-tag tag-conf">Conf.</span>AAAI 2026.
 </div>
 
 ## 2025
@@ -84,7 +84,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   Xuemeng Song, Haoqiang Lin, <b>Haokun Wen</b>, Bohan Hou, Mingzhu Xu, and Liqiang Nie.<br>
-  ACM TOIS 2025.
+  <span class="pub-tag tag-journal">Journal</span>ACM TOIS 2025.
   <a href="https://arxiv.org/pdf/2502.18495" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
     
@@ -181,7 +181,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   <b>Haokun Wen</b>, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.<br>
-  IEEE TPAMI 2024.
+  <span class="pub-tag tag-journal">Journal</span>IEEE TPAMI 2024.
   <a href="https://ieeexplore.ieee.org/abstract/document/10373096" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://anosite.wixsite.com/limn" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
 </div>
