@@ -405,19 +405,20 @@ details pre {
 
 /* 2. 获奖列表样式 (时间轴风格) */
 /* === Honors & Awards 列表美化 (升级版) === */
+/* === Honors & Awards 最终美化版 (时间轴风格) === */
 
 .award-list {
     list-style: none;
-    padding: 0 0 0 20px; /* 左侧留出空间给时间轴线 */
-    margin: 0;
-    border-left: 2px solid #eee; /* 添加左侧时间轴线 */
+    padding: 0 0 0 25px; /* 左侧留出空间给线条 */
+    margin: 10px 0;
+    border-left: 2px solid #e9ecef; /* 是一条贯穿的浅灰线 */
     position: relative;
 }
 
 .award-item {
     display: flex;
-    margin-bottom: 25px; /* 拉大间距 */
-    align-items: center; /* 垂直居中 */
+    align-items: flex-start; /* 顶部对齐 */
+    margin-bottom: 30px;     /* 拉大间距，不拥挤 */
     position: relative;
 }
 
@@ -425,81 +426,76 @@ details pre {
 .award-item::before {
     content: '';
     position: absolute;
-    left: -26px; /* 定位到线的位置 */
-    top: 50%;
-    transform: translateY(-50%);
-    width: 10px;
-    height: 10px;
-    background: #fff;
-    border: 2px solid #0056b3; /* 你的主题蓝 */
+    left: -32px; /* 调整圆点位置，使其刚好压在线上 */
+    top: 6px;    /* 调整圆点垂直位置 */
+    width: 12px;
+    height: 12px;
+    background: #fff;       /* 圆点中心白色 */
+    border: 3px solid #ced4da; /* 灰色边框 */
     border-radius: 50%;
     z-index: 1;
+    transition: all 0.3s ease;
 }
 
-/* 特殊：如果是重要奖项，圆点变金色 */
+/* 鼠标悬停时，圆点变色 */
+.award-item:hover::before {
+    border-color: #0056b3;
+    transform: scale(1.2);
+}
+
+/* 金色特别奖项的圆点 */
 .award-item.gold::before {
-    border-color: #d48806;
+    border-color: #f1c40f; /* 金色边框 */
     background: #fffbe6;
 }
 
-/* 年份胶囊 */
+/* 年份样式 (改为清爽风格) */
 .award-year {
-    background-color: #f0f2f5;
-    color: #444;
-    padding: 4px 12px;
-    border-radius: 20px; /* 变成椭圆 */
-    font-size: 0.85em;
+    font-family: 'Inter', sans-serif; /* 使用数字字体 */
     font-weight: 700;
+    font-size: 0.9em;
+    color: #495057;       /* 深灰色文字 */
+    min-width: 50px;      /* 固定宽度 */
     margin-right: 15px;
-    min-width: 60px;
-    text-align: center;
-    flex-shrink: 0;
-    border: 1px solid #e1e4e8;
+    margin-top: 2px;      /* 微调对齐 */
+    text-align: right;    /* 年份靠右对齐，紧贴文字 */
 }
 
 /* 奖项内容区域 */
 .award-content {
     flex-grow: 1;
+    background: #f8f9fa;  /* 极淡的背景块 */
+    padding: 10px 15px;   /* 内边距 */
+    border-radius: 8px;   /* 圆角 */
+    border: 1px solid #e9ecef; /* 极淡的边框 */
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
+.award-item:hover .award-content {
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* 悬停浮起效果 */
+    transform: translateX(5px);
+}
+
+/* 奖项标题 */
 .award-title {
     font-size: 1.05em;
     font-weight: 700;
-    color: #000;
+    color: #212529;
     display: block;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
+}
+
+/* 奖项描述 */
+.award-desc {
+    font-size: 0.9em;
+    color: #6c757d;
+    display: block;
 }
 
 /* 奖项里的图标 */
 .award-title i {
-    margin-right: 6px;
-    width: 20px; /* 统一宽度对齐 */
-    text-align: center;
+    margin-right: 8px;
 }
-
-.award-desc {
-    font-size: 0.9em;
-    color: #666;
-    display: block;
-}
-
-/* === 荣誉等级标签 (可选) === */
-.award-badge {
-    display: inline-block;
-    font-size: 0.75em;
-    padding: 1px 6px;
-    border-radius: 4px;
-    margin-left: 8px;
-    vertical-align: middle;
-    font-weight: normal;
-}
-
-.badge-gold {
-    background: #fffbe6;
-    color: #d48806;
-    border: 1px solid #d48806;
-}
-
-/* === 专利状态区分 === */
 
 
