@@ -49,7 +49,6 @@ author_profile: true
   - **Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval**   
     **Haokun Wen**, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.      
     In ACM SIGIR 2024 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/abs/2404.15875) [[Code]](https://github.com/haokunwen/DQU-CIR) [![Slides](https://img.shields.io/badge/Slides-PDF-0056b3)](http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf)
-
    <details>
    <summary>BibTeX</summary>
    <pre><code>@article{li2025finecir,
