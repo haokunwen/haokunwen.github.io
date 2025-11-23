@@ -10,7 +10,7 @@ author_profile: true
 
 <details>
   <summary>FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval</summary>
-  <pre><code>@article{DBLP:journals/corr/abs-2503-21309,
+  <pre><code>@article{li2025finecir,
   author       = {Zixu Li and
                   Zhiheng Fu and
                   Yupeng Hu and
@@ -33,10 +33,16 @@ author_profile: true
 <details>
   <summary>Dual Knowledge-Enhanced Two-Stage Reasoner for Multimodal Dialog Systems</summary>
   <pre><code>@article{chen2025dual,
-  title={Dual Knowledge-Enhanced Two-Stage Reasoner for Multimodal Dialog Systems},
-  author={Chen, Xiaolin and Song, Xuemeng and Wen, Haokun and Guan, Weili and Zhao, Xiangyu and Nie, Liqiang},
-  journal={arXiv preprint arXiv:2509.07817},
-  year={2025}
+  author       = {Xiaolin Chen and
+                  Xuemeng Song and
+                  Haokun Wen and
+                  Weili Guan and
+                  Xiangyu Zhao and
+                  Liqiang Nie},
+  title        = {Dual Knowledge-Enhanced Two-Stage Reasoner for Multimodal Dialog Systems},
+  journal      = {CoRR},
+  volume       = {abs/2509.07817},
+  year         = {2025}
 }</code></pre>
 </details>
 <div class="pub-content">
@@ -87,7 +93,17 @@ author_profile: true
 
 <details>
   <summary>A Comprehensive Survey on Composed Image Retrieval</summary>
-  <pre><code> </code></pre>
+  <pre><code>@article{song2025survey,
+author = {Song, Xuemeng and Lin, Haoqiang and Wen, Haokun and Hou, Bohan and Xu, Mingzhu and Nie, Liqiang},
+title = {A Comprehensive Survey on Composed Image Retrieval},
+year = {2025},
+publisher = {Association for Computing Machinery},
+volume = {44},
+number = {1},
+issn = {1046-8188},
+articleno = {19},
+numpages = {54},
+} </code></pre>
 </details>
 <div class="pub-content">
   Xuemeng Song, Haoqiang Lin, <b>Haokun Wen</b>, Bohan Hou, Mingzhu Xu, and Liqiang Nie.<br>
@@ -98,10 +114,19 @@ author_profile: true
 <details>
   <summary>ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval</summary>
   <pre><code>@inproceedings{li2025encoder,
-  title={ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval},
-  author={Li, Zixu and Chen, Zhiwei and Wen, Haokun and Fu, Zhiheng and Hu, Yupeng and Guan, Weili},
-  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
-  year={2025}
+  author       = {Zixu Li and
+                  Zhiwei Chen and
+                  Haokun Wen and
+                  Zhiheng Fu and
+                  Yupeng Hu and
+                  Weili Guan},
+  title        = {{ENCODER:} Entity Mining and Modification Relation Binding for Composed
+                  Image Retrieval},
+  booktitle    = {Proceedings of the Association for the Advancement of Artificial
+                  Intelligence},
+  pages        = {5101--5109},
+  publisher    = {{AAAI} Press},
+  year         = {2025}
 }</code></pre>
 </details>
 <div class="pub-content">
@@ -114,10 +139,20 @@ author_profile: true
 <details>
   <summary>FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex Image Retrieval</summary>
   <pre><code>@inproceedings{hou2025fire,
-  title={FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex Image Retrieval},
-  author={Hou, Bohan and Lin, Haoqiang and Song, Xuemeng and Wen, Haokun and Liu, Meng and Hu, Yupeng and Zhao, Xiangyu},
-  booktitle={ACM SIGIR},
-  year={2025}
+  author       = {Bohan Hou and
+                  Haoqiang Lin and
+                  Xuemeng Song and
+                  Haokun Wen and
+                  Meng Liu and
+                  Yupeng Hu and
+                  Xiangyu Zhao},
+  title        = {FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex
+                  Image Retrieval},
+  booktitle    = {Proceedings of the International {ACM} {SIGIR} Conference on
+                  Research and Development in Information Retrieval},
+  pages        = {803--812},
+  publisher    = {{ACM}},
+  year         = {2025}
 }</code></pre>
 </details>
 <div class="pub-content">
@@ -129,10 +164,17 @@ author_profile: true
 <details>
   <summary>Pseudo-triplet Guided Few-shot Composed Image Retrieval</summary>
   <pre><code>@inproceedings{hou2025pseudo,
-  title={Pseudo-triplet Guided Few-shot Composed Image Retrieval},
-  author={Hou, Bohan and Lin, Haoqiang and Wen, Haokun and Liu, Meng and Song, Xuemeng},
-  booktitle={IJCNN},
-  year={2025}
+  author       = {Bohan Hou and
+                  Haoqiang Lin and
+                  Haokun Wen and
+                  Meng Liu and
+                  Mingzhu Xu and
+                  Xuemeng Song},
+  title        = {Pseudo Triplet Guided Few-shot Composed Image Retrieval},
+  booktitle    = {Proceedings of the International Joint Conference on Neural Networks},
+  pages        = {1--8},
+  publisher    = {{IEEE}},
+  year         = {2025}
 }</code></pre>
 </details>
 <div class="pub-content">
