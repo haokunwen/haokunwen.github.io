@@ -404,51 +404,100 @@ details pre {
 }
 
 /* 2. 获奖列表样式 (时间轴风格) */
+/* === Honors & Awards 列表美化 (升级版) === */
+
 .award-list {
     list-style: none;
-    padding: 0;
+    padding: 0 0 0 20px; /* 左侧留出空间给时间轴线 */
     margin: 0;
+    border-left: 2px solid #eee; /* 添加左侧时间轴线 */
+    position: relative;
 }
 
 .award-item {
     display: flex;
-    margin-bottom: 18px;
-    align-items: flex-start; /* 顶部对齐 */
+    margin-bottom: 25px; /* 拉大间距 */
+    align-items: center; /* 垂直居中 */
+    position: relative;
+}
+
+/* 时间轴上的小圆点 */
+.award-item::before {
+    content: '';
+    position: absolute;
+    left: -26px; /* 定位到线的位置 */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #0056b3; /* 你的主题蓝 */
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* 特殊：如果是重要奖项，圆点变金色 */
+.award-item.gold::before {
+    border-color: #d48806;
+    background: #fffbe6;
 }
 
 /* 年份胶囊 */
 .award-year {
-    background-color: #0e2e4e; /* 你的主题深蓝 */
-    color: #fff;
-    padding: 4px 10px;
-    border-radius: 4px;
+    background-color: #f0f2f5;
+    color: #444;
+    padding: 4px 12px;
+    border-radius: 20px; /* 变成椭圆 */
     font-size: 0.85em;
-    font-weight: bold;
+    font-weight: 700;
     margin-right: 15px;
-    min-width: 60px; /* 固定宽度，保证对齐 */
+    min-width: 60px;
     text-align: center;
-    flex-shrink: 0; /* 防止被挤压 */
-    margin-top: 2px; /* 微调垂直位置 */
+    flex-shrink: 0;
+    border: 1px solid #e1e4e8;
 }
 
-/* 奖项详情 */
+/* 奖项内容区域 */
 .award-content {
-    font-size: 1em;
-    color: #333;
-    line-height: 1.5;
+    flex-grow: 1;
 }
 
 .award-title {
+    font-size: 1.05em;
     font-weight: 700;
     color: #000;
     display: block;
+    margin-bottom: 2px;
+}
+
+/* 奖项里的图标 */
+.award-title i {
+    margin-right: 6px;
+    width: 20px; /* 统一宽度对齐 */
+    text-align: center;
 }
 
 .award-desc {
     font-size: 0.9em;
     color: #666;
-    margin-top: 2px;
     display: block;
+}
+
+/* === 荣誉等级标签 (可选) === */
+.award-badge {
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin-left: 8px;
+    vertical-align: middle;
+    font-weight: normal;
+}
+
+.badge-gold {
+    background: #fffbe6;
+    color: #d48806;
+    border: 1px solid #d48806;
 }
 
 /* === 专利状态区分 === */
