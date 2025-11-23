@@ -104,21 +104,72 @@ author_profile: true
   <a href="https://sdu-l.github.io/ENCODER.github.io/" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
 </div>
 
- 
-  - **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval**     
-    Zixu Li, Zhiwei Chen, **Haokun Wen**, Zhiheng Fu, Yupeng Hu, and Weili Guan.        
-    In AAAI 2025. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [![Code](https://img.shields.io/badge/Code-GitHub-181717)](https://sdu-l.github.io/ENCODER.github.io/)         
-  - **FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex Image Retrieval**    
-    Bohan Hou, Haoqiang Lin, Xuemeng Song, **Haokun Wen**, Meng Liu, Yupeng Hu, and Xiangyu Zhao.    
-    In SIGIR 2025. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://dl.acm.org/doi/10.1145/3726302.3729979)       
-  - **Pseudo-triplet Guided Few-shot Composed Image Retrieval**      
-    Bohan Hou, Haoqiang Lin, **Haokun Wen**, Meng Liu, and Xuemeng Song.    
-    In IJCNN 2025. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/abs/2407.06001)    
-  - **HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval**    
-    Zhiwei Chen, Yupeng Hu, Zixu Li, Zhiheng Fu, **Haokun Wen**, and Weili Guan.    
-    In ACM MM 2025. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://dl.acm.org/doi/10.1145/3746027.3755445)        
+<details>
+  <summary>FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex Image Retrieval</summary>
+  <pre><code>@inproceedings{hou2025fire,
+  title={FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex Image Retrieval},
+  author={Hou, Bohan and Lin, Haoqiang and Song, Xuemeng and Wen, Haokun and Liu, Meng and Hu, Yupeng and Zhao, Xiangyu},
+  booktitle={ACM SIGIR},
+  year={2025}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Bohan Hou, Haoqiang Lin, Xuemeng Song, <b>Haokun Wen</b>, Meng Liu, Yupeng Hu, and Xiangyu Zhao.<br>
+  SIGIR 2025.
+  <a href="https://dl.acm.org/doi/10.1145/3726302.3729979" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+</div>
 
-**2024**  
+<details>
+  <summary>Pseudo-triplet Guided Few-shot Composed Image Retrieval</summary>
+  <pre><code>@inproceedings{hou2025pseudo,
+  title={Pseudo-triplet Guided Few-shot Composed Image Retrieval},
+  author={Hou, Bohan and Lin, Haoqiang and Wen, Haokun and Liu, Meng and Song, Xuemeng},
+  booktitle={IJCNN},
+  year={2025}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Bohan Hou, Haoqiang Lin, <b>Haokun Wen</b>, Meng Liu, and Xuemeng Song.<br>
+  IJCNN 2025
+  <a href="https://arxiv.org/abs/2407.06001" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+</div>  
+   
+<details>
+  <summary>HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval</summary>
+  <pre><code>@inproceedings{chen2025hud,
+  title={HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval},
+  author={Chen, Zhiwei and Hu, Yupeng and Li, Zixu and Fu, Zhiheng and Wen, Haokun and Guan, Weili},
+  booktitle={ACM Multimedia (ACM MM)},
+  year={2025}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Zhiwei Chen, Yupeng Hu, Zixu Li, Zhiheng Fu, <b>Haokun Wen</b>, and Weili Guan.<br>
+  ACM MM 2025.
+  <a href="https://dl.acm.org/doi/10.1145/3746027.3755445" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+</div>
+     
+
+## 2024
+---
+
+<details>
+  <summary>Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval</summary>
+  <pre><code>@inproceedings{wen2024simple,
+  title={Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval},
+  author={Wen, Haokun and Song, Xuemeng and Chen, Xiaolin and Wei, Yinwei and Nie, Liqiang and Chua, Tat-Seng},
+  booktitle={ACM SIGIR},
+  year={2024}
+}</code></pre>
+</details>
+<div class="pub-content">
+  <b>Haokun Wen</b>, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.<br>
+  ACM SIGIR 2024.
+  <a href="https://arxiv.org/abs/2404.15875" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://github.com/haokunwen/DQU-CIR" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
+  <a href="http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Slides-PDF-0056b3"></a>
+</div>
+
   - **Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval**   
     **Haokun Wen**, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.      
     In ACM SIGIR 2024 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/abs/2404.15875) [[Code]](https://github.com/haokunwen/DQU-CIR) [![Slides](https://img.shields.io/badge/Slides-PDF-0056b3)](http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf)
