@@ -20,7 +20,7 @@ author_profile: true
 <div class="pub-content">
   Zixu Li, Zhiheng Fu, Yupeng Hu, Zhiwei Chen, <b>Haokun Wen</b>, and Liqiang Nie.<br>
   <span class="pub-tag tag-preprint">ArXiv Preprint</span>
-  <a href="https://arxiv.org/pdf/2503.21309" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://arxiv.org/pdf/2503.21309" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
 <details>
@@ -35,7 +35,7 @@ author_profile: true
 <div class="pub-content">
   Xiaolin Chen, Xuemeng Song, <b>Haokun Wen</b>, Weili Guan, Xiangyu Zhao, and Liqiang Nie.<br>
   <span class="pub-tag tag-preprint">ArXiv Preprint</span>
-  <a href="https://arxiv.org/abs/2509.07817v1" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://arxiv.org/abs/2509.07817v1" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
 
@@ -75,7 +75,7 @@ author_profile: true
 <div class="pub-content">
   Haoyu Zhang, Meng Liu, Zaijing Li, <b>Haokun Wen</b>, Weili Guan, Yaowei Wang, and Liqiang Nie.<br>
   <span class="pub-tag tag-conf">NeurIPS 2025</span>
-  <a href="https://arxiv.org/pdf/2506.03642" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://arxiv.org/pdf/2506.03642" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
 <details>
@@ -85,7 +85,7 @@ author_profile: true
 <div class="pub-content">
   Xuemeng Song, Haoqiang Lin, <b>Haokun Wen</b>, Bohan Hou, Mingzhu Xu, and Liqiang Nie.<br>
   <span class="pub-tag tag-journal">ACM TOIS 2025</span>
-  <a href="https://arxiv.org/pdf/2502.18495" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://arxiv.org/pdf/2502.18495" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
     
 <details>
@@ -100,8 +100,8 @@ author_profile: true
 <div class="pub-content">
   Zixu Li, Zhiwei Chen, <b>Haokun Wen</b>, Zhiheng Fu, Yupeng Hu, and Weili Guan.<br>
   AAAI 2025.
-  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
-  <a href="https://sdu-l.github.io/ENCODER.github.io/" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
+  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://sdu-l.github.io/ENCODER.github.io/" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
 </div>
 
 <details>
@@ -116,7 +116,7 @@ author_profile: true
 <div class="pub-content">
   Bohan Hou, Haoqiang Lin, Xuemeng Song, <b>Haokun Wen</b>, Meng Liu, Yupeng Hu, and Xiangyu Zhao.<br>
   SIGIR 2025.
-  <a href="https://dl.acm.org/doi/10.1145/3726302.3729979" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://dl.acm.org/doi/10.1145/3726302.3729979" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
 <details>
@@ -131,7 +131,7 @@ author_profile: true
 <div class="pub-content">
   Bohan Hou, Haoqiang Lin, <b>Haokun Wen</b>, Meng Liu, and Xuemeng Song.<br>
   IJCNN 2025
-  <a href="https://arxiv.org/abs/2407.06001" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://arxiv.org/abs/2407.06001" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>  
    
 <details>
@@ -146,7 +146,7 @@ author_profile: true
 <div class="pub-content">
   Zhiwei Chen, Yupeng Hu, Zixu Li, Zhiheng Fu, <b>Haokun Wen</b>, and Weili Guan.<br>
   ACM MM 2025.
-  <a href="https://dl.acm.org/doi/10.1145/3746027.3755445" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://dl.acm.org/doi/10.1145/3746027.3755445" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
      
 
@@ -165,9 +165,9 @@ author_profile: true
 <div class="pub-content">
   <b>Haokun Wen</b>, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.<br>
   ACM SIGIR 2024.
-  <a href="https://arxiv.org/abs/2404.15875" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
-  <a href="https://github.com/haokunwen/DQU-CIR" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
-  <a href="http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Slides-PDF-0056b3"></a>
+  <a href="https://arxiv.org/abs/2404.15875" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://github.com/haokunwen/DQU-CIR" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
+  <a href="http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Slides-PDF-0056b3"></a>
 </div>
 
 <details>
@@ -182,8 +182,8 @@ author_profile: true
 <div class="pub-content">
   <b>Haokun Wen</b>, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.<br>
   <span class="pub-tag tag-journal">Journal</span>IEEE TPAMI 2024.
-  <a href="https://ieeexplore.ieee.org/abstract/document/10373096" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
-  <a href="https://anosite.wixsite.com/limn" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
+  <a href="https://ieeexplore.ieee.org/abstract/document/10373096" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://anosite.wixsite.com/limn" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
 </div>
 
   - **Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval**    
