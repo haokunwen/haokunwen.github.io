@@ -67,7 +67,6 @@ I'm currently a Ph.D. student in the [School of Computer Science and Technology]
 
 <ul class="award-list">
 
-  <!-- 2024年 -->
   <li class="award-item">
     <div class="award-year">2024</div>
     <div class="award-content">
@@ -76,14 +75,6 @@ I'm currently a Ph.D. student in the [School of Computer Science and Technology]
     </div>
   </li>
 
-  <!-- 2023年 -->
-  <li class="award-item">
-    <div class="award-year">2023</div>
-    <div class="award-content">
-      <span class="award-title">Ranked 1st in ACM MM VTQA Grand Challenge</span>
-      <span class="award-desc">International Conference on Multimedia</span>
-    </div>
-  </li>
   
   <li class="award-item">
     <div class="award-year">2022</div>
