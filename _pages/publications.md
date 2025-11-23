@@ -50,7 +50,7 @@ author_profile: true
     **Haokun Wen**, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.      
     In ACM SIGIR 2024 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/abs/2404.15875) [[Code]](https://github.com/haokunwen/DQU-CIR) [![Slides](https://img.shields.io/badge/Slides-PDF-0056b3)](http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf)
    <details>
-   <summary>BibTeX</summary>
+   <summary>**Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval**</summary>
    <pre><code>@article{li2025finecir,
      title={FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval},
      author={Li, Zixu and Fu, Zhiheng and Hu, Yupeng and Chen, Zhiwei and Wen, Haokun and Nie, Liqiang},
@@ -58,7 +58,8 @@ author_profile: true
      year={2025}
    }</code></pre>
    </details>
-    
+    **Haokun Wen**, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.      
+    In ACM SIGIR 2024 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/abs/2404.15875) [[Code]](https://github.com/haokunwen/DQU-CIR) [![Slides](https://img.shields.io/badge/Slides-PDF-0056b3)](http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf)
 
   - **Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval**    
     **Haokun Wen**, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.   
