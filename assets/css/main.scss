@@ -114,31 +114,43 @@ h1, h2, h3 {
     background-color: #0056b3;
     color: #fff !important; /* 悬停变成实心蓝 */
 }
-/* 美化 BibTeX 折叠框 */
+/* 美化 BibTeX 折叠框 & 论文标题 */
 details {
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 0px; /* 紧贴下方作者 */
     font-size: 0.9em;
 }
 
 summary {
     cursor: pointer;
-    color: #0056b3; /* 你的主题蓝 */
-    font-weight: bold;
+    /* 重点修改：这里使用了你定义的深蓝黑色 #0e2e4e */
+    color: #0e2e4e !important; 
+    font-weight: 700 !important; /* 确保加粗 */
+    font-size: 1.15em;           /* 统一字号，不用在HTML里写了 */
+    line-height: 1.3;
     outline: none;
+    list-style: none; /* 隐藏部分浏览器的默认三角，为了美观 */
+}
+
+/* 隐藏默认小三角的兼容写法 */
+summary::-webkit-details-marker {
+    display: none;
 }
 
 summary:hover {
-    text-decoration: underline;
+    /* 鼠标悬停时变亮一点的蓝色，提示可点击 */
+    color: #0056b3 !important; 
+    text-decoration: none;
 }
 
-/* 代码块样式 */
+/* 代码块样式 (保持不变) */
 details pre {
-    background-color: #f6f8fa; /* GitHub 风格灰背景 */
+    background-color: #f6f8fa;
     border: 1px solid #e1e4e8;
     border-radius: 6px;
     padding: 10px;
     margin-top: 5px;
+    margin-bottom: 15px;
     overflow-x: auto;
     font-family: Consolas, Monaco, 'Andale Mono', monospace;
     font-size: 0.85em;
