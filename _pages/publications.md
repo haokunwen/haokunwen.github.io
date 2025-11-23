@@ -57,7 +57,12 @@ author_profile: true
 
 <details>
   <summary>D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation</summary>
-  <pre><code> </code></pre>
+  <pre><code>@inproceedings{zuo2026d2mora,
+  title={D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation},
+  author={Zuo, Jianhui and Song, Xuemeng and Wen, Haokun and Liu, Meng and Hu, Yupeng and Wang, Jiuru and Nie, Liqiang},
+  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2026}
+}</code></pre>
 </details>
 <div class="pub-content">
   Jianhui Zuo, Xuemeng Song, <b>Haokun Wen</b>, Meng Liu, Yupeng Hu, Jiuru Wang, and Liqiang Nie. <br>
@@ -69,7 +74,12 @@ author_profile: true
 
 <details>
   <summary>Multi-modal Recommendation with Joint Content and Interaction Augmentation</summary>
-  <pre><code></code></pre>
+  <pre><code>@inproceedings{deng2025multimodal,
+  title={Multi-modal Recommendation with Joint Content and Interaction Augmentation},
+  author={Deng, Jiajie and Wen, Haokun and Han, Xiao and Song, Xuemeng and Zhao, Xiangyu},
+  booktitle={ACM Multimedia Asia (MMAsia)},
+  year={2025}
+}</code></pre>
 </details>
 <div class="pub-content">
   Jiajie Deng, <b>Haokun Wen</b>, Xiao Han, Xuemeng Song, and Xiangyu Zhao.<br>
@@ -102,7 +112,7 @@ volume = {44},
 number = {1},
 issn = {1046-8188},
 articleno = {19},
-numpages = {54},
+numpages = {54}
 } </code></pre>
 </details>
 <div class="pub-content">
@@ -120,12 +130,12 @@ numpages = {54},
                   Zhiheng Fu and
                   Yupeng Hu and
                   Weili Guan},
-  title        = {{ENCODER:} Entity Mining and Modification Relation Binding for Composed
+  title        = {ENCODER: Entity Mining and Modification Relation Binding for Composed
                   Image Retrieval},
   booktitle    = {Proceedings of the Association for the Advancement of Artificial
                   Intelligence},
   pages        = {5101--5109},
-  publisher    = {{AAAI} Press},
+  publisher    = {AAAI Press},
   year         = {2025}
 }</code></pre>
 </details>
@@ -148,10 +158,10 @@ numpages = {54},
                   Xiangyu Zhao},
   title        = {FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex
                   Image Retrieval},
-  booktitle    = {Proceedings of the International {ACM} {SIGIR} Conference on
+  booktitle    = {Proceedings of the International ACM SIGIR Conference on
                   Research and Development in Information Retrieval},
   pages        = {803--812},
-  publisher    = {{ACM}},
+  publisher    = {ACM},
   year         = {2025}
 }</code></pre>
 </details>
@@ -173,7 +183,7 @@ numpages = {54},
   title        = {Pseudo Triplet Guided Few-shot Composed Image Retrieval},
   booktitle    = {Proceedings of the International Joint Conference on Neural Networks},
   pages        = {1--8},
-  publisher    = {{IEEE}},
+  publisher    = {IEEE},
   year         = {2025}
 }</code></pre>
 </details>
@@ -189,8 +199,8 @@ numpages = {54},
   title={HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval},
   author={Chen, Zhiwei and Hu, Yupeng and Li, Zixu and Fu, Zhiheng and Wen, Haokun and Guan, Weili},
   booktitle={Proceedings of the ACM International Conference on Multimedia},
-  pages = {6143–6152},
-  publisher = {{ACM}},
+  pages = {6143--6152},
+  publisher = {ACM},
   year={2025}
 }</code></pre>
 </details>
@@ -209,10 +219,10 @@ numpages = {54},
   <pre><code>@inproceedings{wen2024simple,
   title={Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval},
   author={Wen, Haokun and Song, Xuemeng and Chen, Xiaolin and Wei, Yinwei and Nie, Liqiang and Chua, Tat-Seng},
-  booktitle    = {Proceedings of the International {ACM} {SIGIR} Conference on
-                  Research and Development in Information Retrieval},\
+  booktitle    = {Proceedings of the International ACM SIGIR Conference on
+                  Research and Development in Information Retrieval},
   pages        = {229--239},
-  publisher    = {{ACM}},
+  publisher    = {ACM},
   year={2024}
 }</code></pre>
 </details>
@@ -248,10 +258,10 @@ numpages = {54},
   <pre><code>@inproceedings{lin2024fine,
   title={Fine-Grained Textual Inversion Network for Zero-Shot Composed Image Retrieval},
   author={Lin, Haoqiang and Wen, Haokun and Song, Xuemeng and Liu, Meng and Hu, Yupeng and Nie, Liqiang},
-  booktitle    = {Proceedings of the International {ACM} {SIGIR} Conference on
+  booktitle    = {Proceedings of the International ACM SIGIR Conference on
                   Research and Development in Information Retrieval},
   pages        = {240--250},
-  publisher    = {{ACM}},
+  publisher    = {ACM},
   year={2024}
 }</code></pre>
 </details>
@@ -267,9 +277,9 @@ numpages = {54},
   <pre><code>@inproceedings{zhang2024differential,
   title={Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning},
   author={Zhang, Xian and Wen, Haokun and Wu, Jianlong and Qin, Pengda and Xue, Hui and Nie, Liqiang},
-  booktitle    = {Proceedings of the {ACM} International Conference on Multimedia},
+  booktitle    = {Proceedings of the ACM International Conference on Multimedia},
   pages        = {4148--4157},
-  publisher    = {{ACM}},
+  publisher    = {ACM},
   year         = {2024}
 }</code></pre>
 </details>
@@ -306,9 +316,9 @@ numpages = {54},
   <pre><code>@inproceedings{wen2023target,
   title={Target-Guided Composed Image Retrieval},
   author={Wen, Haokun and Zhang, Xian and Song, Xuemeng and Wei, Yinwei and Nie, Liqiang},
-  booktitle    = {Proceedings of the {ACM} International Conference on Multimedia},
+  booktitle    = {Proceedings of the ACM International Conference on Multimedia},
   pages        = {915--923},
-  publisher    = {{ACM}},
+  publisher    = {ACM},
   year         = {2023}
 }</code></pre>
 </details>
@@ -327,7 +337,7 @@ numpages = {54},
   author={Zhang, Xin and Xie, Wen and Dai, Ziqi and Rao, Jun and Wen, Haokun and Luo, Xuan and Zhang, Meishan and Zhang, Min},
   booktitle={Proceedings of the ACM International Conference on Multimedia},
   pages={9420--9424},
-  publisher    = {{ACM}},
+  publisher    = {ACM},
   year={2023}
 }</code></pre>
 </details>
@@ -367,7 +377,7 @@ numpages = {54},
   author={Guan, Weili and Jiao, Fangkai and Song, Xuemeng and Wen, Haokun and Yeh, Chung-Hsing and Chang, Xiaojun},
   booktitle={Proceedings of the international ACM SIGIR conference on research and development in information retrieval},
   pages={482--491},
-  publisher    = {{ACM}},
+  publisher    = {ACM},
   year={2022}
 }</code></pre>
 </details>
@@ -407,7 +417,7 @@ numpages = {54},
   author={Wen, Haokun and Song, Xuemeng and Yang, Xin and Zhan, Yibing and Nie, Liqiang},
   booktitle={Proceedings of the International ACM SIGIR Conference on Research and Development in Information Retrieval},
   pages={1369--1378},
-  publisher    = {{ACM}},
+  publisher    = {ACM},
   year={2021}
 }</code></pre>
 </details>
@@ -425,7 +435,7 @@ numpages = {54},
   author={Guan, Weili and Wen, Haokun and Song, Xuemeng and Yeh, Chung-Hsing and Chang, Xiaojun and Nie, Liqiang},
   booktitle={Proceedings of the ACM international conference on multimedia},
   pages={2299--2307},
-  publisher    = {{ACM}},
+  publisher    = {ACM},
   year={2021}
 }</code></pre>
 </details>
@@ -445,7 +455,7 @@ numpages = {54},
   volume={17},
   number={1},
   pages={1--21},
-  publisher={{ACM}},
+  publisher={ACM},
   year={2021}
 }</code></pre>
 </details>
@@ -466,7 +476,7 @@ numpages = {54},
   author={Yang, Xin and Song, Xuemeng and Han, Xianjing and Wen, Haokun and Nie, Jie and Nie, Liqiang},
   booktitle={Proceedings of the international acm sigir conference on research and development in information retrieval},
   pages={941--950},
-  publisher={{ACM}},
+  publisher={ACM},
   year={2020}
 }</code></pre>
 </details>
@@ -476,6 +486,3 @@ numpages = {54},
   <a href="http://haokunwen.github.io/files/acmsigir2020.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://joeyangbuer.wixsite.com/amgan" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
 </div>
-
-
-
