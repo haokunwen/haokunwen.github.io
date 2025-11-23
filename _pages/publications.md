@@ -20,7 +20,7 @@ author_profile: true
 <div class="pub-content">
   Zixu Li, Zhiheng Fu, Yupeng Hu, Zhiwei Chen, <b>Haokun Wen</b>, and Liqiang Nie.<br>
   <span class="pub-tag tag-preprint">ArXiv Preprint</span>
-  <a href="https://arxiv.org/pdf/2503.21309" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://arxiv.org/pdf/2503.21309" style="margin-left: 3px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
 <details>
@@ -35,7 +35,7 @@ author_profile: true
 <div class="pub-content">
   Xiaolin Chen, Xuemeng Song, <b>Haokun Wen</b>, Weili Guan, Xiangyu Zhao, and Liqiang Nie.<br>
   <span class="pub-tag tag-preprint">ArXiv Preprint</span>
-  <a href="https://arxiv.org/abs/2509.07817v1" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://arxiv.org/abs/2509.07817v1" style="margin-left: 3px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
 
