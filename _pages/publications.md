@@ -5,6 +5,27 @@ permalink: /publications/
 author_profile: true
 ---
 
+## Preprints
+---
+
+<div class="pub-item">
+  <div class="pub-title">FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval</div>
+  <div class="pub-authors">Zixu Li, Zhiheng Fu, Yupeng Hu, Zhiwei Chen, <b>Haokun Wen</b>, and Liqiang Nie.</div>
+  <div class="pub-venue">ArXiv preprint.</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2503.21309">PDF</a>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-title">Dual Knowledge-Enhanced Two-Stage Reasoner for Multimodal Dialog Systems</div>
+  <div class="pub-authors">Xiaolin Chen, Xuemeng Song, <b>Haokun Wen</b>, Weili Guan, Xiangyu Zhao, and Liqiang Nie.</div>
+  <div class="pub-venue">ArXiv preprint.</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2509.07817v1">PDF</a>
+  </div>
+</div>
+
 **Preprints**    
 
  - **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval**     
