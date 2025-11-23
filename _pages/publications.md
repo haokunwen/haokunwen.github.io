@@ -60,7 +60,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   Jiajie Deng, <b>Haokun Wen</b>, Xiao Han, Xuemeng Song, and Xiangyu Zhao.<br>
-  MMAsia 2025.
+  <span class="pub-tag tag-conf">MMAsia 2025</span>
 </div>
 
 <details>
