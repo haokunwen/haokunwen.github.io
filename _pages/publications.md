@@ -115,7 +115,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   Bohan Hou, Haoqiang Lin, Xuemeng Song, <b>Haokun Wen</b>, Meng Liu, Yupeng Hu, and Xiangyu Zhao.<br>
-  <span class="pub-tag tag-conf">SIGIR 2025</span>
+  <span class="pub-tag tag-conf">ACM SIGIR 2025</span>
   <a href="https://dl.acm.org/doi/10.1145/3726302.3729979" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
@@ -164,7 +164,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   <b>Haokun Wen</b>, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.<br>
-  ACM SIGIR 2024.
+  <span class="pub-tag tag-conf">ACM SIGIR 2024</span>
   <a href="https://arxiv.org/abs/2404.15875" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://github.com/haokunwen/DQU-CIR" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
   <a href="http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Slides-PDF-0056b3"></a>
@@ -181,14 +181,26 @@ author_profile: true
 </details>
 <div class="pub-content">
   <b>Haokun Wen</b>, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.<br>
-  <span class="pub-tag tag-journal">Journal</span>IEEE TPAMI 2024.
+  <span class="pub-tag tag-journal">IEEE TPAMI 2024</span>
   <a href="https://ieeexplore.ieee.org/abstract/document/10373096" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://anosite.wixsite.com/limn" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
 </div>
 
-  - **Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval**    
-    **Haokun Wen**, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.   
-    IEEE TPAMI, 2024. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://ieeexplore.ieee.org/abstract/document/10373096) [[Code]](https://anosite.wixsite.com/limn) [[BibTex]](https://dblp.org/rec/journals/pami/WenSYWGN24.html?view=bibtex)     
+<details>
+  <summary>Fine-Grained Textual Inversion Network for Zero-Shot Composed Image Retrieval</summary>
+  <pre><code>@inproceedings{lin2024fine,
+  title={Fine-Grained Textual Inversion Network for Zero-Shot Composed Image Retrieval},
+  author={Lin, Haoqiang and Wen, Haokun and Song, Xuemeng and Liu, Meng and Hu, Yupeng and Nie, Liqiang},
+  booktitle={ACM SIGIR},
+  year={2024}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Haoqiang Lin, <b>Haokun Wen</b>, Xuemeng Song, Meng Liu, Yupeng Hu, and Liqiang Nie.<br>
+  <span class="pub-tag tag-conf">ACM SIGIR 2024</span>
+  <a href="https://dl.acm.org/doi/10.1145/3626772.3657831"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://github.com/ZiChao111/FTI4CIR"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
+</div>
 
   - **Fine-Grained Textual Inversion Network for Zero-Shot Composed Image Retrieval**   
     Haoqiang Lin, **Haokun Wen**, Xuemeng Song, Meng Liu, Yupeng Hu, and Liqiang Nie.      
