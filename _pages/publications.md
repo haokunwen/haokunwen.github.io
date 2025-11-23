@@ -75,7 +75,7 @@ author_profile: true
 <div class="pub-content">
   Haoyu Zhang, Meng Liu, Zaijing Li, <b>Haokun Wen</b>, Weili Guan, Yaowei Wang, and Liqiang Nie.<br>
   NeurIPS 2025.
-  <a href="https://arxiv.org/pdf/2506.03642"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://arxiv.org/pdf/2506.03642" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
 <details>
@@ -85,9 +85,24 @@ author_profile: true
 <div class="pub-content">
   Xuemeng Song, Haoqiang Lin, <b>Haokun Wen</b>, Bohan Hou, Mingzhu Xu, and Liqiang Nie.<br>
   ACM TOIS 2025.
-  <a href="https://arxiv.org/pdf/2502.18495"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://arxiv.org/pdf/2502.18495" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
     
+<details>
+  <summary>ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval</summary>
+  <pre><code>@inproceedings{li2025encoder,
+  title={ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval},
+  author={Li, Zixu and Chen, Zhiwei and Wen, Haokun and Fu, Zhiheng and Hu, Yupeng and Guan, Weili},
+  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2025}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Zixu Li, Zhiwei Chen, <b>Haokun Wen</b>, Zhiheng Fu, Yupeng Hu, and Weili Guan.<br>
+  AAAI 2025.
+  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://sdu-l.github.io/ENCODER.github.io/" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
+</div>
 
  
   - **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval**     
