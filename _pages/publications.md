@@ -6,22 +6,6 @@ author_profile: true
 ---
 
 ## Preprints
---- 
-
- - **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval**     
-    Zixu Li, Zhiheng Fu, Yupeng Hu, Zhiwei Chen, **Haokun Wen**, and Liqiang Nie.    
-    *ArXiv preprint.* [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/pdf/2503.21309)    
- - **Dual Knowledge-Enhanced Two-Stage Reasoner for Multimodal Dialog Systems**    
-    Xiaolin Chen, Xuemeng Song, **Haokun Wen**, Weili Guan, Xiangyu Zhao, and Liqiang Nie.    
-    ArXiv preprint. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/abs/2509.07817v1)    
-
-## 2026
----
-  - **D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation**    
-    Jianhui Zuo, Xuemeng Song, **Haokun Wen**, Meng Liu, Yupeng Hu, Jiuru Wang, and Liqiang Nie.    
-    In AAAI 2026.
-
-## Preprints
 ---
 
 <details>
@@ -39,7 +23,6 @@ author_profile: true
   <a href="https://arxiv.org/pdf/2503.21309" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
-
 <details>
   <summary>Dual Knowledge-Enhanced Two-Stage Reasoner for Multimodal Dialog Systems</summary>
   <pre><code>@article{chen2025dual,
@@ -49,11 +32,19 @@ author_profile: true
   year={2025}
 }</code></pre>
 </details>
-<div style="margin-top: 2px; margin-bottom: 30px;">
+<div class="pub-content">
   Xiaolin Chen, Xuemeng Song, <b>Haokun Wen</b>, Weili Guan, Xiangyu Zhao, and Liqiang Nie.<br>
-  <i>ArXiv preprint.</i><br>
+  ArXiv preprint.
   <a href="https://arxiv.org/abs/2509.07817v1"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
+
+
+## 2026
+---
+  - **D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation**    
+    Jianhui Zuo, Xuemeng Song, **Haokun Wen**, Meng Liu, Yupeng Hu, Jiuru Wang, and Liqiang Nie.    
+    In AAAI 2026.
+
 
     
 ## 2025
