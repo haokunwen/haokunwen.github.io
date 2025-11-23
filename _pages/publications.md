@@ -49,18 +49,7 @@ author_profile: true
   - **Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval**   
     **Haokun Wen**, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.      
     In ACM SIGIR 2024 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/abs/2404.15875) [[Code]](https://github.com/haokunwen/DQU-CIR) [![Slides](https://img.shields.io/badge/Slides-PDF-0056b3)](http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf)
-   <details>
-   <summary>Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval</summary>
-   <pre><code>@article{li2025finecir,
-     title={FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval},
-     author={Li, Zixu and Fu, Zhiheng and Hu, Yupeng and Chen, Zhiwei and Wen, Haokun and Nie, Liqiang},
-     journal={arXiv preprint arXiv:2503.21309},
-     year={2025}
-   }</code></pre>
-   </details>
-   
-    **Haokun Wen**, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.      
-    In ACM SIGIR 2024 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/abs/2404.15875) [[Code]](https://github.com/haokunwen/DQU-CIR) [![Slides](https://img.shields.io/badge/Slides-PDF-0056b3)](http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf)
+
 
 <!-- 第一部分：标题和隐藏的 BibTeX (注意 </details> 的位置) -->
 <details>
@@ -81,6 +70,30 @@ author_profile: true
   <a href="https://arxiv.org/abs/2404.15875"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://github.com/haokunwen/DQU-CIR"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
   <a href="http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf"><img src="https://img.shields.io/badge/Slides-PDF-0056b3"></a>
+</div>
+
+<!-- 1. 这里修改了 summary 的样式: color:#000 (纯黑), font-size:1.15em (加大) -->
+<details>
+  <summary style="cursor: pointer; font-weight: bold; outline: none; color: #000000; font-size: 1.15em; line-height: 1.4;">Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval</summary>
+  
+  <!-- BibTeX 代码区域 -->
+  <pre style="background: #f6f8fa; border: 1px solid #ddd; padding: 10px; margin-top: 5px; border-radius: 5px; overflow-x: auto;"><code>@article{wen2024simple,
+  title={Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval},
+  author={Wen, Haokun and Song, Xuemeng and Chen, Xiaolin and Wei, Yinwei and Nie, Liqiang and Chua, Tat-Seng},
+  journal={ACM SIGIR},
+  year={2024}
+}</code></pre>
+</details>
+
+<!-- 2. 作者和链接区域 -->
+<div style="margin-top: 5px; margin-bottom: 25px; font-size: 1em; color: #333;">
+  <b>Haokun Wen</b>, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.<br>
+  <span style="font-style: italic;">In ACM SIGIR 2024 (full paper).</span>
+  
+  <!-- 链接徽章 -->
+  <a href="https://arxiv.org/abs/2404.15875" style="margin-left: 5px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b" style="vertical-align: middle;"></a>
+  <a href="https://github.com/haokunwen/DQU-CIR"><img src="https://img.shields.io/badge/Code-GitHub-181717" style="vertical-align: middle;"></a>
+  <a href="http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf"><img src="https://img.shields.io/badge/Slides-PDF-0056b3" style="vertical-align: middle;"></a>
 </div>
   
 
