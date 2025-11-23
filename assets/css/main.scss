@@ -368,3 +368,68 @@ details pre {
         flex-direction: column;
     }
 }
+
+/* === Honors & Patents 页面美化 === */
+
+/* 1. 专利标签 (紫色) */
+.tag-patent {
+    color: #6f42c1;
+    border-color: #6f42c1;
+    background-color: #f3f0ff; /* 极淡的紫色背景 */
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-right: 8px;
+    vertical-align: middle;
+    border: 1px solid;
+}
+
+/* 2. 获奖列表样式 (时间轴风格) */
+.award-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.award-item {
+    display: flex;
+    margin-bottom: 18px;
+    align-items: flex-start; /* 顶部对齐 */
+}
+
+/* 年份胶囊 */
+.award-year {
+    background-color: #0e2e4e; /* 你的主题深蓝 */
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-right: 15px;
+    min-width: 60px; /* 固定宽度，保证对齐 */
+    text-align: center;
+    flex-shrink: 0; /* 防止被挤压 */
+    margin-top: 2px; /* 微调垂直位置 */
+}
+
+/* 奖项详情 */
+.award-content {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.5;
+}
+
+.award-title {
+    font-weight: 700;
+    color: #000;
+    display: block;
+}
+
+.award-desc {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 2px;
+    display: block;
+}
