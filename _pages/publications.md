@@ -51,6 +51,32 @@ author_profile: true
   AAAI 2026.
 </div>
 
+## 2025
+---
+
+<details>
+  <summary>Multi-modal Recommendation with Joint Content and Interaction Augmentation</summary>
+  <pre><code></code></pre>
+</details>
+<div class="pub-content">
+  Jiajie Deng, <b>Haokun Wen</b>, Xiao Han, Xuemeng Song, and Xiangyu Zhao.<br>
+  MMAsia 2025.
+</div>
+
+<details>
+  <summary>Spatial Understanding from Videos: Structured Prompts Meet Simulation Data</summary>
+  <pre><code>@inproceedings{zhang2025spatial,
+  title={Spatial Understanding from Videos: Structured Prompts Meet Simulation Data},
+  author={Zhang, Haoyu and Liu, Meng and Li, Zaijing and Wen, Haokun and Guan, Weili and Wang, Yaowei and Nie, Liqiang},
+  booktitle={NeurIPS},
+  year={2025}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Haoyu Zhang, Meng Liu, Zaijing Li, <b>Haokun Wen</b>, Weili Guan, Yaowei Wang, and Liqiang Nie.<br>
+  NeurIPS 2025.
+  <a href="https://arxiv.org/pdf/2506.03642"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+</div>
 
     
 ## 2025
