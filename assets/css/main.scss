@@ -239,3 +239,36 @@ details pre {
     font-weight: 600;
     color: #333;
 }
+/* === 论文类型标签样式 === */
+
+.pub-tag {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.75em;
+    font-weight: 700;
+    margin-right: 6px;
+    vertical-align: text-bottom; /* 对齐文字底部 */
+    border: 1px solid; /* 保留边框，显得精致 */
+}
+
+/* 会议标签 (使用你的主题蓝) */
+.tag-conf {
+    color: #0056b3;
+    border-color: #0056b3;
+    background-color: #eef6fc; /* 极淡的蓝色背景 */
+}
+
+/* 期刊标签 (使用深红色/橙色，以示区别) */
+.tag-journal {
+    color: #c0392b;
+    border-color: #c0392b;
+    background-color: #f9ebea; /* 极淡的红色背景 */
+}
+
+/* 预印本标签 (使用灰色) */
+.tag-preprint {
+    color: #7f8c8d;
+    border-color: #7f8c8d;
+    background-color: #f4f6f6;
+}
