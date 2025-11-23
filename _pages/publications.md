@@ -10,11 +10,18 @@ author_profile: true
 
 <details>
   <summary>FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval</summary>
-  <pre><code>@article{li2025finecir,
-  title={FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval},
-  author={Li, Zixu and Fu, Zhiheng and Hu, Yupeng and Chen, Zhiwei and Wen, Haokun and Nie, Liqiang},
-  journal={arXiv preprint arXiv:2503.21309},
-  year={2025}
+  <pre><code>@article{DBLP:journals/corr/abs-2503-21309,
+  author       = {Zixu Li and
+                  Zhiheng Fu and
+                  Yupeng Hu and
+                  Zhiwei Chen and
+                  Haokun Wen and
+                  Liqiang Nie},
+  title        = {FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for
+                  Composed Image Retrieval},
+  journal      = {CoRR},
+  volume       = {abs/2503.21309},
+  year         = {2025}
 }</code></pre>
 </details>
 <div class="pub-content">
