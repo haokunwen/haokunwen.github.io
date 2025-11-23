@@ -114,3 +114,33 @@ h1, h2, h3 {
     background-color: #0056b3;
     color: #fff !important; /* 悬停变成实心蓝 */
 }
+/* 美化 BibTeX 折叠框 */
+details {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+}
+
+summary {
+    cursor: pointer;
+    color: #0056b3; /* 你的主题蓝 */
+    font-weight: bold;
+    outline: none;
+}
+
+summary:hover {
+    text-decoration: underline;
+}
+
+/* 代码块样式 */
+details pre {
+    background-color: #f6f8fa; /* GitHub 风格灰背景 */
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 5px;
+    overflow-x: auto;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    font-size: 0.85em;
+    line-height: 1.45;
+}
