@@ -7,11 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Short Bio
+## Short Bio
 ---   
 I'm currently a Ph.D. student in the [School of Computer Science and Technology](http://cs.hitsz.edu.cn/), [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/index.html), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Xuemeng Song](https://xuemengsong.github.io/). I am also a joint Ph.D. student in the [School of Data Science](https://www.sdsc.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/), participating in the CityU-HIT Joint PhD Programme under the supervision of Prof. [Xiangyu Zhao](https://www.cityu.edu.hk/). My research interests include multimedia computing and information retrieval.
 
-Education
+## Education
 ---
   <div align="left">
           <a target="_blank" rel="external">
@@ -62,3 +62,53 @@ Education
 - **Ocean University of China** Sep.2015 — Jun.2019    
   Bachelor in the School of Computer Science and Technology
 
+## Honors & Awards
+---
+
+<ul class="award-list">
+
+  <!-- 2024年 -->
+  <li class="award-item">
+    <div class="award-year">2024</div>
+    <div class="award-content">
+      <span class="award-title">National Scholarship (Doctoral)</span>
+      <span class="award-desc">Ministry of Education of China (Top 0.2%)</span>
+    </div>
+  </li>
+
+  <!-- 2023年 -->
+  <li class="award-item">
+    <div class="award-year">2023</div>
+    <div class="award-content">
+      <span class="award-title">Ranked 1st in ACM MM VTQA Grand Challenge</span>
+      <span class="award-desc">International Conference on Multimedia</span>
+    </div>
+  </li>
+  
+  <li class="award-item">
+    <div class="award-year">2023</div>
+    <div class="award-content">
+      <span class="award-title">Outstanding Graduate Student</span>
+      <span class="award-desc">Harbin Institute of Technology (Shenzhen)</span>
+    </div>
+  </li>
+
+  <!-- 2022年 -->
+  <li class="award-item">
+    <div class="award-year">2022</div>
+    <div class="award-content">
+      <span class="award-title">Best Paper Award Nomination</span>
+      <span class="award-desc">ACM SIGIR 2022</span>
+    </div>
+  </li>
+
+  <!-- 2021年 -->
+  <li class="award-item">
+    <div class="award-year">2021</div>
+    <div class="award-content">
+      <span class="award-title">First Class Academic Scholarship</span>
+      <span class="award-desc">Shandong University</span>
+    </div>
+  </li>
+
+</ul>
