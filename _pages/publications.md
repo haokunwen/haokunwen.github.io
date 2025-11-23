@@ -263,8 +263,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   Xin Zhang, Wen Xie, Ziqi Dai, Jun Rao, <b>Haokun Wen</b>, Xuan Luo, Meishan Zhang, and Min Zhang.<br>
-  <b>Ranked 1st in VTQA 2023.</b>
-  <span class="pub-tag tag-conf">ACM MM 2023 (Grand Challenge)</span>
+  <span class="pub-tag tag-conf">ACM MM 2023 (Grand Challenge)</span> <span class="pub-tag tag-award">🏆 Ranked 1st in VTQA</span>
   <a href="http://haokunwen.github.io/files/acmmm2023_grandchallenge.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
