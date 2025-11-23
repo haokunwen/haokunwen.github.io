@@ -14,15 +14,13 @@ author_profile: true
 </div>
 
 <div class="pub-content">
-  Xuemeng Song, <b>Haokun Wen</b>, Liqiang Nie, et al.<br>
-  <span class="tag-patent">Filed</span>
-  <i>A Novel Framework for Composed Image Retrieval based on Fine-grained Semantics.</i><br>
-  China Patent, Application No. 202310654321.X, Filed in 2023.
+  <span class="tag-patent">Granted</span>一种基于多模态查询的图像检索方法、系统、介质及设备<br>
+  宋雪萌；聂礼强；<b>温皓琨</b>；贾永坡；杨鑫；詹忆冰<br>
+  China Patent, No. ZL202110516225.2, Granted in 2022.
 </div>
 
 <div class="pub-content">
-  <b>Haokun Wen</b>, Weili Guan, et al.<br>
-  <span class="tag-patent">Granted</span>
-  <i>User Interactive Recommendation System for Fashion Items.</i><br>
-  US Patent Application, No. 17/123,456, Authorized in 2022.
+  <span class="tag-patent">Granted</span>一种目标引导的多模态组合式图像检索方法及系统<br>
+  宋雪萌；聂礼强；<b>温皓琨</b>；尉寅玮；胡宇鹏；赵中州<br>
+  China Patent, No. ZL202310980937.9, Granted in 2025.
 </div>
