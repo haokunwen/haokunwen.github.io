@@ -209,7 +209,10 @@ numpages = {54},
   <pre><code>@inproceedings{wen2024simple,
   title={Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval},
   author={Wen, Haokun and Song, Xuemeng and Chen, Xiaolin and Wei, Yinwei and Nie, Liqiang and Chua, Tat-Seng},
-  booktitle={ACM SIGIR},
+  booktitle    = {Proceedings of the International {ACM} {SIGIR} Conference on
+                  Research and Development in Information Retrieval},\
+  pages        = {229--239},
+  publisher    = {{ACM}},
   year={2024}
 }</code></pre>
 </details>
@@ -226,8 +229,11 @@ numpages = {54},
   <pre><code>@article{wen2024self,
   title={Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval},
   author={Wen, Haokun and Song, Xuemeng and Yin, Jianhua and Wu, Jianlong and Guan, Weili and Nie, Liqiang},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
-  year={2024}
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume       = {46},
+  number       = {5},
+  pages        = {3665--3678},
+  year         = {2024}
 }</code></pre>
 </details>
 <div class="pub-content">
@@ -242,7 +248,10 @@ numpages = {54},
   <pre><code>@inproceedings{lin2024fine,
   title={Fine-Grained Textual Inversion Network for Zero-Shot Composed Image Retrieval},
   author={Lin, Haoqiang and Wen, Haokun and Song, Xuemeng and Liu, Meng and Hu, Yupeng and Nie, Liqiang},
-  booktitle={ACM SIGIR},
+  booktitle    = {Proceedings of the International {ACM} {SIGIR} Conference on
+                  Research and Development in Information Retrieval},
+  pages        = {240--250},
+  publisher    = {{ACM}},
   year={2024}
 }</code></pre>
 </details>
@@ -258,8 +267,10 @@ numpages = {54},
   <pre><code>@inproceedings{zhang2024differential,
   title={Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning},
   author={Zhang, Xian and Wen, Haokun and Wu, Jianlong and Qin, Pengda and Xue, Hui and Nie, Liqiang},
-  booktitle={ACM Multimedia (ACM MM)},
-  year={2024}
+  booktitle    = {Proceedings of the {ACM} International Conference on Multimedia},
+  pages        = {4148--4157},
+  publisher    = {{ACM}},
+  year         = {2024}
 }</code></pre>
 </details>
 <div class="pub-content">
@@ -274,8 +285,11 @@ numpages = {54},
   <pre><code>@article{becattini2024interactive,
   title={Interactive Garment Recommendation with User in the Loop},
   author={Becattini, Federico and Chen, Xiaolin and Puccia, Andrea and Wen, Haokun and Song, Xuemeng and Nie, Liqiang and Del Bimbo, Alberto},
-  journal={ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)},
-  year={2024}
+  journal={ACM Transactions on Multimedia Computing, Communications, and Applications},
+  volume       = {21},
+  number       = {1},
+  pages        = {37:1--37:21},
+  year         = {2025}
 }</code></pre>
 </details>
 <div class="pub-content">
