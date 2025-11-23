@@ -283,38 +283,109 @@ author_profile: true
   <a href="https://trace729.wixsite.com/trace" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
 </div>
 
-  - **Egocentric Early Action Prediction via Multimodal Transformer-Based Dual Action Prediction**    
-    Weili Guan, Xuemeng Song, Kejie Wang, **Haokun Wen**, Hongda Ni, Yaowei Wang, and Xiaojun Chang.   
-    IEEE TCSVT, 2023. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](http://haokunwen.github.io/files/tcsvt2023.pdf) [[Code]](https://trace729.wixsite.com/trace) [[BibTex]](https://dblp.org/rec/journals/tcsv/GuanSWWNWC23.html?view=bibtex)    
+## 2022
+---
 
-**2022**
-  - **Personalized Fashion Compatibility Modeling via Metapath-guided Heterogeneous Graph Learning**  
-    Weili Guan, Fangkai Jiao, Xuemeng Song, **Haokun Wen**, Chung-Hsing Yeh, and Xiaojun Chang.    
-    In ACM SIGIR 2022 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](http://haokunwen.github.io/files/acmsigir2022.pdf) [[Code]](https://anosite.wixsite.com/pfcm) [[BibTex]](https://dblp.org/rec/conf/sigir/GuanJSWYC22.html?view=bibtex)     
+<details>
+  <summary>Personalized Fashion Compatibility Modeling via Metapath-guided Heterogeneous Graph Learning</summary>
+  <pre><code>@inproceedings{guan2022personalized,
+  title={Personalized Fashion Compatibility Modeling via Metapath-guided Heterogeneous Graph Learning},
+  author={Guan, Weili and Jiao, Fangkai and Song, Xuemeng and Wen, Haokun and Yeh, Chung-Hsing and Chang, Xiaojun},
+  booktitle={ACM SIGIR},
+  year={2022}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Weili Guan, Fangkai Jiao, Xuemeng Song, <b>Haokun Wen</b>, Chung-Hsing Yeh, and Xiaojun Chang.<br>
+  <span class="pub-tag tag-conf">ACM SIGIR 2022</span>
+  <a href="http://haokunwen.github.io/files/acmsigir2022.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://anosite.wixsite.com/pfcm" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
+</div>
 
-  - **Partially Supervised Compatibility Modeling**  
-    Weili Guan, **Haokun Wen**, Xuemeng Song, Chun Wang, Chung-Hsing Yeh, Xiaojun Chang, and Liqiang Nie.  
-    IEEE TIP, 2022. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](http://haokunwen.github.io/files/tip2022.pdf) [[Code]](https://site2750.wixsite.com/ps-ocm) [[BibTex]](https://dblp.org/rec/journals/tip/GuanWSWYCN22.html?view=bibtex)  
+<details>
+  <summary>Partially Supervised Compatibility Modeling</summary>
+  <pre><code>@article{guan2022partially,
+  title={Partially Supervised Compatibility Modeling},
+  author={Guan, Weili and Wen, Haokun and Song, Xuemeng and Wang, Chun and Yeh, Chung-Hsing and Chang, Xiaojun and Nie, Liqiang},
+  journal={IEEE Transactions on Image Processing (TIP)},
+  year={2022}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Weili Guan, <b>Haokun Wen</b>, Xuemeng Song, Chun Wang, Chung-Hsing Yeh, Xiaojun Chang, and Liqiang Nie.<br>
+  <span class="pub-tag tag-journal">IEEE TIP 2022</span>
+  <a href="http://haokunwen.github.io/files/tip2022.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://site2750.wixsite.com/ps-ocm" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
+</div>
 
-**2021**
-  - **Comprehensive Linguistic-Visual Composition Network for Image Retrieval**  
-    **Haokun Wen**, Xuemeng Song, Xin Yang, Yibing Zhan, and Liqiang Nie.  
-    In ACM SIGIR 2021 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](http://haokunwen.github.io/files/acmsigir2021.pdf) [[Code]](https://site2750.wixsite.com/clvcnet) [[BibTex]](https://dblp.org/rec/conf/sigir/WenSYZN21.html?view=bibtex)  
+## 2021
+---
 
-  - **Multimodal Compatibility Modeling via Exploring the Consistent and Complementary Correlations**  
-    Weili Guan, **Haokun Wen**, Xuemeng Song, Chung-Hsing Yeh, Xiaojun Chang, and Liqiang Nie.  
-    In ACM MM 2021 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](http://haokunwen.github.io/files/acmmm2021.pdf) [[Code]](https://site2750.wixsite.com/mmocm) [[BibTex]](https://dblp.org/rec/conf/mm/GuanWSYCN21.html?view=bibtex)  
+<details>
+  <summary>Comprehensive Linguistic-Visual Composition Network for Image Retrieval</summary>
+  <pre><code>@inproceedings{wen2021comprehensive,
+  title={Comprehensive Linguistic-Visual Composition Network for Image Retrieval},
+  author={Wen, Haokun and Song, Xuemeng and Yang, Xin and Zhan, Yibing and Nie, Liqiang},
+  booktitle={ACM SIGIR},
+  year={2021}
+}</code></pre>
+</details>
+<div class="pub-content">
+  <b>Haokun Wen</b>, Xuemeng Song, Xin Yang, Yibing Zhan, and Liqiang Nie.<br>
+  <span class="pub-tag tag-conf">ACM SIGIR 2021</span>
+  <a href="http://haokunwen.github.io/files/acmsigir2021.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://site2750.wixsite.com/clvcnet" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
+</div>
 
-  - **Attribute-wise Explainable Fashion Compatibility Modeling**  
-    Xin Yang, Xuemeng Song, Fuli Feng, **Haokun Wen**, Ling-Yu Duan, and Liqiang Nie.  
-    ACM ToMM, 2021. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](http://haokunwen.github.io/files/acmtomm2021.pdf) [[Code]](https://joeyangbuer.wixsite.com/exfcm) [[BibTex]](https://dblp.org/rec/journals/tomccap/YangSFWDN21.html?view=bibtex)    
+<details>
+  <summary>Multimodal Compatibility Modeling via Exploring the Consistent and Complementary Correlations</summary>
+  <pre><code>@inproceedings{guan2021multimodal,
+  title={Multimodal Compatibility Modeling via Exploring the Consistent and Complementary Correlations},
+  author={Guan, Weili and Wen, Haokun and Song, Xuemeng and Yeh, Chung-Hsing and Chang, Xiaojun and Nie, Liqiang},
+  booktitle={ACM Multimedia (ACM MM)},
+  year={2021}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Weili Guan, <b>Haokun Wen</b>, Xuemeng Song, Chung-Hsing Yeh, Xiaojun Chang, and Liqiang Nie.<br>
+  <span class="pub-tag tag-conf">ACM MM 2021</span>
+  <a href="http://haokunwen.github.io/files/acmmm2021.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://site2750.wixsite.com/mmocm" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
+</div>
 
-**2020**
-  - **Generative Attribute Manipulation Scheme for Flexible Fashion Search**  
-    Xin Yang, Xuemeng Song, Xianjing Han, **Haokun Wen**, Jie Nie, and Liqiang Nie.  
-    In ACM SIGIR 2020 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](http://haokunwen.github.io/files/acmsigir2020.pdf) [[Code]](https://joeyangbuer.wixsite.com/amgan) [[BibTex]](https://dblp.org/rec/conf/sigir/YangSHWNN20.html?view=bibtex)  
-    
+<details>
+  <summary>Attribute-wise Explainable Fashion Compatibility Modeling</summary>
+  <pre><code>@article{yang2021attribute,
+  title={Attribute-wise Explainable Fashion Compatibility Modeling},
+  author={Yang, Xin and Song, Xuemeng and Feng, Fuli and Wen, Haokun and Duan, Ling-Yu and Nie, Liqiang},
+  journal={ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)},
+  year={2021}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Xin Yang, Xuemeng Song, Fuli Feng, <b>Haokun Wen</b>, Ling-Yu Duan, and Liqiang Nie.<br>
+  <span class="pub-tag tag-journal">ACM ToMM 2021</span>
+  <a href="http://haokunwen.github.io/files/acmtomm2021.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://joeyangbuer.wixsite.com/exfcm" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
+</div>
 
+## 2020
+---
 
+<details>
+  <summary>Generative Attribute Manipulation Scheme for Flexible Fashion Search</summary>
+  <pre><code>@inproceedings{yang2020generative,
+  title={Generative Attribute Manipulation Scheme for Flexible Fashion Search},
+  author={Yang, Xin and Song, Xuemeng and Han, Xianjing and Wen, Haokun and Nie, Jie and Nie, Liqiang},
+  booktitle={ACM SIGIR},
+  year={2020}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Xin Yang, Xuemeng Song, Xianjing Han, <b>Haokun Wen</b>, Jie Nie, and Liqiang Nie.<br>
+  <span class="pub-tag tag-conf">ACM SIGIR 2020</span>
+  <a href="http://haokunwen.github.io/files/acmsigir2020.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://joeyangbuer.wixsite.com/amgan" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
+</div>
 
 
