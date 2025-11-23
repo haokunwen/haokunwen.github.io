@@ -72,7 +72,6 @@ I'm currently a Ph.D. student in the [School of Computer Science and Technology]
     <div class="award-year">2024</div>
     <div class="award-content">
       <span class="award-title">
-        <i class="fas fa-trophy" style="color: #f1c40f;"></i> 
         National Scholarship
       </span>
       <span class="award-desc">Ministry of Education of China</span>
@@ -84,7 +83,6 @@ I'm currently a Ph.D. student in the [School of Computer Science and Technology]
     <div class="award-year">2022</div>
     <div class="award-content">
       <span class="award-title">
-        <i class="fas fa-medal" style="color: #0056b3;"></i> 
         Outstanding Graduate Student
       </span>
       <span class="award-desc">Shandong University</span>
