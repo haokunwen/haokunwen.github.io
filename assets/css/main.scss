@@ -9,7 +9,7 @@
  *  - https://twitter.com/mmistakes
  *
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
@@ -44,4 +44,14 @@
 strong, b {
   color: #0e2e4e !important;   /* 极深的蓝黑色 */
   font-weight: bold;
+}
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    font-size: 16px; /* 确保字号适中 */
+}
+
+/* 让标题更粗更黑，突出层级 */
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif !important;
+    letter-spacing: -0.5px; /* 稍微收紧字间距，显得精致 */
 }
