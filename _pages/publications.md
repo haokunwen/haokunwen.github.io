@@ -95,7 +95,28 @@ author_profile: true
   <a href="https://github.com/haokunwen/DQU-CIR"><img src="https://img.shields.io/badge/Code-GitHub-181717" style="vertical-align: middle;"></a>
   <a href="http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf"><img src="https://img.shields.io/badge/Slides-PDF-0056b3" style="vertical-align: middle;"></a>
 </div>
+
+<!-- 1. 题目区域: margin-bottom: 0 (去除底部空隙) -->
+<details style="margin-bottom: 0px;">
+  <summary style="cursor: pointer; font-weight: bold; outline: none; color: #000; font-size: 1.15em; line-height: 1.2;">Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval</summary>
   
+  <!-- BibTeX 代码框 (保持不变) -->
+  <pre style="background: #f6f8fa; border: 1px solid #ddd; padding: 10px; margin-top: 5px; margin-bottom: 10px; border-radius: 5px; overflow-x: auto;"><code>@article{wen2024simple,
+  title={Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval},
+  author={Wen, Haokun and Song, Xuemeng and Chen, Xiaolin and Wei, Yinwei and Nie, Liqiang and Chua, Tat-Seng},
+  journal={ACM SIGIR},
+  year={2024}
+}</code></pre>
+</details>
+
+<!-- 2. 作者区域: margin-top: 2px (只留极小的缝隙) -->
+<div style="margin-top: 2px; margin-bottom: 30px; font-size: 1em; color: #333; line-height: 1.5;">
+  <b>Haokun Wen</b>, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.<br>
+  <span style="font-style: italic;">In ACM SIGIR 2024 (full paper).</span>
+  
+  <a href="https://arxiv.org/abs/2404.15875" style="margin-left: 5px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b" style="vertical-align: middle;"></a>
+  <a href="https://github.com/haokunwen/DQU-CIR"><img src="https://img.shields.io/badge/Code-GitHub-181717" style="vertical-align: middle;"></a>
+</div>
 
   - **Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval**    
     **Haokun Wen**, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.   
