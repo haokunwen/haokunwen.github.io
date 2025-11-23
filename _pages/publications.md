@@ -84,7 +84,7 @@ author_profile: true
 </details>
 <div class="pub-content">
   Xuemeng Song, Haoqiang Lin, <b>Haokun Wen</b>, Bohan Hou, Mingzhu Xu, and Liqiang Nie.<br>
-  <span class="pub-tag tag-journal">J.</span>ACM TOIS 2025.
+  <span class="pub-tag tag-journal">ACM TOIS 2025</span>
   <a href="https://arxiv.org/pdf/2502.18495" style="margin-left: 8px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
     
