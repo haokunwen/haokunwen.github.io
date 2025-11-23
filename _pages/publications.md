@@ -267,10 +267,21 @@ author_profile: true
   <a href="http://haokunwen.github.io/files/acmmm2023_grandchallenge.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
-  - **Finetuning Language Models for Multimodal Question Answering**  
-    Xin Zhang$^1$, Wen Xie$^1$, Ziqi Dai$^1$, Jun Rao, **Haokun Wen**, Xuan Luo, Meishan Zhang, and Min Zhang.  
-    In ACM MM 2023 (grand challenge). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](http://haokunwen.github.io/files/acmmm2023_grandchallenge.pdf) [[BibTex]](https://dblp.org/rec/conf/mm/ZhangXDRWLZZ23.html?view=bibtex)    
-    Ranked 1st in both Chinese and English tracks of the [VTQA 2023](https://visual-text-QA.github.io/).  
+<details>
+  <summary>Egocentric Early Action Prediction via Multimodal Transformer-Based Dual Action Prediction</summary>
+  <pre><code>@article{guan2023egocentric,
+  title={Egocentric Early Action Prediction via Multimodal Transformer-Based Dual Action Prediction},
+  author={Guan, Weili and Song, Xuemeng and Wang, Kejie and Wen, Haokun and Ni, Hongda and Wang, Yaowei and Chang, Xiaojun},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)},
+  year={2023}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Weili Guan, Xuemeng Song, Kejie Wang, <b>Haokun Wen</b>, Hongda Ni, Yaowei Wang, and Xiaojun Chang.<br>
+  <span class="pub-tag tag-journal">IEEE TCSVT 2023</span>
+  <a href="http://haokunwen.github.io/files/tcsvt2023.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+  <a href="https://trace729.wixsite.com/trace" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
+</div>
 
   - **Egocentric Early Action Prediction via Multimodal Transformer-Based Dual Action Prediction**    
     Weili Guan, Xuemeng Song, Kejie Wang, **Haokun Wen**, Hongda Ni, Yaowei Wang, and Xiaojun Chang.   
