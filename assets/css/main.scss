@@ -39,3 +39,9 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* === 自定义加粗样式 (粘贴在 main.scss 底部) === */
+strong, b {
+  color: #0e2e4e !important;   /* 极深的蓝黑色 */
+  font-weight: bold;
+}
