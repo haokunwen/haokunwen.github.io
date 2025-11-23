@@ -27,7 +27,7 @@ author_profile: true
 
 <div class="pub-content">
   <span class="tag-pending">Pending</span>一种组合式图像检索方法、系统、介质及设备<br>
-  宋雪萌；聂礼强；<b>温皓琨</b>b>；尉寅玮；甘甜；尹建华<br>
+  宋雪萌；聂礼强；<b>温皓琨</b>；尉寅玮；甘甜；尹建华<br>
   China Patent.
 </div>
 
