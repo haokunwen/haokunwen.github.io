@@ -118,6 +118,7 @@ h1, h2, h3 {
 details {
     margin-top: 5px;
     margin-bottom: 0px; /* 紧贴下方作者 */
+    margin-left: 20px;
     font-size: 0.9em;
 }
 
@@ -155,4 +156,10 @@ details pre {
     font-family: Consolas, Monaco, 'Andale Mono', monospace;
     font-size: 0.85em;
     line-height: 1.45;
+}
+/* 作者列表的统一样式 */
+.pub-content {
+    margin-top: 2px;
+    margin-bottom: 30px;
+    margin-left: 20px; /* 统一缩进 */
 }
