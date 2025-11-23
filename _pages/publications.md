@@ -7,6 +7,7 @@ author_profile: true
 
 ## Preprints
 ---
+
 <details>
   <summary>FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval</summary>
   <pre><code>@article{li2025finecir,
@@ -40,6 +41,7 @@ author_profile: true
 
 ## 2026
 ---
+
 <details>
   <summary>D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation</summary>
   <pre><code> </code></pre>
