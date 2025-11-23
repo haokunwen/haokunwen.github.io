@@ -278,3 +278,93 @@ details pre {
     border-color: #d48806;   /* 金色边框 */
     background-color: #fffbe6; /* 极淡的暖黄色背景 */
 }
+
+/* === Education & Bio 样式美化 === */
+
+/* 1. 简介 Bio 区域 */
+.bio-text {
+    font-size: 1.05em;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: justify; /* 两端对齐，看起来更整齐 */
+}
+
+/* 2. 教育经历容器 */
+.edu-container {
+    display: flex;         /* 开启弹性布局 */
+    flex-direction: column;
+    gap: 20px;             /* 每个学校之间的间距 */
+}
+
+/* 单个学校卡片 */
+.edu-item {
+    display: flex;
+    align-items: center;   /* 垂直居中 */
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #eee; /* 淡淡的边框 */
+    transition: all 0.2s ease;
+}
+
+.edu-item:hover {
+    background-color: #fcfcfc;
+    border-color: #ddd;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* 悬停时微微浮起 */
+}
+
+/* Logo 区域 */
+.edu-logo {
+    flex-shrink: 0;        /* 防止 Logo 被压缩 */
+    width: 80px;           /* 统一 Logo 宽度 */
+    height: 80px;
+    margin-right: 20px;    /* Logo 和文字的间距 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edu-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;   /* 保持图片比例 */
+}
+
+/* 文字区域 */
+.edu-info {
+    flex-grow: 1;
+}
+
+.edu-school {
+    font-size: 1.15em;
+    font-weight: 700;
+    color: #0e2e4e; /* 你的主题深蓝 */
+    margin-bottom: 2px;
+}
+
+.edu-meta {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between; /* 让时间靠右显示 */
+}
+
+.edu-role {
+    font-weight: 600;
+    color: #333;
+}
+
+.edu-desc {
+    font-size: 0.95em;
+    color: #444;
+    line-height: 1.4;
+}
+
+/* 手机端适配：时间换行显示 */
+@media (max-width: 600px) {
+    .edu-meta {
+        flex-direction: column;
+    }
+}
