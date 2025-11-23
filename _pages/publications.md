@@ -34,7 +34,7 @@ author_profile: true
     ACM TOIS 2025. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/pdf/2502.18495)    
   - **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval**     
     Zixu Li, Zhiwei Chen, **Haokun Wen**, Zhiheng Fu, Yupeng Hu, and Weili Guan.        
-    In AAAI 2025. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Code]](https://sdu-l.github.io/ENCODER.github.io/)         
+    In AAAI 2025. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [![Code](https://img.shields.io/badge/Code-GitHub-181717)](https://sdu-l.github.io/ENCODER.github.io/)         
   - **FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex Image Retrieval**    
     Bohan Hou, Haoqiang Lin, Xuemeng Song, **Haokun Wen**, Meng Liu, Yupeng Hu, and Xiangyu Zhao.    
     In SIGIR 2025. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://dl.acm.org/doi/10.1145/3726302.3729979)       
@@ -48,7 +48,7 @@ author_profile: true
 **2024**  
   - **Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval**   
     **Haokun Wen**, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua.      
-    In ACM SIGIR 2024 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/abs/2404.15875) [[Code]](https://github.com/haokunwen/DQU-CIR) [[Slides]](http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf) [[BibTex]](https://dblp.org/rec/conf/sigir/WenSCWNC24.html?view=bibtex)  
+    In ACM SIGIR 2024 (full paper). [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/abs/2404.15875) [[Code]](https://github.com/haokunwen/DQU-CIR) [![Slides](https://img.shields.io/badge/Slides-PDF-0056b3)](http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf) [[BibTex]](https://dblp.org/rec/conf/sigir/WenSCWNC24.html?view=bibtex)  
 
   - **Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval**    
     **Haokun Wen**, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.   
