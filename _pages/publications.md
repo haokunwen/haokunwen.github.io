@@ -78,18 +78,23 @@ author_profile: true
   <a href="https://arxiv.org/pdf/2506.03642"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
+<details>
+  <summary>A Comprehensive Survey on Composed Image Retrieval</summary>
+  <pre><code>@inproceedings{zhang2025spatial,
+  title={Spatial Understanding from Videos: Structured Prompts Meet Simulation Data},
+  author={Zhang, Haoyu and Liu, Meng and Li, Zaijing and Wen, Haokun and Guan, Weili and Wang, Yaowei and Nie, Liqiang},
+  booktitle={NeurIPS},
+  year={2025}
+}</code></pre>
+</details>
+<div class="pub-content">
+  Xuemeng Song, Haoqiang Lin, <b>Haokun Wen</b>, Bohan Hou, Mingzhu Xu, and Liqiang Nie.<br>
+  ACM TOIS 2025.
+  <a href="https://arxiv.org/pdf/2502.18495"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+</div>
     
-## 2025
----
-  - **Multi-modal Recommendation with Joint Content and Interaction Augmentation**     
-    Jiajie Deng, **Haokun Wen**, Xiao Han, Xuemeng Song, and Xiangyu Zhao.     
-    In MMAsia 2025.     
-  - **Spatial Understanding from Videos: Structured Prompts Meet Simulation Data**      
-    Haoyu Zhang, Meng Liu, Zaijing Li, **Haokun Wen**, Weili Guan, Yaowei Wang, and Liqiang Nie.    
-    In NeurIPS 2025. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/pdf/2506.03642?)    
-  - **A Comprehensive Survey on Composed Image Retrieval**     
-    Xuemeng Song, Haoqiang Lin, **Haokun Wen**, Bohan Hou, Mingzhu Xu, and Liqiang Nie.    
-    ACM TOIS 2025. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://arxiv.org/pdf/2502.18495)    
+
+ 
   - **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval**     
     Zixu Li, Zhiwei Chen, **Haokun Wen**, Zhiheng Fu, Yupeng Hu, and Weili Guan.        
     In AAAI 2025. [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [![Code](https://img.shields.io/badge/Code-GitHub-181717)](https://sdu-l.github.io/ENCODER.github.io/)         
