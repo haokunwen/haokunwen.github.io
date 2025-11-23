@@ -188,7 +188,9 @@ numpages = {54},
   <pre><code>@inproceedings{chen2025hud,
   title={HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval},
   author={Chen, Zhiwei and Hu, Yupeng and Li, Zixu and Fu, Zhiheng and Wen, Haokun and Guan, Weili},
-  booktitle={ACM Multimedia (ACM MM)},
+  booktitle={Proceedings of the ACM International Conference on Multimedia},
+  pages = {6143–6152},
+  publisher = {{ACM}},
   year={2025}
 }</code></pre>
 </details>
