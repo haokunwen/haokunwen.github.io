@@ -417,17 +417,17 @@ details pre {
 
 .award-item {
     display: flex;
-    align-items: flex-start; /* 保持顶部对齐，通过margin微调 */
-    margin-bottom: 25px;
+    align-items: flex-start;
+    margin-bottom: 20px;     /* 卡片间距也稍微减小，更紧凑 */
     position: relative;
 }
 
-/* 1. 修复圆点位置 */
+/* 1. 圆点位置修正 */
 .award-item::before {
     content: '';
     position: absolute;
     left: -27px; 
-    top: 26px;   /* ✨关键修改：加大这个值，让圆点下移，对齐标题中心 */
+    top: 20px;   /* ✨上移：因为卡片变矮了，圆点也要跟着往上走 (原26px -> 20px) */
     width: 12px;
     height: 12px;
     background: #fff;
@@ -448,7 +448,7 @@ details pre {
     background: #fffbe6;
 }
 
-/* 2. 修复年份位置 */
+/* 2. 年份位置修正 */
 .award-year {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -456,53 +456,66 @@ details pre {
     color: #0e2e4e;
     min-width: 50px;
     margin-right: 20px;
-    padding-top: 22px; /* ✨关键修改：增加顶部内边距，让年份文字下移 */
+    padding-top: 12px; /* ✨减小：与卡片文字起始位置对齐 (原18px -> 12px) */
     text-align: right;
-    line-height: 1.2;  /* 控制行高，防止本身太高 */
+    line-height: 1.2;
 }
 
-/* 3. 卡片样式 (保持舒适的留白) */
+/* 3. 卡片高度变窄 */
 .award-content {
     flex-grow: 1;
-    background: #fcfcfc; /* 稍微带一点点灰度的白，更有质感 */
-    padding: 18px 20px;  /* 上下留白 */
+    background: #fcfcfc;
+    padding: 12px 20px;  /* ✨减小：上下内边距变小，方框高度缩减 (原18px -> 12px) */
     border-radius: 8px;
     border: 1px solid #f0f0f0;
-    /* box-shadow: 0 2px 8px rgba(0,0,0,0.02);  如果不想要阴影可以注释掉这一行 */
     position: relative;
     transition: all 0.2s ease;
 }
 
 .award-item:hover .award-content {
     background: #fff;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     transform: translateY(-2px);
     border-color: #e9ecef;
 }
 
-/* 4. 标题样式 */
+/* 4. 左侧小三角 (位置微调) */
+.award-content::after {
+    content: '';
+    position: absolute;
+    top: 18px;   /* ✨上移：跟随圆点高度 (原24px -> 18px) */
+    left: -6px;
+    width: 10px;
+    height: 10px;
+    background: #fcfcfc; /* 颜色要和卡片背景一致 */
+    border-left: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    transform: rotate(45deg);
+}
+.award-item:hover .award-content::after {
+    background: #fff; /* 悬停时变白 */
+}
+
+/* 标题和描述 */
 .award-title {
     font-size: 1.1em;
     font-weight: 700;
     color: #222;
     display: block;
-    margin-bottom: 4px; /* 标题和机构名称的间距 */
-    line-height: 1.2;   /* 确保标题行高紧凑 */
+    margin-bottom: 3px; /* 减小标题和下方文字的间距 */
+    line-height: 1.2;
 }
 
 .award-desc {
     font-size: 0.95em;
     color: #666;
     display: block;
+    line-height: 1.4;
 }
 
-.author__avatar img {
-    border-radius: 10px !important;
-    /* 保持比例，自动裁剪多余部分，防止变形 */
-    object-fit: cover !important; 
-    /* 确保填满容器 */
-    height: 100% !important; 
-    width: 100% !important;
+/* 图标 */
+.award-title i {
+    margin-right: 8px;
 }
 
 /* === 顶部导航栏美化 (Navigation Bar) === */
