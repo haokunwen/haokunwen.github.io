@@ -77,7 +77,17 @@ redirect_from:
     </div>
   </li>
 
-  <!-- 2. 优秀毕业生 -->
+  <li class="award-item">
+    <div class="award-year">2023</div>
+    <div class="award-content">
+      <span class="award-title">
+        CSC Scholarship
+      </span>
+      <span class="award-desc">China Scholarship Council</span>
+    </div>
+  </li>
+
+
   <li class="award-item">
     <div class="award-year">2022</div>
     <div class="award-content">
