@@ -606,14 +606,27 @@ details pre {
 }
 /* === 修复隐藏标题后的顶部留白 === */
 
-/* 1. 强制去掉正文中第一个标题的顶部间距 */
-.page__content h2:first-of-type,
-.page__content h3:first-of-type {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-}
-
-/* 2. 微调内容容器的顶部内边距 (如果上面的不够，加上这一条) */
+/* 1. 消除内容容器的顶部内边距 */
 .page__inner-wrap {
     padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* 2. 针对 archive 布局 (Publications/Patents) 的第一个标题 */
+/* 同时尝试多种选择器，确保命中 */
+.archive h2:first-of-type,
+.page__content h2:first-of-type,
+.page__content > h2:first-child,
+h2#preprints { /* 针对 Preprints 这个特定 ID */
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    
+    /* 🔥 核武器：如果还是不够高，用负边距强行往上提 */
+    /* 你可以根据实际情况调整这个数字，比如 -10px 或 -20px */
+    margin-top: -10px !important; 
+}
+
+/* 3. 针对 Services 这种普通页面的第一个内容 */
+.page__content .services-wrapper {
+    margin-top: -10px !important;
 }
