@@ -495,3 +495,12 @@ details pre {
     color: #666;
     display: block;
 }
+
+.author__avatar img {
+    border-radius: 10px !important;
+    /* 保持比例，自动裁剪多余部分，防止变形 */
+    object-fit: cover !important; 
+    /* 确保填满容器 */
+    height: 100% !important; 
+    width: 100% !important;
+}
