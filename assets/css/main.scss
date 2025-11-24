@@ -585,8 +585,8 @@ details pre {
 /* === 强制头像长方形 + 缩小尺寸 === */
 .author__avatar img {
     /* 1. 调整大小：这里改为 70% 或者具体的像素如 180px */
-    width: 90% !important; 
-    max-width: 300px !important; /* 限制最大宽度，防止过大 */
+    width: 100% !important; 
+    max-width: 350px !important; /* 限制最大宽度，防止过大 */
     
     /* 2. 保持比例 */
     height: auto !important;
