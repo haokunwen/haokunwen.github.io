@@ -599,3 +599,8 @@ details pre {
     display: block !important;
     margin: 0 auto !important; 
 }
+
+/* === 隐藏页面顶部的大标题 (如 Patents, Publications) === */
+.page__title {
+    display: none !important;
+}
