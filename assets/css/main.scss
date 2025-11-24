@@ -507,50 +507,62 @@ details pre {
 
 /* === 顶部导航栏美化 (Navigation Bar) === */
 
-/* === 顶部导航栏美化 (暴力增强版) === */
+/* === 顶部导航栏美化 (最终修复版) === */
 
-/* 同时选中多种可能的类名，确保覆盖 */
+/* 1. 针对导航链接的基础样式 */
 .masthead .visible-links a,
-.greedy-nav .visible-links a,
-.masthead__menu .visible-links a {
-    font-size: 1.25em !important;      /* 加大字号 */
-    font-weight: 800 !important;       /* 加粗 */
-    color: #555 !important;            /* 深灰色 */
-    margin-left: 25px !important;      /* 拉大间距 */
-    text-decoration: none !important;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    position: relative; /* 为了下划线动画 */
+.greedy-nav .visible-links a {
+    /* --- 字体优化 --- */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    font-size: 1.15em !important;      /* 稍微调小一点，显得精致 */
+    font-weight: 600 !important;       /* 改为 600 (半粗)，不要用 800，太重了不好看 */
+    color: #444 !important;            /* 深灰色，比纯黑更有质感 */
+    margin-left: 25px !important;      /* 保持间距 */
+    
+    /* --- 核心：清除默认下划线 --- */
+    text-decoration: none !important;  /* 去掉默认的文字下划线 */
+    border-bottom: none !important;    /* 去掉可能的底部边框 */
+    background: none !important;       /* 去掉可能的背景色 */
+    
+    position: relative;                /* 为自定义动画做定位准备 */
+    padding-bottom: 5px;               /* 给文字底部留点呼吸空间 */
 }
 
-/* 鼠标悬停变色 */
+/* 2. 鼠标悬停变色 */
 .masthead .visible-links a:hover,
 .greedy-nav .visible-links a:hover {
-    color: #0056b3 !important; /* 变成你的主题蓝 */
+    color: #0056b3 !important;         /* 悬停变成主题蓝 */
+    text-decoration: none !important;  /* 再次确保没有默认下划线 */
 }
 
-/* 动态下划线动画 */
+/* 3. 自定义动态线条 (只留这一条) */
 .masthead .visible-links a::after,
 .greedy-nav .visible-links a::after {
     content: '';
     position: absolute;
     width: 0;
-    height: 3px; /* 线条稍微粗一点 */
-    bottom: -5px;
+    height: 3px;          /* 线条厚度 */
+    bottom: 0;            /* 紧贴 padding 底部 */
     left: 50%;
-    background-color: #0056b3;
-    transition: all 0.3s ease-in-out;
-    transform: translateX(-50%); /* 居中修正 */
+    background-color: #0056b3; /* 蓝色线条 */
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); /* 更有弹性的动画 */
+    transform: translateX(-50%); /* 居中 */
+    opacity: 0;           /* 默认隐藏 */
 }
 
+/* 悬停时线条展开 */
 .masthead .visible-links a:hover::after,
 .greedy-nav .visible-links a:hover::after {
-    width: 100%;
+    width: 100%;          /* 展开到 100% */
+    opacity: 1;           /* 显示 */
 }
 
-/* 左侧 Site Title 也加大 */
+/* 4. 左侧 Site Title (名字) 优化 */
 .masthead__site-title,
 .masthead__site-title a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
     font-size: 1.5em !important;
-    font-weight: 900 !important;
+    font-weight: 700 !important; /* 稍微减重，更清爽 */
     color: #0e2e4e !important;
+    text-decoration: none !important;
 }
