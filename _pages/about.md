@@ -6,8 +6,12 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-
+---
 I'm currently a Ph.D. student in the [School of Computer Science and Technology](http://cs.hitsz.edu.cn/), [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/index.html), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Xuemeng Song](https://xuemengsong.github.io/). I am also a joint Ph.D. student in the [School of Data Science](https://www.sdsc.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/), participating in the CityU-HIT Joint PhD Programme under the supervision of Prof. [Xiangyu Zhao](https://www.cityu.edu.hk/). My research interests include multimedia computing and information retrieval.
+
+<div class="bio-text">
+  I'm currently a Ph.D. student in the <a href="http://cs.hitsz.edu.cn/">School of Computer Science and Technology</a>, <a href="https://www.hitsz.edu.cn/index.html">Harbin Institute of Technology (Shenzhen)</a>, under the supervision of Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> and Prof. <a href="https://xuemengsong.github.io/">Xuemeng Song</a>. I am also a joint Ph.D. student in the <a href="https://www.sdsc.cityu.edu.hk/">School of Data Science</a> at <a href="https://www.cityu.edu.hk/">City University of Hong Kong</a>, participating in the CityU-HIT Joint PhD Programme under the supervision of Prof. <a href="https://www.cityu.edu.hk/">Xiangyu Zhao</a>. My research interests include multimedia computing and information retrieval.
+</div>
 
 ## Education
 ---
