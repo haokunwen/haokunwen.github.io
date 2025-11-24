@@ -507,43 +507,50 @@ details pre {
 
 /* === 顶部导航栏美化 (Navigation Bar) === */
 
-/* 1. 针对右侧菜单 (Publications, Patents, Services) */
-.masthead__inner .visible-links a {
-    font-size: 1.15em !important;       /* 字体加大 (原版约为 1em) */
-    font-weight: 700 !important;        /* 加粗 */
-    color: #495057 !important;          /* 颜色加深 (深灰色)，比纯黑柔和 */
-    margin-left: 20px;                  /* 增加间距，不那么拥挤 */
-    position: relative;
-    text-decoration: none;              /* 去掉默认下划线 */
-    transition: color 0.3s ease;
+/* === 顶部导航栏美化 (暴力增强版) === */
+
+/* 同时选中多种可能的类名，确保覆盖 */
+.masthead .visible-links a,
+.greedy-nav .visible-links a,
+.masthead__menu .visible-links a {
+    font-size: 1.25em !important;      /* 加大字号 */
+    font-weight: 800 !important;       /* 加粗 */
+    color: #555 !important;            /* 深灰色 */
+    margin-left: 25px !important;      /* 拉大间距 */
+    text-decoration: none !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    position: relative; /* 为了下划线动画 */
 }
 
-/* 2. 鼠标悬停效果 (变蓝 + 底部线条) */
-.masthead__inner .visible-links a:hover {
-    color: #0056b3 !important;          /* 悬停变成你的主题亮蓝 */
+/* 鼠标悬停变色 */
+.masthead .visible-links a:hover,
+.greedy-nav .visible-links a:hover {
+    color: #0056b3 !important; /* 变成你的主题蓝 */
 }
 
-/* 这是一个高级的动态下划线动画，鼠标移上去会从中间展开 */
-.masthead__inner .visible-links a::after {
+/* 动态下划线动画 */
+.masthead .visible-links a::after,
+.greedy-nav .visible-links a::after {
     content: '';
     position: absolute;
     width: 0;
-    height: 2px;
+    height: 3px; /* 线条稍微粗一点 */
     bottom: -5px;
     left: 50%;
     background-color: #0056b3;
     transition: all 0.3s ease-in-out;
+    transform: translateX(-50%); /* 居中修正 */
 }
 
-.masthead__inner .visible-links a:hover::after {
+.masthead .visible-links a:hover::after,
+.greedy-nav .visible-links a:hover::after {
     width: 100%;
-    left: 0;
 }
 
-/* 3. 针对左侧的主标题 (Haokun Wen's Homepage) */
-.masthead__site-title {
-    font-size: 1.4em !important;        /* 标题也同步加大，保持比例 */
-    font-weight: 800 !important;        /* 特粗 */
-    color: #0e2e4e !important;          /* 使用你的主题深蓝 */
-    font-family: 'Inter', sans-serif;   /* 确保字体统一 */
+/* 左侧 Site Title 也加大 */
+.masthead__site-title,
+.masthead__site-title a {
+    font-size: 1.5em !important;
+    font-weight: 900 !important;
+    color: #0e2e4e !important;
 }
