@@ -604,3 +604,16 @@ details pre {
 .page__title {
     display: none !important;
 }
+/* === 修复隐藏标题后的顶部留白 === */
+
+/* 1. 强制去掉正文中第一个标题的顶部间距 */
+.page__content h2:first-of-type,
+.page__content h3:first-of-type {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* 2. 微调内容容器的顶部内边距 (如果上面的不够，加上这一条) */
+.page__inner-wrap {
+    padding-top: 0 !important;
+}
