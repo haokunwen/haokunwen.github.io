@@ -12,7 +12,7 @@ redirect_from:
 </div>
 
 ## Education
----
+
   <div align="left">
           <a target="_blank" rel="external">
             <img border="0" src="https://haokunwen.github.io/images/CityU-LOGO.png" align="right" width="120" height="54">
@@ -63,7 +63,7 @@ redirect_from:
   Bachelor in the School of Computer Science and Technology
 
 ## Honors & Awards
----
+
 <ul class="award-list">
 
 
