@@ -579,3 +579,12 @@ details pre {
     color: #0e2e4e !important;
     text-decoration: none !important;
 }
+
+
+/* === 强制头像变长方形 === */
+.author__avatar img {
+    border-radius: 6px !important; /*稍微一点圆角好看，0就是直角*/
+    width: 95% !important;
+    height: auto !important; /* 自动高度，防止长方形被压扁 */
+    object-fit: cover;
+}
