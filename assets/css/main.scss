@@ -708,3 +708,18 @@ h2#preprints { /* 针对 Preprints 这个特定 ID */
     font-weight: 600;
 }
 
+/* === 修复导航栏标题左侧对齐 === */
+.masthead__site-title {
+    /* 核心代码：使用负边距向左移动 */
+    margin-left: -20px !important; 
+}
+
+/* 如果你的网页在超大屏幕上还是没对齐，可以微调上面的数字 */
+/* 比如改成 -15px 或者 -25px，直到视觉上和下面图片的左边线对齐为止 */
+
+/* (可选) 防止手机端靠太左 */
+@media (max-width: 768px) {
+    .masthead__site-title {
+        margin-left: 0 !important; /* 手机上恢复默认，防止贴边 */
+    }
+}
