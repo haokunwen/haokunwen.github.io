@@ -3,6 +3,8 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+layout: archive
+footer: true
 redirect_from: 
   - /about/
   - /about.html
