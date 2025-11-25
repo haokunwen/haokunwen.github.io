@@ -28,6 +28,20 @@ layout: compress
   {% endcomment %}
 
     {% include scripts.html %}
-    
+
+    <!-- 强制插入页脚开始 -->
+<div class="page__footer">
+  <footer>
+    <div class="page__footer-follow">
+      <ul class="social-icons">
+        <!-- 这里可以放社交图标，如果不需要可以留空 -->
+      </ul>
+    </div>
+    <div class="page__footer-copyright">
+      <!-- 这里引用你在 _includes/footer.html 里写的内容 -->
+      {% include footer.html %}
+    </div>
+  </footer>
+</div>
   </body>
 </html>
