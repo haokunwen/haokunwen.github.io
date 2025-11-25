@@ -8,3 +8,31 @@
     Site last updated: {{ site.time | date: "%B %d, %Y" }}
   </span>
 </div>
+
+<!-- 自动高亮当前导航菜单的脚本 -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // 1. 获取当前页面的路径 (例如 /publications/)
+    var currentPath = window.location.pathname;
+
+    // 2. 获取导航栏所有链接
+    var navLinks = document.querySelectorAll('.visible-links a');
+
+    // 3. 遍历链接，找到匹配的那个
+    navLinks.forEach(function(link) {
+      // 获取链接的 href 属性
+      var linkPath = link.getAttribute('href');
+
+      // 4. 智能匹配逻辑
+      // 情况A: 完全相等 (例如 /patents/ 等于 /patents/)
+      // 情况B: 忽略末尾斜杠的差异 (例如 /patents 对比 /patents/)
+      if (linkPath === currentPath || 
+          linkPath === currentPath + '/' || 
+          linkPath + '/' === currentPath) {
+          
+          // 匹配成功！添加 CSS 类
+          link.classList.add('nav-active');
+      }
+    });
+  });
+</script>
