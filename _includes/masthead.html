@@ -6,14 +6,24 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
+          <!-- 首页链接 (左上角名字) -->
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          
+          <!-- 循环生成导航菜单 -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            
+            <!-- ✨✨ 核心修改在下面这一行 ✨✨ -->
+            <li class="masthead__menu-item">
+              <a href="{{ domain }}{{ link.url }}" 
+                 {% if link.url == page.url %}class="nav-active"{% endif %}>
+                 {{ link.title }}
+              </a>
+            </li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
