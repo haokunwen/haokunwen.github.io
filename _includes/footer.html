@@ -9,34 +9,4 @@
   </span>
 </div>
 
-<!-- 导航栏高亮脚本 (路径精准匹配版) -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    // 1. 获取当前页面的路径 (不含域名，例如 /publications/)
-    // replace(/\/$/, "") 的作用是去掉末尾的斜杠，统一格式
-    var currentPath = window.location.pathname.replace(/\/$/, "");
-    
-    // 2. 获取所有导航链接
-    var navLinks = document.querySelectorAll('.visible-links a');
 
-    navLinks.forEach(function(link) {
-      // 3. 提取链接的路径部分 (利用 URL 对象，忽略 http://域名)
-      try {
-        var linkObj = new URL(link.href);
-        var linkPath = linkObj.pathname.replace(/\/$/, "");
-
-        // 4. 特殊处理首页：如果路径是空字符串，视为根路径
-        if (currentPath === "") currentPath = "/";
-        if (linkPath === "") linkPath = "/";
-
-        // 5. 对比路径
-        if (currentPath === linkPath) {
-          link.classList.add('current-page');
-        }
-      } catch (e) {
-        // 防止旧浏览器报错，忽略
-        console.log("URL parsing error", e);
-      }
-    });
-  });
-</script>
