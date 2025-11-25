@@ -633,8 +633,9 @@ h2#preprints { /* 针对 Preprints 这个特定 ID */
 
 
 /* === 导航栏当前页面高亮 (Active State) === */
-.masthead .visible-links a.nav-active,
-.greedy-nav .visible-links a.nav-active {
+/* 定义一个专用的高亮类名 .current-page */
+.masthead .visible-links a.current-page,
+.greedy-nav .visible-links a.current-page {
     background-color: #e6f2ff !important; /* 浅蓝背景 */
     color: #0056b3 !important;            /* 深蓝文字 */
     border-radius: 6px;
@@ -644,10 +645,17 @@ h2#preprints { /* 针对 Preprints 这个特定 ID */
     transition: all 0.2s ease;
 }
 
-/* 高亮时隐藏下划线 */
-.masthead .visible-links a.nav-active::after,
-.greedy-nav .visible-links a.nav-active::after {
+/* 高亮时，强制隐藏底部的动态线条 */
+.masthead .visible-links a.current-page::after,
+.greedy-nav .visible-links a.current-page::after {
     display: none !important;
+    width: 0 !important;
+}
+
+/* 悬停时保持背景色 */
+.masthead .visible-links a.current-page:hover {
+    background-color: #dbeeff !important;
+    color: #004494 !important;
 }
 
 
