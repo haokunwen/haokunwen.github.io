@@ -655,3 +655,48 @@ h2#preprints { /* 针对 Preprints 这个特定 ID */
     background-color: #dbeeff !important;
 }
 
+
+/* === 页脚 (Footer) 终极美化 === */
+
+/* 1. 外层容器：去掉灰背景，改用清爽的顶部分割线 */
+.page__footer {
+    background-color: transparent !important; /* 去掉灰色背景 */
+    margin-top: 40px !important;              /* 和正文拉开距离 */
+    padding-top: 20px !important;             /* 内部留白 */
+    padding-bottom: 30px !important;          /* 底部留白 */
+    border-top: 1px solid #eaeaea !important; /* 加一条淡淡的灰线 */
+    color: #555 !important;                   /* 字体颜色加深 */
+}
+
+/* 2. 内部 footer 标签 */
+.page__footer footer {
+    /* 确保去掉所有可能的背景和边距 */
+    background: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: none !important;    /* 防止浮动导致的错位 */
+    text-align: center !important; /* 强制居中 */
+    width: 100% !important;
+}
+
+/* 3. 版权文字：加大、加粗 */
+.page__footer-copyright {
+    font-size: 1em !important;    /* 字体改大 (原版是 0.75em) */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6 !important;
+    color: #333 !important;       /* 深灰色，清晰 */
+    text-align: center !important; /* 文字居中 */
+    display: block !important;
+}
+
+/* 4. 链接颜色 (Powered by Jekyll 那部分) */
+.page__footer-copyright a {
+    color: #0056b3 !important;    /* 链接变蓝 */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.page__footer-copyright a:hover {
+    text-decoration: underline;
+}
+
