@@ -519,66 +519,85 @@ details pre {
 }
 
 /* === 顶部导航栏美化 (Navigation Bar) === */
+/* === 顶部导航栏最终修正 (位置 & 样式) === */
 
-/* === 顶部导航栏美化 (最终修复版) === */
+/* 1. 修正列表容器 (关键！防止整体向右偏移) */
+.masthead .visible-links,
+.greedy-nav .visible-links {
+    padding-left: 0 !important; /* 清除列表左边距 */
+    margin-left: 0 !important;  /* 清除列表左外边距 */
+    display: flex;              /* 确保是弹性布局 */
+    align-items: center;        /* 垂直居中 */
+}
 
-/* 1. 针对导航链接的基础样式 */
+/* 2. 针对导航链接 (Publications, Patents, Services) */
 .masthead .visible-links a,
 .greedy-nav .visible-links a {
-    /* --- 字体优化 --- */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-    font-size: 1.15em !important;      /* 稍微调小一点，显得精致 */
-    font-weight: 600 !important;       /* 改为 600 (半粗)，不要用 800，太重了不好看 */
-    color: #444 !important;            /* 深灰色，比纯黑更有质感 */
-    margin-left: 15px !important;      /* 保持间距 */
-    
-    /* --- 核心：清除默认下划线 --- */
-    text-decoration: none !important;  /* 去掉默认的文字下划线 */
-    border-bottom: none !important;    /* 去掉可能的底部边框 */
-    background: none !important;       /* 去掉可能的背景色 */
-    
-    position: relative;                /* 为自定义动画做定位准备 */
-    padding-bottom: 5px;               /* 给文字底部留点呼吸空间 */
-}
-
-/* 2. 鼠标悬停变色 */
-.masthead .visible-links a:hover,
-.greedy-nav .visible-links a:hover {
-    color: #0056b3 !important;         /* 悬停变成主题蓝 */
-    text-decoration: none !important;  /* 再次确保没有默认下划线 */
-}
-
-/* 3. 自定义动态线条 (只留这一条) */
-.masthead .visible-links a::after,
-.greedy-nav .visible-links a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 3px;          /* 线条厚度 */
-    bottom: 0;            /* 紧贴 padding 底部 */
-    left: 50%;
-    background-color: #0056b3; /* 蓝色线条 */
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); /* 更有弹性的动画 */
-    transform: translateX(-50%); /* 居中 */
-    opacity: 0;           /* 默认隐藏 */
-}
-
-/* 悬停时线条展开 */
-.masthead .visible-links a:hover::after,
-.greedy-nav .visible-links a:hover::after {
-    width: 100%;          /* 展开到 100% */
-    opacity: 1;           /* 显示 */
-}
-
-/* 4. 左侧 Site Title (名字) 优化 */
-.masthead__site-title,
-.masthead__site-title a {
+    /* --- 字体设置 --- */
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
-    font-size: 1.5em !important;
-    font-weight: 700 !important; /* 稍微减重，更清爽 */
-    color: #0e2e4e !important;
+    font-size: 1.2em !important;       /* 稍微大一点点，保持清晰 */
+    font-weight: 600 !important;       /* 半粗体，清爽 */
+    color: #555 !important;            /* 深灰 */
+    
+    /* --- 间距控制 (核心修改) --- */
+    margin-left: 10px !important;      /* ✨ 改为 10px，让它们靠得更近 */
+    margin-right: 0 !important;        /* 确保右边没有多余间距 */
+    
+    /* --- 布局 --- */
     text-decoration: none !important;
+    padding-bottom: 5px;
+    position: relative;
+    background: none !important;
 }
+
+/* 3. 激活状态 (Active Tab) - 清新空气感 */
+.masthead .visible-links a.active-tab,
+.greedy-nav .visible-links a.active-tab {
+    /* 背景：极淡的蓝色 */
+    background-color: rgba(0, 86, 179, 0.06) !important;
+    color: #0056b3 !important;         /* 文字深蓝 */
+    
+    border-radius: 6px;
+    
+    /* 撑开一点空间，让底色框好看 */
+    padding: 5px 12px !important;      
+    
+    /* 因为加了 padding，框变宽了，所以稍微调整左边距，保持视觉平衡 */
+    margin-left: 10px !important;      
+    
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* 悬停微调 */
+.masthead .visible-links a.active-tab:hover {
+    background-color: rgba(0, 86, 179, 0.1) !important;
+}
+
+/* 4. 普通链接悬停 */
+.masthead .visible-links a:hover {
+    color: #0056b3 !important;
+}
+
+/* 5. 确保下划线和动态线条全部隐藏 */
+.masthead .visible-links a::after,
+.masthead .visible-links a.active-tab::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* 6. 左侧 Site Title (名字) 保持不变 */
+.masthead__menu-item--lg {
+    margin-left: 0 !important; /* 这里因为我们之前用了transform，这里设为0即可 */
+    padding-left: 0 !important;
+}
+/* 配合之前的 transform 修正左侧对齐 (保留你之前的设置) */
+.masthead__menu-item--lg {
+    transform: translateX(-20px) !important; /* 保持你之前的左移设置 */
+}
+
 
 
 /* === 强制头像变长方形 === */
