@@ -6,11 +6,10 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <!-- 1. 首页链接 (左上角名字) -->
-          <!-- 逻辑：如果当前页面是首页(/)，给名字也加高亮(可选)，这里暂时不加 -->
+          <!-- 1. 首页链接 -->
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
 
-          <!-- 2. 循环生成菜单项 -->
+          <!-- 2. 循环生成菜单 -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -18,22 +17,34 @@
               {% assign domain = base_path %}
             {% endif %}
 
-            <!-- ✨✨ 核心修改：Liquid 智能判断 ✨✨ -->
-            <!-- 逻辑：如果当前页面 URL 包含了菜单链接 (且菜单不是首页)，或者两者完全相等，就激活 -->
-            {% assign active_class = "" %}
+            <!-- ✨✨ 核心修复逻辑开始 ✨✨ -->
             
+            {% assign active_status = "" %}
+            
+            <!-- 步骤A: 获取“干净”的路径 (把斜杠全删了，只留字母) -->
+            <!-- 例如 /publications/ 变成 publications -->
+            {% assign link_clean = link.url | remove: "/" %}
+            {% assign page_clean = page.url | remove: "/" %}
+
+            <!-- 步骤B: 智能对比 -->
             {% if link.url == "/" %}
-              {% if page.url == "/" %}
-                {% assign active_class = "active-tab" %}
-              {% endif %}
+                <!-- B1: 如果是首页，必须严格相等 (防止所有页面都高亮首页) -->
+                {% if page.url == "/" %}{% assign active_status = "active-tab" %}{% endif %}
             {% else %}
-              {% if page.url contains link.url %}
-                {% assign active_class = "active-tab" %}
-              {% endif %}
+                <!-- B2: 其他页面 -->
+                <!-- 情况1: 干净路径完全相等 (解决斜杠不一致问题) -->
+                {% if link_clean == page_clean %}
+                    {% assign active_status = "active-tab" %}
+                <!-- 情况2: 当前页面包含菜单路径 (解决子页面高亮问题) -->
+                {% elsif page.url contains link.url %}
+                    {% assign active_status = "active-tab" %}
+                {% endif %}
             {% endif %}
+            
+            <!-- ✨✨ 逻辑结束 ✨✨ -->
 
             <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}" class="{{ active_class }}">
+              <a href="{{ domain }}{{ link.url }}" class="{{ active_status }}">
                 {{ link.title }}
               </a>
             </li>
