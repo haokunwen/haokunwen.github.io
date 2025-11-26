@@ -708,8 +708,8 @@ h2#preprints { /* 针对 Preprints 这个特定 ID */
     
     /* --- 关键：紧凑布局 --- */
     display: inline-block !important;
-    margin-left: 5px !important;      /* 极小的左间距，让它们靠在一起 */
-    margin-right: 5px !important;     /* 右边也留一点点 */
+    margin-left: 10px !important;      /* 极小的左间距，让它们靠在一起 */
+    margin-right: 20px !important;     /* 右边也留一点点 */
     
     text-decoration: none !important;
     padding: 6px 12px !important;     /* 给文字周围留出呼吸空间 */
