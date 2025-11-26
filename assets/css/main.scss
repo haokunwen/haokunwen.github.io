@@ -633,29 +633,30 @@ h2#preprints { /* 针对 Preprints 这个特定 ID */
 
 
 /* === 导航栏当前页面高亮 (Active State) === */
-/* 定义一个专用的高亮类名 .current-page */
-.masthead .visible-links a.current-page,
-.greedy-nav .visible-links a.current-page {
-    background-color: #e6f2ff !important; /* 浅蓝背景 */
+/* === 导航栏当前页底色框样式 (最终版) === */
+
+/* 定义一个高亮类名 */
+.masthead .visible-links a.active-tab,
+.greedy-nav .visible-links a.active-tab {
+    background-color: #e6f2ff !important; /* 浅蓝底色 */
     color: #0056b3 !important;            /* 深蓝文字 */
-    border-radius: 6px;
-    padding: 5px 12px !important;
-    margin-left: 20px !important;
+    border-radius: 6px;                   /* 圆角 */
+    padding: 6px 15px !important;         /* 撑开一点空间 */
+    margin-left: 15px !important;         /* 调整间距 */
     font-weight: 700 !important;
     transition: all 0.2s ease;
 }
 
-/* 高亮时，强制隐藏底部的动态线条 */
-.masthead .visible-links a.current-page::after,
-.greedy-nav .visible-links a.current-page::after {
+/* 高亮时，必须把之前做的“底部动态线条”隐藏掉，否则不好看 */
+.masthead .visible-links a.active-tab::after,
+.greedy-nav .visible-links a.active-tab::after {
     display: none !important;
     width: 0 !important;
 }
 
-/* 悬停时保持背景色 */
-.masthead .visible-links a.current-page:hover {
+/* 悬停在底色框上时，稍微变深一点 */
+.masthead .visible-links a.active-tab:hover {
     background-color: #dbeeff !important;
-    color: #004494 !important;
 }
 
 
