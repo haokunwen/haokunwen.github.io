@@ -6,22 +6,35 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <!-- 首页链接 (左上角名字) -->
+          <!-- 1. 首页链接 (左上角名字) -->
+          <!-- 逻辑：如果当前页面是首页(/)，给名字也加高亮(可选)，这里暂时不加 -->
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          
-          <!-- 循环生成导航菜单 -->
+
+          <!-- 2. 循环生成菜单项 -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
+
+            <!-- ✨✨ 核心修改：Liquid 智能判断 ✨✨ -->
+            <!-- 逻辑：如果当前页面 URL 包含了菜单链接 (且菜单不是首页)，或者两者完全相等，就激活 -->
+            {% assign active_class = "" %}
             
-            <!-- ✨✨ 核心修改在下面这一行 ✨✨ -->
+            {% if link.url == "/" %}
+              {% if page.url == "/" %}
+                {% assign active_class = "active-tab" %}
+              {% endif %}
+            {% else %}
+              {% if page.url contains link.url %}
+                {% assign active_class = "active-tab" %}
+              {% endif %}
+            {% endif %}
+
             <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}" 
-                 {% if link.url == page.url %}class="nav-active"{% endif %}>
-                 {{ link.title }}
+              <a href="{{ domain }}{{ link.url }}" class="{{ active_class }}">
+                {{ link.title }}
               </a>
             </li>
           {% endfor %}
