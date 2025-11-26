@@ -27,7 +27,6 @@ author_profile: true
       <li><span class="venue-name">ICML</span> <span>2025</span></li>
       <li><span class="venue-name">ACM SIGIR-AP</span> <span>2023, 2024</span></li>
       <li><span class="venue-name">SIGKDD</span> <span>2022</span></li>
-      <li><span class="venue-name">MCFR MM</span> <span>2022</span></li>
     </ul>
   </div>
 
