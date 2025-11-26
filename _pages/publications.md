@@ -60,7 +60,7 @@ author_profile: true
   <pre><code>@inproceedings{zuo2026d2mora,
   title={D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation},
   author={Zuo, Jianhui and Song, Xuemeng and Wen, Haokun and Liu, Meng and Hu, Yupeng and Wang, Jiuru and Nie, Liqiang},
-  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
+  booktitle={AAAI Conference on Artificial Intelligence},
   year={2026}
 }</code></pre>
 </details>
@@ -77,7 +77,7 @@ author_profile: true
   <pre><code>@inproceedings{deng2025multimodal,
   title={Multi-modal Recommendation with Joint Content and Interaction Augmentation},
   author={Deng, Jiajie and Wen, Haokun and Han, Xiao and Song, Xuemeng and Zhao, Xiangyu},
-  booktitle={ACM Multimedia Asia (MMAsia)},
+  booktitle={ACM Multimedia Asia},
   year={2025}
 }</code></pre>
 </details>
@@ -259,8 +259,7 @@ numpages = {54}
   <pre><code>@inproceedings{lin2024fine,
   title={Fine-Grained Textual Inversion Network for Zero-Shot Composed Image Retrieval},
   author={Lin, Haoqiang and Wen, Haokun and Song, Xuemeng and Liu, Meng and Hu, Yupeng and Nie, Liqiang},
-  booktitle    = {Proceedings of the International ACM SIGIR Conference on
-                  Research and Development in Information Retrieval},
+  booktitle    = {Proceedings of the International ACM SIGIR Conference on Research and Development in Information Retrieval},
   pages        = {240--250},
   publisher    = {ACM},
   year={2024}
@@ -475,7 +474,7 @@ numpages = {54}
   <pre><code>@inproceedings{yang2020generative,
   title={Generative Attribute Manipulation Scheme for Flexible Fashion Search},
   author={Yang, Xin and Song, Xuemeng and Han, Xianjing and Wen, Haokun and Nie, Jie and Nie, Liqiang},
-  booktitle={Proceedings of the international acm sigir conference on research and development in information retrieval},
+  booktitle={Proceedings of the International ACM SIGIR Conference on Research and Development in Information Retrieval},
   pages={941--950},
   publisher={ACM},
   year={2020}
