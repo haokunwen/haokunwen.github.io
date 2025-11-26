@@ -1,19 +1,19 @@
 {% include base_path %}
+<div class="page__footer-copyright">
+  <!-- 1. 版权信息部分 -->
+  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
 
-
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
-  <!-- ✨ 新增的更新日期代码 ✨ -->
+  <!-- 2. 更新日期部分 (放在同一个 div 里面) -->
   <br>
   <span style="font-size: 0.9em; color: #888;">
     Site last updated: {{ site.time | date: "%B %d, %Y" }}
   </span>
 </div>
 
-<!-- 导航栏自动高亮脚本 (智能包含匹配版) -->
+<!-- 3. 导航栏自动高亮脚本 (智能包含匹配版) -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // 1. 获取当前页面的路径 (例如 /publications/)
-    // 去掉末尾斜杠，并转为小写，保证匹配准确
+    // 1. 获取当前页面的路径 (去掉末尾斜杠，并转为小写)
     var currentPath = window.location.pathname.replace(/\/$/, "").toLowerCase();
     
     // 如果是根路径(首页)，手动设为 /
@@ -23,22 +23,18 @@
     var navLinks = document.querySelectorAll('.visible-links a');
 
     navLinks.forEach(function(link) {
-      // 3. 获取链接的路径
       try {
+        // 3. 获取链接的路径
         var linkPath = new URL(link.href).pathname.replace(/\/$/, "").toLowerCase();
 
-        // 4. 匹配逻辑 (核心)
-        // 规则A: 严格相等 (用于 Publications, Patents 等)
-        // 规则B: 首页特殊处理 (避免所有页面都高亮首页)
-        
+        // 4. 匹配逻辑
         var isMatch = false;
 
         if (currentPath === "/" && linkPath === "/") {
-            // 只有在首页时，才高亮首页链接
+            // 首页只匹配首页链接
             isMatch = true;
         } else if (linkPath !== "/" && currentPath.indexOf(linkPath) === 0) {
-            // 如果不是首页链接，且当前路径包含了链接路径
-            // 例如: 当前是 /publications/paper1，链接是 /publications，也能匹配
+            // 其他页面：如果当前路径包含了链接路径 (例如 /publications/paper1 包含 /publications)
             isMatch = true;
         }
 
