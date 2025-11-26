@@ -714,37 +714,35 @@ h2#preprints { /* 针对 Preprints 这个特定 ID */
 }
 
 
-/* === 导航栏高亮 (最终美化 - 苹果质感增强版) === */
+/* === 导航栏高亮 (清新空气感版) === */
 .masthead .visible-links a.active-tab,
 .greedy-nav .visible-links a.active-tab {
-    /* 1. 背景：明显的蓝白渐变 */
-    background: linear-gradient(180deg, #f0f8ff 0%, #dbeeff 100%) !important;
+    /* 1. 背景：使用透明度极高的蓝色，非常清爽 */
+    background-color: rgba(0, 86, 179, 0.08) !important;
     
-    /* 2. 文字：深蓝 */
+    /* 2. 文字：使用标准的主题蓝 */
     color: #0056b3 !important;
     
-    /* 3. 边框：加深一点，确保能看出来 */
-    border: 1px solid #cce5ff !important;
+    /* 3. 形状：圆角稍微小一点，显得干练 */
     border-radius: 6px;
     
-    /* 4. 阴影：让它浮起来 */
-    box-shadow: 0 4px 6px rgba(0, 86, 179, 0.15) !important;
+    /* 4. 去掉重口味的边框和阴影 */
+    border: none !important;
+    box-shadow: none !important;
     
-    /* 5. 布局 */
+    /* 5. 布局保持不变 */
     padding: 6px 16px !important;
-    margin-left: 20px !important;
+    /* margin-left 会在下一步统一调整 */
     font-weight: 700 !important;
     text-decoration: none !important;
+}
+
+/* 悬停时稍微加深一点点背景 */
+.masthead .visible-links a.active-tab:hover {
+    background-color: rgba(0, 86, 179, 0.15) !important;
 }
 
 /* 隐藏下划线 */
 .masthead .visible-links a.active-tab::after {
     display: none !important;
-    content: none !important;
-}
-
-/* 悬停微调 */
-.masthead .visible-links a.active-tab:hover {
-    background: linear-gradient(180deg, #e6f2ff 0%, #cce5ff 100%) !important;
-    transform: translateY(-1px); /* 微微上浮 */
 }
