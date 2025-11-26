@@ -635,25 +635,29 @@ h2#preprints { /* 针对 Preprints 这个特定 ID */
 /* === 导航栏当前页面高亮 (Active State) === */
 /* === 导航栏当前页底色框样式 (最终版) === */
 
-/* 定义一个高亮类名 */
-/* === 导航栏激活状态样式 (Active Tab) === */
+/* === 导航栏高亮 (方案一：现代质感) === */
 .masthead .visible-links a.active-tab,
 .greedy-nav .visible-links a.active-tab {
-    background-color: #e6f2ff !important; /* 浅蓝背景 */
-    color: #0056b3 !important;            /* 深蓝文字 */
-    border-radius: 6px;
-    padding: 6px 15px !important;         /* 撑开背景 */
+    /* 背景：极淡的蓝白渐变，比纯色更透气 */
+    background: linear-gradient(145deg, #f0f7ff, #e1efff) !important;
+    color: #0056b3 !important;      /* 深蓝文字 */
+    
+    /* 边框与圆角 */
+    border-radius: 8px;             /* 圆角稍微大一点 */
+    border: 1px solid #dcebfb !important; /* 极淡的描边，增加精致感 */
+    
+    /* 布局 */
+    padding: 6px 16px !important;
     margin-left: 20px !important;
     font-weight: 700 !important;
     text-decoration: none !important;
-    border-bottom: none !important;       /* 确保没有下划线 */
+    
+    /* 阴影：关键点，让它微微浮起 */
+    box-shadow: 0 2px 5px rgba(0, 86, 179, 0.1) !important;
 }
 
-/* 隐藏激活状态下的底部动态线条 */
-.masthead .visible-links a.active-tab::after {
-    display: none !important;
-    content: none !important;
-}
+/* 隐藏下划线 */
+.masthead .visible-links a.active-tab::after { display: none !important; }
 
 
 /* === 页脚 (Footer) 终极美化 === */
