@@ -632,33 +632,6 @@ h2#preprints { /* 针对 Preprints 这个特定 ID */
 }
 
 
-/* === 导航栏当前页面高亮 (Active State) === */
-/* === 导航栏当前页底色框样式 (最终版) === */
-
-/* === 导航栏高亮 (方案一：现代质感) === */
-.masthead .visible-links a.active-tab,
-.greedy-nav .visible-links a.active-tab {
-    /* 背景：极淡的蓝白渐变，比纯色更透气 */
-    background: linear-gradient(145deg, #f0f7ff, #e1efff) !important;
-    color: #0056b3 !important;      /* 深蓝文字 */
-    
-    /* 边框与圆角 */
-    border-radius: 8px;             /* 圆角稍微大一点 */
-    border: 1px solid #dcebfb !important; /* 极淡的描边，增加精致感 */
-    
-    /* 布局 */
-    padding: 6px 16px !important;
-    margin-left: 20px !important;
-    font-weight: 700 !important;
-    text-decoration: none !important;
-    
-    /* 阴影：关键点，让它微微浮起 */
-    box-shadow: 0 2px 5px rgba(0, 86, 179, 0.1) !important;
-}
-
-/* 隐藏下划线 */
-.masthead .visible-links a.active-tab::after { display: none !important; }
-
 
 /* === 页脚 (Footer) 终极美化 === */
 
@@ -738,4 +711,40 @@ h2#preprints { /* 针对 Preprints 这个特定 ID */
         text-align: center !important;
         margin: 0 auto !important;
     }
+}
+
+
+/* === 导航栏高亮 (最终美化 - 苹果质感增强版) === */
+.masthead .visible-links a.active-tab,
+.greedy-nav .visible-links a.active-tab {
+    /* 1. 背景：明显的蓝白渐变 */
+    background: linear-gradient(180deg, #f0f8ff 0%, #dbeeff 100%) !important;
+    
+    /* 2. 文字：深蓝 */
+    color: #0056b3 !important;
+    
+    /* 3. 边框：加深一点，确保能看出来 */
+    border: 1px solid #cce5ff !important;
+    border-radius: 6px;
+    
+    /* 4. 阴影：让它浮起来 */
+    box-shadow: 0 4px 6px rgba(0, 86, 179, 0.15) !important;
+    
+    /* 5. 布局 */
+    padding: 6px 16px !important;
+    margin-left: 20px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+}
+
+/* 隐藏下划线 */
+.masthead .visible-links a.active-tab::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* 悬停微调 */
+.masthead .visible-links a.active-tab:hover {
+    background: linear-gradient(180deg, #e6f2ff 0%, #cce5ff 100%) !important;
+    transform: translateY(-1px); /* 微微上浮 */
 }
