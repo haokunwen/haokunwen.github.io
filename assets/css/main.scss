@@ -711,22 +711,30 @@ h2#preprints { /* 针对 Preprints 这个特定 ID */
 /* === 修复导航栏标题左侧对齐 === */
 /* === 修复左侧对齐 (针对你的特殊布局) === */
 
-/* 1. 针对列表中的大标题 (你的情况) */
+/* === 强制导航栏标题左移 (视觉位移法) === */
+
+/* 1. 针对包含标题的那个列表项 */
 .masthead__menu-item--lg {
-    margin-left: -40px !important; /* 向左拉回 20px */
-    padding-left: 0 !important;    /* 清除左内边距 */
+    /* 使用 transform 强制向左平移 */
+    /* 你可以调整这个数字：-20px, -30px, -40px 直到对齐为止 */
+    transform: translateX(-20px) !important; 
+    
+    /* 辅助：消除可能存在的默认内边距 */
+    padding-left: 0 !important;
+    margin-left: 0 !important;
 }
 
-/* 2. 针对标准的标题容器 (以防万一) */
-.masthead__site-title {
-    margin-left: -20px !important;
+/* 2. 同时修正整个菜单列表的左侧间距 (以防万一) */
+.masthead .visible-links {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
 }
 
-/* 3. 手机端恢复原状 (防止贴边太紧) */
+/* 3. 手机端恢复原状 (防止移出屏幕) */
 @media (max-width: 768px) {
-    .masthead__menu-item--lg,
-    .masthead__site-title {
-        margin-left: 0 !important;
-        padding-left: 20px !important; /* 手机端留点空隙好看 */
+    .masthead__menu-item--lg {
+        transform: none !important; /* 手机上不移动 */
+        text-align: center !important;
+        margin: 0 auto !important;
     }
 }
