@@ -84,6 +84,7 @@ author_profile: true
 <div class="pub-content">
   Jiajie Deng, <b>Haokun Wen</b>, Xiao Han, Xuemeng Song, and Xiangyu Zhao.<br>
   <span class="pub-tag tag-conf">MMAsia 2025</span>
+  <a href="https://dl.acm.org/doi/10.1145/3743093.3771016" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>
 
 <details>
