@@ -16,16 +16,15 @@ author_profile: true
     </div>
     <ul class="service-list">
       <li><span class="venue-name">ACM SIGIR</span> <span>2023-2026</span></li>
-      <li><span class="venue-name">ACM MM</span> <span>2023-2025</span></li>
-      <li><span class="venue-name">ACM CIKM</span> <span>2024-2025</span></li>
+      <li><span class="venue-name">ACM MM</span> <span>2023-2026</span></li>
+      <li><span class="venue-name">ACM CIKM</span> <span>2024-2026</span></li>
       <li><span class="venue-name">ACM WSDM</span> <span>2024-2026</span></li>
       <li><span class="venue-name">AAAI</span> <span>2026</span></li>
       <li><span class="venue-name">ICLR</span> <span>2026</span></li>
       <li><span class="venue-name">WWW</span> <span>2026</span></li>
       <li><span class="venue-name">ICML</span> <span>2025</span></li>
-      <li><span class="venue-name">IJCAI</span> <span>2023-2025</span></li>
+      <li><span class="venue-name">IJCAI</span> <span>2023-2026</span></li>
       <li><span class="venue-name">PRCV</span> <span>2023-2025</span></li>
-      <li><span class="venue-name">SIGKDD</span> <span>2022</span></li>
     </ul>
   </div>
 
@@ -43,7 +42,6 @@ author_profile: true
       <li><span class="venue-name">ACM ToMM</span></li>
       <li><span class="venue-name">Information Science</span></li>
       <li><span class="venue-name">IET Image Processing</span></li>
-      <li><span class="venue-name">Scientific Reports</span></li>
     </ul>
   </div>
 
