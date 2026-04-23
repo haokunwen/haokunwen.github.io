@@ -9,6 +9,27 @@ author_profile: true
 ---
 
 <details>
+  <summary>UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval</summary>
+  <pre><code>@article{unicvr,
+  author       = {Haokun Wen and
+                  Xuemeng Song and
+                  Haoyu Zhang and
+                  Xiangyu Zhao and
+                  Weili Guan and
+                  Liqiang Nie},
+  title        = {UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval},
+  journal      = {CoRR},
+  volume       = {abs/2604.20318},
+  year         = {2026}
+}</code></pre>
+</details>
+<div class="pub-content">
+  <b>Haokun Wen</b>, Xuemeng Song, Haoyu Zhang, Xiangyu Zhao, Weili Guan, and Liqiang Nie.<br>
+  <span class="pub-tag tag-preprint">ArXiv Preprint</span>
+  <a href="https://arxiv.org/abs/2604.20318" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+</div>
+
+<details>
   <summary>FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval</summary>
   <pre><code>@article{li2025finecir,
   author       = {Zixu Li and
