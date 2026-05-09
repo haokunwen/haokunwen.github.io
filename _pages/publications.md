@@ -90,6 +90,14 @@ author_profile: true
   <span class="pub-tag tag-conf">AAAI 2026</span>
 </div>
 
+<details>
+  <summary>COMBINER: Composed Image Retrieval Guided by Attribute-based Neighbor Relations</summary>
+</details>
+<div class="pub-content">
+  Zixu Li, Yupeng Hu, Zhiwei Chen, <b>Haokun Wen</b>, Xuemeng Song, and Liqiang Nie.<br>
+  <span class="pub-tag tag-journal">IEEE TIP 2026</span>
+</div>
+
 ## 2025
 ---
 
