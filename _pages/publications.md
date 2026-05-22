@@ -7,6 +7,26 @@ author_profile: true
 
 ## Preprints
 ---
+<details>
+  <summary>FashionLens: Toward Versatile Fashion Image Retrieval via Task-Adaptive Learning</summary>
+  <pre><code>@article{unicvr,
+  author       = {Haokun Wen and
+                  Xuemeng Song and
+                  Xinghao Xie and
+                  Xiaolin Chen and
+                  Xiangyu Zhao and
+                  Weili Guan},
+  title        = {FashionLens: Toward Versatile Fashion Image Retrieval via Task-Adaptive Learning},
+  journal      = {CoRR},
+  volume       = {abs/2605.22552},
+  year         = {2026}
+}</code></pre>
+</details>
+<div class="pub-content">
+  <b>Haokun Wen</b>, Xuemeng Song, Xinghao Xie, Xiaolin Chen, Xiangyu Zhao, and Weili Guan.<br>
+  <span class="pub-tag tag-preprint">ArXiv Preprint</span>
+  <a href="https://arxiv.org/abs/2605.22552" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+</div>
 
 <details>
   <summary>UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval</summary>
