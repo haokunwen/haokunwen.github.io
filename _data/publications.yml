@@ -1,0 +1,224 @@
+# Publication data. Add a new item here; the page renders automatically.
+# type: conference | journal | preprint
+- title: "Diverse-Intent Multi-Turn Fashion Image Retrieval"
+  authors: "Mingqiang Tang, <strong>Haokun Wen</strong>, Meng Liu, Yupeng Hu, Weili Guan, and Xuemeng Song"
+  year: 2026
+  section: "Preprints"
+  type: "preprint"
+  venue: "ArXiv Preprint"
+  paper: "https://arxiv.org/abs/2607.20291"
+  bibtex: |
+    @article{tang2026diverse,
+      author={Mingqiang Tang and Haokun Wen and Meng Liu and Yupeng Hu and Weili Guan and Xuemeng Song},
+      title={Diverse-Intent Multi-Turn Fashion Image Retrieval},
+      journal={CoRR}, volume={abs/2607.20291}, year={2026}
+    }
+
+- title: "FashionLens: Toward Versatile Fashion Image Retrieval via Task-Adaptive Learning"
+  authors: "<strong>Haokun Wen</strong>, Xuemeng Song, Xinghao Xie, Xiaolin Chen, Xiangyu Zhao, and Weili Guan"
+  year: 2026
+  section: "Preprints"
+  type: "preprint"
+  venue: "ArXiv Preprint"
+  paper: "https://arxiv.org/abs/2605.22552"
+
+- title: "UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval"
+  authors: "<strong>Haokun Wen</strong>, Xuemeng Song, Haoyu Zhang, Xiangyu Zhao, Weili Guan, and Liqiang Nie"
+  year: 2026
+  section: "Preprints"
+  type: "preprint"
+  venue: "ArXiv Preprint"
+  paper: "https://arxiv.org/abs/2604.20318"
+
+- title: "FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval"
+  authors: "Zixu Li, Zhiheng Fu, Yupeng Hu, Zhiwei Chen, <strong>Haokun Wen</strong>, and Liqiang Nie"
+  year: 2025
+  section: "Preprints"
+  type: "preprint"
+  venue: "ArXiv Preprint"
+  paper: "https://arxiv.org/pdf/2503.21309"
+
+- title: "Dual Knowledge-Enhanced Two-Stage Reasoner for Multimodal Dialog Systems"
+  authors: "Xiaolin Chen, Xuemeng Song, <strong>Haokun Wen</strong>, Weili Guan, Xiangyu Zhao, and Liqiang Nie"
+  year: 2025
+  section: "Preprints"
+  type: "preprint"
+  venue: "ArXiv Preprint"
+  paper: "https://arxiv.org/abs/2509.07817v1"
+
+- title: "D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation"
+  authors: "Jianhui Zuo, Xuemeng Song, <strong>Haokun Wen</strong>, Meng Liu, Yupeng Hu, Jiuru Wang, and Liqiang Nie"
+  year: 2026
+  type: "conference"
+  venue: "AAAI 2026"
+
+- title: "COMBINER: Composed Image Retrieval Guided by Attribute-based Neighbor Relations"
+  authors: "Zixu Li, Yupeng Hu, Zhiwei Chen, <strong>Haokun Wen</strong>, Xuemeng Song, and Liqiang Nie"
+  year: 2026
+  type: "journal"
+  venue: "IEEE TIP 2026"
+
+- title: "Multi-modal Recommendation with Joint Content and Interaction Augmentation"
+  authors: "Jiajie Deng, <strong>Haokun Wen</strong>, Xiao Han, Xuemeng Song, and Xiangyu Zhao"
+  year: 2025
+  type: "conference"
+  venue: "MMAsia 2025"
+  paper: "https://dl.acm.org/doi/10.1145/3743093.3771016"
+
+- title: "Spatial Understanding from Videos: Structured Prompts Meet Simulation Data"
+  authors: "Haoyu Zhang, Meng Liu, Zaijing Li, <strong>Haokun Wen</strong>, Weili Guan, Yaowei Wang, and Liqiang Nie"
+  year: 2025
+  type: "conference"
+  venue: "NeurIPS 2025"
+  paper: "https://arxiv.org/pdf/2506.03642"
+
+- title: "A Comprehensive Survey on Composed Image Retrieval"
+  authors: "Xuemeng Song, Haoqiang Lin, <strong>Haokun Wen</strong>, Bohan Hou, Mingzhu Xu, and Liqiang Nie"
+  year: 2025
+  type: "journal"
+  venue: "ACM TOIS 2025"
+  paper: "https://arxiv.org/pdf/2502.18495"
+  code: "https://github.com/haokunwen/Awesome-Composed-Image-Retrieval"
+  code_label: "Collections"
+
+- title: "ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval"
+  authors: "Zixu Li, Zhiwei Chen, <strong>Haokun Wen</strong>, Zhiheng Fu, Yupeng Hu, and Weili Guan"
+  year: 2025
+  type: "conference"
+  venue: "AAAI 2025"
+  paper: "https://ojs.aaai.org/index.php/AAAI/article/view/32541"
+  code: "https://sdu-l.github.io/ENCODER.github.io/"
+
+- title: "FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex Image Retrieval"
+  authors: "Bohan Hou, Haoqiang Lin, Xuemeng Song, <strong>Haokun Wen</strong>, Meng Liu, Yupeng Hu, and Xiangyu Zhao"
+  year: 2025
+  type: "conference"
+  venue: "ACM SIGIR 2025"
+  paper: "https://dl.acm.org/doi/10.1145/3726302.3729979"
+
+- title: "Pseudo-triplet Guided Few-shot Composed Image Retrieval"
+  authors: "Bohan Hou, Haoqiang Lin, <strong>Haokun Wen</strong>, Meng Liu, and Xuemeng Song"
+  year: 2025
+  type: "conference"
+  venue: "IJCNN 2025"
+  paper: "https://arxiv.org/abs/2407.06001"
+
+- title: "HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval"
+  authors: "Zhiwei Chen, Yupeng Hu, Zixu Li, Zhiheng Fu, <strong>Haokun Wen</strong>, and Weili Guan"
+  year: 2025
+  type: "conference"
+  venue: "ACM MM 2025"
+  paper: "https://dl.acm.org/doi/10.1145/3746027.3755445"
+
+- title: "Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval"
+  authors: "<strong>Haokun Wen</strong>, Xuemeng Song, Xiaolin Chen, Yinwei Wei, Liqiang Nie, and Tat-Seng Chua"
+  year: 2024
+  type: "conference"
+  venue: "ACM SIGIR 2024"
+  paper: "https://arxiv.org/abs/2404.15875"
+  code: "https://github.com/haokunwen/DQU-CIR"
+  slides: "/files/SIGIR24_DQU-CIR.pdf"
+
+- title: "Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval"
+  authors: "<strong>Haokun Wen</strong>, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie"
+  year: 2024
+  type: "journal"
+  venue: "IEEE TPAMI 2024"
+  paper: "https://ieeexplore.ieee.org/abstract/document/10373096"
+  code: "https://anosite.wixsite.com/limn"
+
+- title: "Fine-Grained Textual Inversion Network for Zero-Shot Composed Image Retrieval"
+  authors: "Haoqiang Lin, <strong>Haokun Wen</strong>, Xuemeng Song, Meng Liu, Yupeng Hu, and Liqiang Nie"
+  year: 2024
+  type: "conference"
+  venue: "ACM SIGIR 2024"
+  paper: "https://dl.acm.org/doi/10.1145/3626772.3657831"
+  code: "https://github.com/ZiChao111/FTI4CIR"
+
+- title: "Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning"
+  authors: "Xian Zhang, <strong>Haokun Wen</strong>, Jianlong Wu, Pengda Qin, Hui Xue, and Liqiang Nie"
+  year: 2024
+  type: "conference"
+  venue: "ACM MM 2024"
+  paper: "https://openreview.net/attachment?id=eiGs5VCsYM&name=pdf"
+  code: "https://github.com/xianzhangzx/FINER-MLLM"
+
+- title: "Interactive Garment Recommendation with User in the Loop"
+  authors: "Federico Becattini, Xiaolin Chen, Andrea Puccia, <strong>Haokun Wen</strong>, Xuemeng Song, Liqiang Nie, and Alberto Del Bimbo"
+  year: 2024
+  type: "journal"
+  venue: "ACM ToMM 2024"
+  paper: "https://arxiv.org/abs/2402.11627"
+
+- title: "Target-Guided Composed Image Retrieval"
+  authors: "<strong>Haokun Wen</strong>, Xian Zhang, Xuemeng Song, Yinwei Wei, and Liqiang Nie"
+  year: 2023
+  type: "conference"
+  venue: "ACM MM 2023"
+  paper: "https://arxiv.org/pdf/2309.01366.pdf"
+  code: "https://anosite.wixsite.com/tg-cir"
+  slides: "/files/mm23-TG-CIR.pdf"
+
+- title: "Finetuning Language Models for Multimodal Question Answering"
+  authors: "Xin Zhang, Wen Xie, Ziqi Dai, Jun Rao, <strong>Haokun Wen</strong>, Xuan Luo, Meishan Zhang, and Min Zhang"
+  year: 2023
+  type: "conference"
+  venue: "ACM MM 2023 (Grand Challenge)"
+  award: "Ranked 1st in VTQA"
+  paper: "/files/acmmm2023_grandchallenge.pdf"
+
+- title: "Egocentric Early Action Prediction via Multimodal Transformer-Based Dual Action Prediction"
+  authors: "Weili Guan, Xuemeng Song, Kejie Wang, <strong>Haokun Wen</strong>, Hongda Ni, Yaowei Wang, and Xiaojun Chang"
+  year: 2023
+  type: "journal"
+  venue: "IEEE TCSVT 2023"
+  paper: "/files/tcsvt2023.pdf"
+  code: "https://trace729.wixsite.com/trace"
+
+- title: "Personalized Fashion Compatibility Modeling via Metapath-guided Heterogeneous Graph Learning"
+  authors: "Weili Guan, Fangkai Jiao, Xuemeng Song, <strong>Haokun Wen</strong>, Chung-Hsing Yeh, and Xiaojun Chang"
+  year: 2022
+  type: "conference"
+  venue: "ACM SIGIR 2022"
+  paper: "/files/acmsigir2022.pdf"
+  code: "https://anosite.wixsite.com/pfcm"
+
+- title: "Partially Supervised Compatibility Modeling"
+  authors: "Weili Guan, <strong>Haokun Wen</strong>, Xuemeng Song, Chun Wang, Chung-Hsing Yeh, Xiaojun Chang, and Liqiang Nie"
+  year: 2022
+  type: "journal"
+  venue: "IEEE TIP 2022"
+  paper: "/files/tip2022.pdf"
+  code: "https://site2750.wixsite.com/ps-ocm"
+
+- title: "Comprehensive Linguistic-Visual Composition Network for Image Retrieval"
+  authors: "<strong>Haokun Wen</strong>, Xuemeng Song, Xin Yang, Yibing Zhan, and Liqiang Nie"
+  year: 2021
+  type: "conference"
+  venue: "ACM SIGIR 2021"
+  paper: "/files/acmsigir2021.pdf"
+  code: "https://site2750.wixsite.com/clvcnet"
+
+- title: "Multimodal Compatibility Modeling via Exploring the Consistent and Complementary Correlations"
+  authors: "Weili Guan, <strong>Haokun Wen</strong>, Xuemeng Song, Chung-Hsing Yeh, Xiaojun Chang, and Liqiang Nie"
+  year: 2021
+  type: "conference"
+  venue: "ACM MM 2021"
+  paper: "/files/acmmm2021.pdf"
+  code: "https://site2750.wixsite.com/mmocm"
+
+- title: "Attribute-wise Explainable Fashion Compatibility Modeling"
+  authors: "Xin Yang, Xuemeng Song, Fuli Feng, <strong>Haokun Wen</strong>, Ling-Yu Duan, and Liqiang Nie"
+  year: 2021
+  type: "journal"
+  venue: "ACM ToMM 2021"
+  paper: "/files/acmtomm2021.pdf"
+  code: "https://joeyangbuer.wixsite.com/exfcm"
+
+- title: "Generative Attribute Manipulation Scheme for Flexible Fashion Search"
+  authors: "Xin Yang, Xuemeng Song, Xianjing Han, <strong>Haokun Wen</strong>, Jie Nie, and Liqiang Nie"
+  year: 2020
+  type: "conference"
+  venue: "ACM SIGIR 2020"
+  paper: "/files/acmsigir2020.pdf"
+  code: "https://joeyangbuer.wixsite.com/amgan"
