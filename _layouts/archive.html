@@ -22,9 +22,9 @@ layout: default
     {{ content }}
     <div id="hk-scroll-transition" class="hk-scroll-transition" aria-hidden="true"><span></span></div>
     {% if page.hk_prev_url %}
-    <a class="hk-mobile-prev" href="{{ page.hk_prev_url }}">
-      <span class="hk-mobile-prev-label">Previous</span>
-      <span class="hk-mobile-prev-row"><span aria-hidden="true">←</span><strong>{{ page.hk_prev_title }}</strong></span>
+    <a class="hk-mobile-prev hk-mobile-next" href="{{ page.hk_prev_url }}">
+      <span class="hk-mobile-next-label">Previous</span>
+      <span class="hk-mobile-next-row"><strong>{{ page.hk_prev_title }}</strong><span aria-hidden="true">←</span></span>
     </a>
     {% endif %}
     {% if page.hk_next_url %}
