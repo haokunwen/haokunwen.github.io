@@ -3,6 +3,10 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+hk_prev_url: "/publications/"
+hk_prev_title: "Publications"
+hk_next_url: "/patents/"
+hk_next_title: "Patents"
 ---
 
 <div class="hk-cv">
@@ -56,9 +60,3 @@ author_profile: true
 <div class="hk-honor hk-competition"><span>2025</span><strong><a class="hk-award-link" href="https://erel-mir.github.io/challenge/results/" target="_blank" rel="noopener">Multimodal Document Retrieval Challenge Track</a> <span class="hk-champion-badge" aria-label="Champion">★ Champion</span></strong><small>The Web Conference (WWW 2025) · Team iLearn · 1st Place</small></div>
 
 </div>
-
-<a class="hk-next-section" href="/services/">
-  <span class="hk-next-label">Next</span>
-  <span class="hk-next-main"><strong>Services</strong><span aria-hidden="true">→</span></span>
-  <span class="hk-next-desc">Academic reviewing and program committee service</span>
-</a>
