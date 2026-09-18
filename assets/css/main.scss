@@ -2797,3 +2797,23 @@ html { scroll-behavior: smooth; scroll-padding-top: 72px; }
   .hk-nav-links > a + a { margin-top: 1px !important; }
   .hk-nav-cv { border-top: 1px solid #edf0f2 !important; margin-top: 4px !important; padding-top: 9px !important; }
 }
+
+
+/* Homepage sections belong to one continuous page: no inter-section rules */
+.hk-single-page > .hk-site-section {
+  border-top: 0 !important;
+}
+.hk-single-page > .hk-site-section:not(.hk-site-about) {
+  margin-top: 22px !important;
+  padding-top: 8px !important;
+}
+.hk-single-page > #education,
+.hk-single-page > #honors,
+.hk-single-page > #competitions {
+  border-top: 0 !important;
+}
+
+/* On mobile keep the explicit Next control; desktop uses edge-scroll continuation. */
+@media (min-width: 761px) and (hover: hover) {
+  .hk-mobile-next { display: none !important; }
+}
