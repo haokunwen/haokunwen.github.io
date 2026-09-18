@@ -2881,3 +2881,40 @@ html { scroll-behavior: smooth; scroll-padding-top: 72px; }
 @media (max-width: 760px) {
   .hk-desktop-cv { display: none !important; }
 }
+
+
+/* Mobile previous/next chapter controls at page bottom */
+.hk-mobile-prev { display: none; }
+@media (max-width: 760px), (hover: none) {
+  .hk-mobile-prev {
+    display: block;
+    margin: 24px 0 0;
+    padding: 13px 1px 10px;
+    border-top: 1px solid #e3e6ea;
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+  .hk-mobile-prev-label {
+    display: block;
+    margin-bottom: 2px;
+    color: #8a929c;
+    font-size: .62rem;
+    line-height: 1.3;
+    font-weight: 650;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+  .hk-mobile-prev-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #252b33;
+    font-size: .9rem;
+    line-height: 1.4;
+  }
+  .hk-mobile-prev-row > span { color: #173f67; }
+  .hk-mobile-prev + .hk-mobile-next {
+    margin-top: 0 !important;
+  }
+}
