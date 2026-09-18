@@ -32,11 +32,9 @@ I am currently a Research Fellow at the <a href="https://ctic.nus.edu.sg/">Centr
 </div>
 </section>
 
-<section id="cv" class="hk-site-section">
-<h2 class="hk-site-section-title">CV</h2>
+<section id="education" class="hk-site-section">
+<h2 class="hk-site-section-title">Education</h2>
 <div class="hk-cv">
-
-<h2>Education</h2>
 
 <div class="hk-edu">
   <img src="/images/HIT-LOGO.png" alt="HIT">
@@ -73,14 +71,24 @@ I am currently a Research Fellow at the <a href="https://ctic.nus.edu.sg/">Centr
   </div>
 </div>
 
-<h2>Honors & Awards</h2>
+</div>
+</section>
+
+<section id="honors" class="hk-site-section">
+<h2 class="hk-site-section-title">Honors &amp; Awards</h2>
+<div class="hk-cv">
 
 <div class="hk-honor"><span>2026</span><strong>Outstanding Graduate of Heilongjiang Province</strong><small>Department of Education of Heilongjiang Province</small></div>
 <div class="hk-honor"><span>2025</span><strong>Doctoral Student Program of the Young S&amp;T Talents Cultivation Project</strong><small>China Association for Science and Technology (CAST)</small></div>
 <div class="hk-honor"><span>2024</span><strong>Young Student Basic Research Program (PhD Student)</strong><small>National Natural Science Foundation of China (NSFC)</small></div>
 <div class="hk-honor"><span>2024</span><strong>National Scholarship</strong><small>Ministry of Education of China</small></div>
 
-<h2>Competitions</h2>
+</div>
+</section>
+
+<section id="competitions" class="hk-site-section">
+<h2 class="hk-site-section-title">Competitions</h2>
+<div class="hk-cv">
 
 <div class="hk-honor hk-competition"><span>2025</span><strong><a class="hk-award-link" href="https://erel-mir.github.io/challenge/results/" target="_blank" rel="noopener">Multimodal Document Retrieval Challenge Track</a> <span class="hk-champion-badge" aria-label="Champion">★ Champion</span></strong><small>The Web Conference (WWW 2025) · Team iLearn · 1st Place</small></div>
 
