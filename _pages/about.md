@@ -10,11 +10,11 @@ footer: true
 <div class="hk-about">
 <h2>About Me</h2>
 <p>
-I am currently a Research Fellow at the <a href="https://www.nus.edu.sg/">National University of Singapore</a>, working with Prof. <a href="https://www.comp.nus.edu.sg/~whsu/">Wynne Hsu</a> and Prof. <a href="https://www.comp.nus.edu.sg/~leeml/">Mong-Li Lee</a>. I received my Ph.D. degree from <a href="https://www.hitsz.edu.cn/">Harbin Institute of Technology (Shenzhen)</a>, under the supervision of Prof. <a href="https://liqiangnie.github.io/">Liqiang Nie</a> and Prof. <a href="https://xuemengsong.github.io/">Xuemeng Song</a>. During my Ph.D., I was a joint Ph.D. student at <a href="https://www.cityu.edu.hk/">City University of Hong Kong</a>, supervised by Prof. <a href="https://xiangyu-zhao.github.io/">Xiangyu Zhao</a>, and at the <a href="https://www.nus.edu.sg/">National University of Singapore</a>, supervised by Prof. <a href="https://www.comp.nus.edu.sg/~chuats/">Tat-Seng Chua</a>. My research interests include multimedia computing, information retrieval, and misinformation detection.
+I am currently a Research Fellow at the <a href="https://www.nus.edu.sg/">National University of Singapore</a> <a href="https://ctic.nus.edu.sg/">Centre for Trusted Internet and Community (CTIC)</a>, working with Prof. <a href="https://www.comp.nus.edu.sg/~whsu/">Wynne Hsu</a> and Prof. <a href="https://www.comp.nus.edu.sg/~leeml/">Mong-Li Lee</a>. I received my Ph.D. degree from <a href="https://www.hitsz.edu.cn/">Harbin Institute of Technology (Shenzhen)</a>, under the supervision of Prof. <a href="https://liqiangnie.github.io/">Liqiang Nie</a> and Prof. <a href="https://xuemengsong.github.io/">Xuemeng Song</a>. During my Ph.D., I was a joint Ph.D. student at <a href="https://www.cityu.edu.hk/">City University of Hong Kong</a>, supervised by Prof. <a href="https://xiangyu-zhao.github.io/">Xiangyu Zhao</a>, and at the <a href="https://www.nus.edu.sg/">National University of Singapore</a>, supervised by Prof. <a href="https://www.comp.nus.edu.sg/~chuats/">Tat-Seng Chua</a>. My research interests include multimedia computing, information retrieval, and misinformation detection.
 </p>
 </div>
 
-<div class="hk-news">\n<h2>News</h2>\n<p class="hk-news-placeholder">News will be updated soon.</p>\n</div>\n\n<div class="hk-selected">
+\n\n<div class="hk-selected">
 <h2>Selected Publications</h2>
 <p class="hk-section-note">Selected first-author works. <a href="/publications/">View all publications →</a></p>
 
