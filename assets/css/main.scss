@@ -1059,3 +1059,51 @@ html.hk-dark .hk-nav-links > a.active-tab { color: #8ab4f8 !important; backgroun
   .hk-nav-links > a { font-size: 13px; padding: 7px 6px; }
   .hk-nav .hk-theme-toggle { padding: 7px 5px; }
 }
+
+
+/* Theme toggle visibility and tighter CV education */
+.hk-nav .hk-theme-toggle {
+  width: 32px;
+  height: 32px;
+  padding: 0 !important;
+  border: 1px solid #e1e5ea !important;
+  border-radius: 50% !important;
+  background: transparent !important;
+  color: #3f4852 !important;
+  cursor: pointer;
+}
+.hk-theme-glyph {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+}
+.hk-nav .hk-theme-toggle:hover {
+  border-color: #9eabb8 !important;
+  color: #173f67 !important;
+  background: rgba(23,63,103,.04) !important;
+}
+html.hk-dark .hk-nav .hk-theme-toggle {
+  border-color: #41464d !important;
+  color: #e3e6ea !important;
+}
+html.hk-dark .hk-nav .hk-theme-toggle:hover { color: #8ab4f8 !important; }
+
+.hk-cv .hk-edu { padding: 13px 0 !important; gap: 18px !important; }
+.hk-cv .hk-edu img { margin-top: 1px; }
+.hk-cv .hk-joint-card { margin-top: 8px !important; padding: 8px 0 1px !important; }
+.hk-cv .hk-joint-card + .hk-joint-card { margin-top: 5px !important; }
+.hk-cv .hk-degree { margin-top: 2px; }
+.hk-cv .hk-supervisor { margin-top: 1px; }
+.hk-cv .hk-supervisor a,
+.hk-cv .hk-joint-meta a {
+  color: #173f67 !important;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+.hk-cv .hk-supervisor a:hover,
+.hk-cv .hk-joint-meta a:hover { color: #0b2d4d !important; }
+html.hk-dark .hk-cv .hk-supervisor a,
+html.hk-dark .hk-cv .hk-joint-meta a { color: #91bdf0 !important; }
