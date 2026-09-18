@@ -2493,3 +2493,50 @@ body {
   border-color: #b8c2cc !important;
   background: #f3f5f7 !important;
 }
+
+
+/* Chapter-style next-page navigation */
+.hk-next-section {
+  display: block;
+  margin: 34px 0 6px;
+  padding: 18px 2px 4px;
+  border-top: 1px solid #e2e6ea;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.hk-next-label {
+  display: block;
+  margin-bottom: 3px;
+  color: #8a929c;
+  font-size: .68rem;
+  font-weight: 650;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.hk-next-main {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  color: #252b33;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+.hk-next-main > span {
+  transition: transform .18s ease;
+  color: #173f67;
+  font-size: 1.05em;
+}
+.hk-next-desc {
+  display: block;
+  margin-top: 2px;
+  color: #7a828c;
+  font-size: .75rem;
+  line-height: 1.4;
+}
+.hk-next-section:hover .hk-next-main > span { transform: translateX(4px); }
+.hk-next-section:hover .hk-next-main strong { color: #173f67; }
+@media (max-width: 760px) {
+  .hk-next-section { margin-top: 26px; padding-top: 14px; }
+  .hk-next-main { font-size: .92rem; }
+  .hk-next-desc { font-size: .7rem; }
+}
