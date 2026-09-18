@@ -22,7 +22,7 @@ author_profile: true
     </div>
     <div class="hk-joint-card">
       <img src="/images/CityU-LOGO.png" alt="CityU">
-      <div><div class="hk-joint-head"><strong>City University of Hong Kong</strong><span>2024 — 2026</span></div><span class="hk-joint-role">Joint Ph.D. Student</span><span class="hk-joint-meta">Supervisor: Prof. <a href="https://xiangyu-zhao.github.io/">Xiangyu Zhao</a></span></div>
+      <div><div class="hk-joint-head"><strong>City University of Hong Kong</strong><span>2024 — 2026</span></div><span class="hk-joint-role">Dual-Degree Joint Ph.D. Student</span><span class="hk-joint-meta">Supervisor: Prof. <a href="https://xiangyu-zhao.github.io/">Xiangyu Zhao</a></span></div>
     </div>
   </div>
 </div>
