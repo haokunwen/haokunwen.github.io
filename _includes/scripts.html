@@ -16,9 +16,14 @@ document.addEventListener('DOMContentLoaded', function () {
       pub.hidden = !(filter === 'all' || pub.dataset.pubType === filter);
     });
     sections.forEach(function (section) {
-      section.hidden = !Array.prototype.some.call(section.querySelectorAll('.hk-publication'), function (pub) {
+      var visible = Array.prototype.filter.call(section.querySelectorAll('.hk-publication'), function (pub) {
         return !pub.hidden;
       });
+      section.hidden = visible.length === 0;
+      Array.prototype.forEach.call(section.querySelectorAll('.hk-publication'), function (pub) {
+        pub.classList.remove('hk-last-visible');
+      });
+      if (visible.length) visible[visible.length - 1].classList.add('hk-last-visible');
     });
   }
 
