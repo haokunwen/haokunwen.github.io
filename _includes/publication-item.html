@@ -1,14 +1,13 @@
 {% assign pub = include.pub %}
 <article class="hk-publication" data-pub-type="{{ pub.type }}">
-  {% if pub.bibtex %}
   <details class="hk-pub-details">
     <summary>{{ pub.title }}</summary>
+    {% if pub.bibtex %}
     <pre><code>{{ pub.bibtex | escape }}</code></pre>
+    {% else %}
+    <div class="hk-citation">{{ pub.authors }}. <em>{{ pub.title }}</em>. {{ pub.venue }}, {{ pub.year }}.</div>
+    {% endif %}
   </details>
-  {% else %}
-  <div class="hk-pub-title">{{ pub.title }}</div>
-  {% endif %}
-
   <div class="hk-pub-info">
     <div class="hk-pub-authors">{{ pub.authors }}</div>
     <div class="hk-pub-actions">
