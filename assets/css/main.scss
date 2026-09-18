@@ -2706,3 +2706,18 @@ html { scroll-behavior: smooth; scroll-padding-top: 72px; }
   }
   .hk-site-section-title { font-size: 1.15rem !important; margin-bottom: 12px !important; }
 }
+
+
+/* Single-page citation fallback */
+.hk-citation {
+  margin: 7px 0 2px;
+  padding: 8px 10px;
+  border-left: 2px solid #d9dee4;
+  background: #fafbfc;
+  color: #66707a;
+  font-size: .74rem;
+  line-height: 1.5;
+}
+@media (max-width: 760px) {
+  .hk-citation { font-size: .7rem; padding: 7px 9px; }
+}
