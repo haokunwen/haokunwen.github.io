@@ -1108,17 +1108,3 @@ html.hk-dark .hk-nav .hk-theme-toggle:hover { color: #8ab4f8 !important; }
 html.hk-dark .hk-cv .hk-supervisor a,
 html.hk-dark .hk-cv .hk-joint-meta a { color: #91bdf0 !important; }
 
-
-/* Slightly smaller profile photo on desktop */
-@media (min-width: 769px) {
-  .sidebar .author__avatar {
-    width: 82% !important;
-    max-width: 185px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  .sidebar .author__avatar img {
-    width: 100% !important;
-    height: auto !important;
-  }
-}
