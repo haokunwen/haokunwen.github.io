@@ -5,6 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
+<div class="hk-pub-filters" role="group" aria-label="Filter publications">
+  <button class="active" data-filter="all">All</button>
+  <button data-filter="conference">Conference</button>
+  <button data-filter="journal">Journal</button>
+  <button data-filter="preprint">Preprint</button>
+</div>
+
 ## Preprints
 ---
 <details>
