@@ -85,20 +85,34 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   var nextUrl = {{ page.hk_next_url | default: "" | jsonify }};
-  if (nextUrl && window.matchMedia('(min-width: 761px) and (hover: hover)').matches) {
-    var accumulated = 0, lastWheel = 0, leaving = false;
+  var prevUrl = {{ page.hk_prev_url | default: "" | jsonify }};
+  if ((nextUrl || prevUrl) && window.matchMedia('(min-width: 761px) and (hover: hover)').matches) {
+    var accumulated = 0, lastWheel = 0, leaving = false, direction = null;
     window.addEventListener('wheel', function (e) {
-      if (leaving || e.deltaY <= 0) return;
+      if (leaving || Math.abs(e.deltaY) < 2) return;
       var bottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
-      if (!bottom) { accumulated = 0; return; }
+      var top = window.scrollY <= 1;
+      var wanted = null, cssClass = null;
+
+      if (e.deltaY > 0 && bottom && nextUrl) {
+        wanted = nextUrl; cssClass = 'hk-page-exit-up';
+      } else if (e.deltaY < 0 && top && prevUrl) {
+        wanted = prevUrl; cssClass = 'hk-page-exit-down';
+      } else {
+        accumulated = 0; direction = null; return;
+      }
+
+      var newDirection = e.deltaY > 0 ? 'down' : 'up';
       var now = Date.now();
-      if (now - lastWheel > 450) accumulated = 0;
+      if (now - lastWheel > 450 || direction !== newDirection) accumulated = 0;
       lastWheel = now;
-      accumulated += e.deltaY;
+      direction = newDirection;
+      accumulated += Math.abs(e.deltaY);
+
       if (accumulated >= 180) {
         leaving = true;
-        document.body.classList.add('hk-page-exit-up');
-        setTimeout(function () { window.location.href = nextUrl; }, 260);
+        document.body.classList.add(cssClass);
+        setTimeout(function () { window.location.href = wanted; }, 260);
       }
     }, {passive:true});
   }
