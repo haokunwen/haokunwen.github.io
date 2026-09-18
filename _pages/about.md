@@ -5,6 +5,10 @@ excerpt: ""
 author_profile: true
 layout: archive
 footer: true
+hk_prev_url: ""
+hk_prev_title: ""
+hk_next_url: "/publications/"
+hk_next_title: "Publications"
 ---
 <div class="hk-home">
 <div class="hk-about">
