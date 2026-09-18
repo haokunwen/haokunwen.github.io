@@ -8,38 +8,46 @@
 document.addEventListener('DOMContentLoaded', function () {
   var filters = document.querySelector('.hk-pub-filters');
   if (!filters) return;
-  var pubs = Array.prototype.slice.call(document.querySelectorAll('.hk-publication'));
+  var entries = Array.prototype.slice.call(document.querySelectorAll('.pub-entry[data-pub-type]'));
 
-  function nearestHeading(pub) {
-    var node = pub.previousElementSibling;
+  function detailsFor(entry) {
+    var d = entry.previousElementSibling;
+    return d && d.tagName === 'DETAILS' ? d : null;
+  }
+  function headingFor(entry) {
+    var node = entry.previousElementSibling;
     while (node) {
       if (node.classList && node.classList.contains('hk-pub-year')) return node;
       node = node.previousElementSibling;
     }
     return null;
   }
-  pubs.forEach(function (p) { p._heading = nearestHeading(p); });
+  entries.forEach(function (e) {
+    e._details = detailsFor(e);
+    e._heading = headingFor(e);
+  });
 
   function apply(filter) {
-    pubs.forEach(function (p) {
-      p.style.display = filter === 'all' || p.dataset.pubType === filter ? '' : 'none';
+    entries.forEach(function (e) {
+      var show = filter === 'all' || e.dataset.pubType === filter;
+      e.style.display = show ? '' : 'none';
+      if (e._details) e._details.style.display = show ? '' : 'none';
     });
     Array.prototype.forEach.call(document.querySelectorAll('.hk-pub-year'), function (h) {
-      var visible = pubs.some(function (p) {
-        return p._heading === h && (filter === 'all' || p.dataset.pubType === filter);
+      var showHeading = entries.some(function (e) {
+        return e._heading === h && (filter === 'all' || e.dataset.pubType === filter);
       });
-      h.style.display = visible ? '' : 'none';
+      h.style.display = showHeading ? '' : 'none';
     });
   }
 
-  filters.addEventListener('click', function (e) {
-    var btn = e.target.closest('button[data-filter]');
+  filters.addEventListener('click', function (event) {
+    var btn = event.target.closest('button[data-filter]');
     if (!btn) return;
-    filters.querySelectorAll('button[data-filter]').forEach(function (b) {
+    Array.prototype.forEach.call(filters.querySelectorAll('button[data-filter]'), function (b) {
       b.classList.toggle('active', b === btn);
     });
     apply(btn.dataset.filter);
   });
-  apply('all');
 });
 </script>
