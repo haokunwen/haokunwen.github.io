@@ -4,6 +4,7 @@ title: "Academic Services"
 permalink: /services/
 author_profile: true
 ---
+<div class="hk-clean-page">
 <div class="services-wrapper">
 
   <!-- 左侧卡片：会议 -->
@@ -42,4 +43,5 @@ author_profile: true
     </ul>
   </div>
 
+</div>
 </div>
