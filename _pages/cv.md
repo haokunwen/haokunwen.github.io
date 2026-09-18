@@ -18,11 +18,11 @@ author_profile: true
 
     <div class="hk-joint-card">
       <img src="/images/NUS-LOGO.png" alt="NUS">
-      <div><strong>National University of Singapore</strong><span class="hk-joint-role">Joint Ph.D. Student</span><span class="hk-joint-meta">2023 — 2024</span><span class="hk-joint-meta">Supervisor: Prof. <a href="https://www.comp.nus.edu.sg/~chuats/">Tat-Seng Chua</a></span></div>
+      <div><div class="hk-joint-head"><strong>National University of Singapore</strong><span>2023 — 2024</span></div><span class="hk-joint-role">Joint Ph.D. Student</span><span class="hk-joint-meta">Supervisor: Prof. <a href="https://www.comp.nus.edu.sg/~chuats/">Tat-Seng Chua</a></span></div>
     </div>
     <div class="hk-joint-card">
       <img src="/images/CityU-LOGO.png" alt="CityU">
-      <div><strong>City University of Hong Kong</strong><span class="hk-joint-role">Joint Ph.D. Student</span><span class="hk-joint-meta">2024 — 2026</span><span class="hk-joint-meta">Supervisor: Prof. <a href="https://xiangyu-zhao.github.io/">Xiangyu Zhao</a></span></div>
+      <div><div class="hk-joint-head"><strong>City University of Hong Kong</strong><span>2024 — 2026</span></div><span class="hk-joint-role">Joint Ph.D. Student</span><span class="hk-joint-meta">Supervisor: Prof. <a href="https://xiangyu-zhao.github.io/">Xiangyu Zhao</a></span></div>
     </div>
   </div>
 </div>
