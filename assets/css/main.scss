@@ -1477,3 +1477,40 @@ html.hk-dark .hk-cv .hk-joint-meta a { color: #91bdf0 !important; }
     margin-right: auto !important;
   }
 }
+
+
+/* Publication typography and year spacing */
+.hk-pub-year {
+  clear: both !important;
+  margin: 24px 0 10px !important;
+  padding-top: 4px !important;
+  font-size: 1.55em !important;
+  line-height: 1.2 !important;
+}
+.hk-pub-filters + .hk-pub-year { margin-top: 12px !important; }
+
+.archive details > summary {
+  font-size: .96em !important;
+  line-height: 1.38 !important;
+}
+.archive .pub-content {
+  font-size: .90em !important;
+  line-height: 1.42 !important;
+}
+.archive .pub-entry {
+  padding-bottom: 8px !important;
+  margin-bottom: 8px !important;
+}
+.archive .pub-entry + details {
+  margin-top: 8px !important;
+}
+.archive .pub-entry + .hk-pub-year,
+.archive .pub-content + .hk-pub-year {
+  margin-top: 24px !important;
+}
+.pub-tag { font-size: .76em !important; }
+@media (max-width: 760px) {
+  .hk-pub-year { margin-top: 20px !important; font-size: 1.35em !important; }
+  .archive details > summary { font-size: .92em !important; }
+  .archive .pub-content { font-size: .86em !important; }
+}
