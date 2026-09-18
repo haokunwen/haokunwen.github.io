@@ -1798,3 +1798,35 @@ html.hk-dark .hk-cv .hk-joint-meta a { color: #91bdf0 !important; }
   .sidebar .hk-profile-links a i { font-size: 17px !important; line-height: 22px !important; margin: 0 !important; }
   .sidebar .hk-profile-links a span { display: none !important; }
 }
+
+
+/* Mobile profile: prevent role from wrapping word-by-word */
+@media (max-width: 760px) {
+  .sidebar .hk-profile {
+    grid-template-columns: 78px minmax(0, 1fr) !important;
+    column-gap: 12px !important;
+  }
+  .sidebar .hk-profile-avatar,
+  .sidebar .hk-profile-avatar img {
+    width: 78px !important;
+    height: 78px !important;
+  }
+  .sidebar .hk-profile-content {
+    min-width: 0 !important;
+    overflow: visible !important;
+  }
+  .sidebar .hk-profile-content .author__name {
+    white-space: nowrap !important;
+    font-size: 1em !important;
+  }
+  .sidebar .hk-profile-content .author__bio {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    white-space: nowrap !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    font-size: .82em !important;
+    line-height: 1.3 !important;
+  }
+}
