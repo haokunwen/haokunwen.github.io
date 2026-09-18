@@ -2294,3 +2294,24 @@ body {
 @media (max-width: 760px) {
   .archive .pub-content a img { height: 16px !important; }
 }
+
+
+/* Slightly roomier sticky navigation */
+.hk-nav {
+  min-height: 52px !important;
+}
+.hk-nav-brand {
+  font-size: 16px !important;
+}
+.hk-nav-links > a {
+  font-size: 14px !important;
+  padding: 7px 10px !important;
+}
+@media (max-width: 760px) {
+  .hk-nav {
+    min-height: 0 !important;
+    padding: 9px 0 7px !important;
+  }
+  .hk-nav-brand { font-size: 14.5px !important; }
+  .hk-nav-links > a { font-size: 11.5px !important; padding: 4px 6px !important; }
+}
