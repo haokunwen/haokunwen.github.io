@@ -8,54 +8,38 @@
 document.addEventListener('DOMContentLoaded', function () {
   var filters = document.querySelector('.hk-pub-filters');
   if (!filters) return;
+  var pubs = Array.prototype.slice.call(document.querySelectorAll('.hk-publication'));
 
-  var details = Array.prototype.slice.call(document.querySelectorAll('.archive details'));
-  var items = details.map(function (d) {
-    var e = d.nextElementSibling;
-    if (!e || !e.classList.contains('pub-entry')) return null;
-    var tag = e.querySelector('.pub-tag');
-    var type = tag && tag.classList.contains('tag-preprint') ? 'preprint'
-      : tag && tag.classList.contains('tag-journal') ? 'journal'
-      : tag && tag.classList.contains('tag-conf') ? 'conference'
-      : 'other';
-    return { details: d, entry: e, type: type };
-  }).filter(Boolean);
-
-  function sectionOf(node) {
-    var h = node.previousElementSibling;
-    while (h) {
-      if (h.classList && h.classList.contains('hk-pub-year')) return h;
-      h = h.previousElementSibling;
+  function nearestHeading(pub) {
+    var node = pub.previousElementSibling;
+    while (node) {
+      if (node.classList && node.classList.contains('hk-pub-year')) return node;
+      node = node.previousElementSibling;
     }
     return null;
   }
-
-  items.forEach(function (item) { item.section = sectionOf(item.details); });
+  pubs.forEach(function (p) { p._heading = nearestHeading(p); });
 
   function apply(filter) {
-    items.forEach(function (item) {
-      var show = filter === 'all' || item.type === filter;
-      item.details.style.setProperty('display', show ? '' : 'none', 'important');
-      item.entry.style.setProperty('display', show ? '' : 'none', 'important');
+    pubs.forEach(function (p) {
+      p.style.display = filter === 'all' || p.dataset.pubType === filter ? '' : 'none';
     });
-
     Array.prototype.forEach.call(document.querySelectorAll('.hk-pub-year'), function (h) {
-      var any = items.some(function (item) {
-        return item.section === h && (filter === 'all' || item.type === filter);
+      var visible = pubs.some(function (p) {
+        return p._heading === h && (filter === 'all' || p.dataset.pubType === filter);
       });
-      h.style.setProperty('display', any ? '' : 'none', 'important');
+      h.style.display = visible ? '' : 'none';
     });
   }
 
-  filters.addEventListener('click', function (event) {
-    var btn = event.target.closest('button[data-filter]');
+  filters.addEventListener('click', function (e) {
+    var btn = e.target.closest('button[data-filter]');
     if (!btn) return;
-    Array.prototype.forEach.call(filters.querySelectorAll('button[data-filter]'), function (b) {
+    filters.querySelectorAll('button[data-filter]').forEach(function (b) {
       b.classList.toggle('active', b === btn);
     });
-    apply(btn.getAttribute('data-filter'));
+    apply(btn.dataset.filter);
   });
-
   apply('all');
 });
 </script>
