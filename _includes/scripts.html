@@ -15,7 +15,8 @@
     var btn = document.getElementById('hk-theme-toggle');
     if (!btn) return;
     var icon = btn.querySelector('i');
-    if (icon) icon.className = root.classList.contains('hk-dark') ? 'fas fa-sun' : 'fas fa-moon';
+    var glyph = btn.querySelector('.hk-theme-glyph');
+    if (glyph) glyph.textContent = root.classList.contains('hk-dark') ? '☀' : '☾';
   }
   document.addEventListener('DOMContentLoaded', function () {
     syncIcon();
