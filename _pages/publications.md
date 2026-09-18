@@ -3,6 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+---
 <div class="hk-clean-page">
 <div class="hk-pub-filters" role="group" aria-label="Filter publications">
   <button class="active" data-filter="all">All</button>
