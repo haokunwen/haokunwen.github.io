@@ -39,49 +39,54 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 <script>
-(function () {
-  var prevUrl = {{ page.hk_prev_url | default: "" | jsonify }};
-  var prevTitle = {{ page.hk_prev_title | default: "" | jsonify }};
-  var nextUrl = {{ page.hk_next_url | default: "" | jsonify }};
-  var nextTitle = {{ page.hk_next_title | default: "" | jsonify }};
-  if (!prevUrl && !nextUrl) return;
-
-  var accumulator = 0;
-  var lastWheel = 0;
-  var navigating = false;
-  var threshold = 180;
-
-  function atTop() { return window.scrollY <= 1; }
-  function atBottom() { return window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2; }
-
-  function navigate(url, title, direction) {
-    if (!url || navigating) return;
-    navigating = true;
-    var overlay = document.getElementById('hk-scroll-transition');
-    if (overlay) {
-      overlay.classList.add('show', direction === 'next' ? 'to-next' : 'to-prev');
-      var label = overlay.querySelector('span');
-      if (label) label.textContent = (direction === 'next' ? 'Next · ' : 'Previous · ') + title;
+document.addEventListener('DOMContentLoaded', function () {
+  var filters = document.querySelector('.hk-pub-filters');
+  if (filters) {
+    var publications = Array.prototype.slice.call(document.querySelectorAll('#publications .hk-publication'));
+    var sections = Array.prototype.slice.call(document.querySelectorAll('#publications .hk-pub-section'));
+    function apply(filter) {
+      publications.forEach(function (pub) {
+        pub.hidden = !(filter === 'all' || pub.dataset.pubType === filter);
+      });
+      sections.forEach(function (section) {
+        var visible = Array.prototype.filter.call(section.querySelectorAll('.hk-publication'), function (pub) { return !pub.hidden; });
+        section.hidden = visible.length === 0;
+        section.querySelectorAll('.hk-publication').forEach(function (pub) { pub.classList.remove('hk-last-visible'); });
+        if (visible.length) visible[visible.length - 1].classList.add('hk-last-visible');
+      });
     }
-    document.body.classList.add(direction === 'next' ? 'hk-page-exit-up' : 'hk-page-exit-down');
-    setTimeout(function () { window.location.href = url; }, 280);
+    filters.addEventListener('click', function (event) {
+      var button = event.target.closest('button[data-filter]');
+      if (!button) return;
+      filters.querySelectorAll('button').forEach(function (b) { b.classList.toggle('active', b === button); });
+      apply(button.dataset.filter);
+    });
+    apply('all');
   }
 
-  window.addEventListener('wheel', function (e) {
-    if (navigating || Math.abs(e.deltaY) < 2) return;
-    var now = Date.now();
-    if (now - lastWheel > 450) accumulator = 0;
-    lastWheel = now;
-
-    if (e.deltaY > 0 && atBottom() && nextUrl) {
-      accumulator += e.deltaY;
-      if (accumulator >= threshold) navigate(nextUrl, nextTitle, 'next');
-    } else if (e.deltaY < 0 && atTop() && prevUrl) {
-      accumulator += -e.deltaY;
-      if (accumulator >= threshold) navigate(prevUrl, prevTitle, 'prev');
-    } else {
-      accumulator = 0;
+  var siteSections = Array.prototype.slice.call(document.querySelectorAll('.hk-site-section[id]'));
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('[data-section-link]'));
+  if (siteSections.length && navLinks.length) {
+    function activate(id) {
+      navLinks.forEach(function (link) { link.classList.toggle('active-tab', link.dataset.sectionLink === id); });
     }
-  }, { passive: true });
-})();
+    var observer = new IntersectionObserver(function (entries) {
+      var visible = entries.filter(function (e) { return e.isIntersecting; })
+        .sort(function (a,b) { return b.intersectionRatio - a.intersectionRatio; });
+      if (visible.length) activate(visible[0].target.id);
+    }, { rootMargin: '-18% 0px -58% 0px', threshold: [0, .15, .35, .6] });
+    siteSections.forEach(function (section) { observer.observe(section); });
+
+    navLinks.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        if (location.pathname !== '/' && location.pathname !== '') return;
+        var target = document.getElementById(link.dataset.sectionLink);
+        if (!target) return;
+        e.preventDefault();
+        target.scrollIntoView({behavior:'smooth', block:'start'});
+        history.replaceState(null, '', '#' + target.id);
+      });
+    });
+  }
+});
 </script>
