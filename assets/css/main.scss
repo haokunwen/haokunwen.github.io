@@ -2540,3 +2540,38 @@ body {
   .hk-next-main { font-size: .92rem; }
   .hk-next-desc { font-size: .7rem; }
 }
+
+
+/* Edge-scroll chapter transitions */
+.hk-scroll-transition {
+  position: fixed;
+  left: 50%;
+  bottom: 22px;
+  transform: translate(-50%, 12px);
+  z-index: 2000;
+  padding: 7px 13px;
+  border: 1px solid rgba(35,45,55,.10);
+  border-radius: 999px;
+  background: rgba(255,255,255,.92);
+  color: #5d6670;
+  box-shadow: 0 6px 22px rgba(25,35,45,.07);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-size: .72rem;
+  font-weight: 600;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+}
+.hk-scroll-transition.show { opacity: 1; transform: translate(-50%, 0); }
+body { transition: opacity .24s ease, transform .24s ease; }
+body.hk-page-exit-up { opacity: .12; transform: translateY(-8px); }
+body.hk-page-exit-down { opacity: .12; transform: translateY(8px); }
+
+@media (max-width: 760px), (hover: none) {
+  /* Avoid accidental page changes from touch momentum; navbar remains the mobile navigation. */
+  .hk-scroll-transition { display: none !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body, .hk-scroll-transition { transition: none !important; }
+}
