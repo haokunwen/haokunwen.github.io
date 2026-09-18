@@ -3,110 +3,33 @@
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
 
-
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   var menuToggle = document.querySelector('.hk-mobile-menu-toggle');
-  var navLinksPanel = document.querySelector('.hk-nav-links');
-  if (menuToggle && navLinksPanel) {
+  var navPanel = document.querySelector('.hk-nav-links');
+  if (menuToggle && navPanel) {
     menuToggle.addEventListener('click', function () {
-      var open = navLinksPanel.classList.toggle('hk-mobile-open');
+      var open = navPanel.classList.toggle('hk-mobile-open');
       menuToggle.classList.toggle('is-open', open);
       menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
-    navLinksPanel.addEventListener('click', function (e) {
+    navPanel.addEventListener('click', function (e) {
       if (!e.target.closest('a')) return;
-      navLinksPanel.classList.remove('hk-mobile-open');
+      navPanel.classList.remove('hk-mobile-open');
       menuToggle.classList.remove('is-open');
       menuToggle.setAttribute('aria-expanded', 'false');
     });
   }
-  var filters = document.querySelector('.hk-pub-filters');
-  if (!filters) return;
-  var publications = Array.prototype.slice.call(document.querySelectorAll('.hk-publication'));
-  var sections = Array.prototype.slice.call(document.querySelectorAll('.hk-pub-section'));
 
-  function apply(filter) {
-    publications.forEach(function (pub) {
-      pub.hidden = !(filter === 'all' || pub.dataset.pubType === filter);
-    });
-    sections.forEach(function (section) {
-      var visible = Array.prototype.filter.call(section.querySelectorAll('.hk-publication'), function (pub) {
-        return !pub.hidden;
-      });
-      section.hidden = visible.length === 0;
-      Array.prototype.forEach.call(section.querySelectorAll('.hk-publication'), function (pub) {
-        pub.classList.remove('hk-last-visible');
-      });
-      if (visible.length) visible[visible.length - 1].classList.add('hk-last-visible');
-    });
-  }
-
-  filters.addEventListener('click', function (event) {
-    var button = event.target.closest('button[data-filter]');
-    if (!button) return;
-    Array.prototype.forEach.call(filters.querySelectorAll('button'), function (b) {
-      b.classList.toggle('active', b === button);
-    });
-    apply(button.dataset.filter);
-  });
-  var homeSections = Array.prototype.slice.call(document.querySelectorAll('#about, #education, #honors, #competitions'));
-  var homeNavLinks = Array.prototype.slice.call(document.querySelectorAll('[data-home-section]'));
-  if (homeSections.length && homeNavLinks.length) {
-    var homeTicking = false;
-    function updateHomeActive() {
-      if (homeTicking) return;
-      homeTicking = true;
-      requestAnimationFrame(function () {
-        var header = document.querySelector('.masthead');
-        var probe = (header ? header.offsetHeight : 0) + 52;
-        var current = 'about';
-        homeSections.forEach(function (section) {
-          if (section.getBoundingClientRect().top <= probe) current = section.id;
-        });
-        homeNavLinks.forEach(function (link) {
-          link.classList.toggle('active-tab', link.dataset.homeSection === current);
-        });
-        homeTicking = false;
-      });
-    }
-    window.addEventListener('scroll', updateHomeActive, {passive:true});
-    updateHomeActive();
-  }
-
-  var nextUrl = {{ page.hk_next_url | default: "" | jsonify }};
-  var nextTitle = {{ page.hk_next_title | default: "" | jsonify }};
-  if (nextUrl && window.matchMedia('(min-width: 761px) and (hover: hover)').matches) {
-    var edgeAccum = 0, edgeLast = 0, edgeGoing = false;
-    window.addEventListener('wheel', function (e) {
-      if (edgeGoing || e.deltaY <= 0) return;
-      var atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
-      if (!atBottom) { edgeAccum = 0; return; }
-      var now = Date.now();
-      if (now - edgeLast > 450) edgeAccum = 0;
-      edgeLast = now;
-      edgeAccum += e.deltaY;
-      if (edgeAccum >= 180) {
-        edgeGoing = true;
-        document.body.classList.add('hk-page-exit-up');
-        setTimeout(function () { window.location.href = nextUrl; }, 260);
-      }
-    }, {passive:true});
-  }
-});
-</script>
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
   var filters = document.querySelector('.hk-pub-filters');
   if (filters) {
-    var publications = Array.prototype.slice.call(document.querySelectorAll('#publications .hk-publication'));
-    var sections = Array.prototype.slice.call(document.querySelectorAll('#publications .hk-pub-section'));
-    function apply(filter) {
+    var publications = Array.prototype.slice.call(document.querySelectorAll('.hk-publication'));
+    var pubSections = Array.prototype.slice.call(document.querySelectorAll('.hk-pub-section'));
+    function applyFilter(filter) {
       publications.forEach(function (pub) {
         pub.hidden = !(filter === 'all' || pub.dataset.pubType === filter);
       });
-      sections.forEach(function (section) {
+      pubSections.forEach(function (section) {
         var visible = Array.prototype.filter.call(section.querySelectorAll('.hk-publication'), function (pub) { return !pub.hidden; });
         section.hidden = visible.length === 0;
         section.querySelectorAll('.hk-publication').forEach(function (pub) { pub.classList.remove('hk-last-visible'); });
@@ -116,24 +39,68 @@ document.addEventListener('DOMContentLoaded', function () {
     filters.addEventListener('click', function (event) {
       var button = event.target.closest('button[data-filter]');
       if (!button) return;
-      filters.querySelectorAll('button').forEach(function (b) { b.classList.toggle('active', b === button); });
-      apply(button.dataset.filter);
+      filters.querySelectorAll('button[data-filter]').forEach(function (b) { b.classList.toggle('active', b === button); });
+      applyFilter(button.dataset.filter);
     });
-    apply('all');
+    applyFilter('all');
   }
 
+  var homeSections = Array.prototype.slice.call(document.querySelectorAll('#about, #education, #honors, #competitions'));
   var homeLinks = Array.prototype.slice.call(document.querySelectorAll('[data-home-section]'));
-  homeLinks.forEach(function (link) {
-    link.addEventListener('click', function (e) {
-      var id = link.dataset.homeSection;
-      var target = document.getElementById(id);
-      if (!target) return;
-      e.preventDefault();
+  if (homeSections.length && homeLinks.length) {
+    function activateHome(id) {
+      homeLinks.forEach(function (link) {
+        link.classList.toggle('active-tab', link.dataset.homeSection === id);
+      });
+    }
+    function activeFromPosition() {
       var header = document.querySelector('.masthead');
-      var top = target.getBoundingClientRect().top + window.pageYOffset - (header ? header.offsetHeight : 0) - 12;
-      window.scrollTo({top: Math.max(0, top), behavior: 'smooth'});
-      history.replaceState(null, '', '#' + id);
+      var probe = (header ? header.offsetHeight : 0) + Math.min(120, window.innerHeight * .22);
+      var current = 'about';
+      homeSections.forEach(function (section) {
+        if (section.getBoundingClientRect().top <= probe) current = section.id;
+      });
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) current = 'competitions';
+      activateHome(current);
+    }
+    var ticking = false;
+    window.addEventListener('scroll', function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () { activeFromPosition(); ticking = false; });
+    }, {passive:true});
+    homeLinks.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        var target = document.getElementById(link.dataset.homeSection);
+        if (!target) return;
+        e.preventDefault();
+        var header = document.querySelector('.masthead');
+        var top = target.getBoundingClientRect().top + window.pageYOffset - (header ? header.offsetHeight : 0) - 12;
+        window.scrollTo({top: Math.max(0, top), behavior: 'smooth'});
+        history.replaceState(null, '', '#' + target.id);
+        activateHome(target.id);
+      });
     });
-  });
+    activeFromPosition();
+  }
+
+  var nextUrl = {{ page.hk_next_url | default: "" | jsonify }};
+  if (nextUrl && window.matchMedia('(min-width: 761px) and (hover: hover)').matches) {
+    var accumulated = 0, lastWheel = 0, leaving = false;
+    window.addEventListener('wheel', function (e) {
+      if (leaving || e.deltaY <= 0) return;
+      var bottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+      if (!bottom) { accumulated = 0; return; }
+      var now = Date.now();
+      if (now - lastWheel > 450) accumulated = 0;
+      lastWheel = now;
+      accumulated += e.deltaY;
+      if (accumulated >= 180) {
+        leaving = true;
+        document.body.classList.add('hk-page-exit-up');
+        setTimeout(function () { window.location.href = nextUrl; }, 260);
+      }
+    }, {passive:true});
+  }
 });
 </script>
