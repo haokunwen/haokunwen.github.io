@@ -4,7 +4,6 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
 <div class="hk-pub-filters" role="group" aria-label="Filter publications">
   <button class="active" data-filter="all">All</button>
   <button data-filter="conference">Conference</button>
