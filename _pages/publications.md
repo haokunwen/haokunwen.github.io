@@ -12,7 +12,7 @@ author_profile: true
   <button data-filter="preprint">Preprint</button>
 </div>
 
-## Preprints
+<h2 class="hk-pub-year">Preprints</h2>
 ---
 <details>
   <summary>FashionLens: Toward Versatile Fashion Image Retrieval via Task-Adaptive Learning</summary>
@@ -100,7 +100,7 @@ author_profile: true
 </div>
 
 
-## 2026
+<h2 class="hk-pub-year">2026</h2>
 ---
 
 <details>
@@ -125,7 +125,7 @@ author_profile: true
   <span class="pub-tag tag-journal">IEEE TIP 2026</span>
 </div>
 
-## 2025
+<h2 class="hk-pub-year">2025</h2>
 ---
 
 <details>
@@ -269,7 +269,7 @@ numpages = {54}
 </div>
      
 
-## 2024
+<h2 class="hk-pub-year">2024</h2>
 ---
 
 <details>
@@ -366,7 +366,7 @@ numpages = {54}
 </div>
 
 
-## 2023
+<h2 class="hk-pub-year">2023</h2>
 ---
 <details>
   <summary>Target-Guided Composed Image Retrieval</summary>
@@ -424,7 +424,7 @@ numpages = {54}
   <a href="https://trace729.wixsite.com/trace" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
 </div>
 
-## 2022
+<h2 class="hk-pub-year">2022</h2>
 ---
 
 <details>
@@ -464,7 +464,7 @@ numpages = {54}
   <a href="https://site2750.wixsite.com/ps-ocm" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
 </div>
 
-## 2021
+<h2 class="hk-pub-year">2021</h2>
 ---
 
 <details>
@@ -523,7 +523,7 @@ numpages = {54}
   <a href="https://joeyangbuer.wixsite.com/exfcm" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
 </div>
 
-## 2020
+<h2 class="hk-pub-year">2020</h2>
 ---
 
 <details>
