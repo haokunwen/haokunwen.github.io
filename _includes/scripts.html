@@ -37,3 +37,51 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
+
+<script>
+(function () {
+  var prevUrl = {{ page.hk_prev_url | default: "" | jsonify }};
+  var prevTitle = {{ page.hk_prev_title | default: "" | jsonify }};
+  var nextUrl = {{ page.hk_next_url | default: "" | jsonify }};
+  var nextTitle = {{ page.hk_next_title | default: "" | jsonify }};
+  if (!prevUrl && !nextUrl) return;
+
+  var accumulator = 0;
+  var lastWheel = 0;
+  var navigating = false;
+  var threshold = 180;
+
+  function atTop() { return window.scrollY <= 1; }
+  function atBottom() { return window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2; }
+
+  function navigate(url, title, direction) {
+    if (!url || navigating) return;
+    navigating = true;
+    var overlay = document.getElementById('hk-scroll-transition');
+    if (overlay) {
+      overlay.classList.add('show', direction === 'next' ? 'to-next' : 'to-prev');
+      var label = overlay.querySelector('span');
+      if (label) label.textContent = (direction === 'next' ? 'Next · ' : 'Previous · ') + title;
+    }
+    document.body.classList.add(direction === 'next' ? 'hk-page-exit-up' : 'hk-page-exit-down');
+    setTimeout(function () { window.location.href = url; }, 280);
+  }
+
+  window.addEventListener('wheel', function (e) {
+    if (navigating || Math.abs(e.deltaY) < 2) return;
+    var now = Date.now();
+    if (now - lastWheel > 450) accumulator = 0;
+    lastWheel = now;
+
+    if (e.deltaY > 0 && atBottom() && nextUrl) {
+      accumulator += e.deltaY;
+      if (accumulator >= threshold) navigate(nextUrl, nextTitle, 'next');
+    } else if (e.deltaY < 0 && atTop() && prevUrl) {
+      accumulator += -e.deltaY;
+      if (accumulator >= threshold) navigate(prevUrl, prevTitle, 'prev');
+    } else {
+      accumulator = 0;
+    }
+  }, { passive: true });
+})();
+</script>
