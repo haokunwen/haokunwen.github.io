@@ -2,3 +2,30 @@
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
+
+<script>
+(function () {
+  var key = 'hk-theme';
+  var root = document.documentElement;
+  var saved = localStorage.getItem(key);
+  var dark = saved ? saved === 'dark' : window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if (dark) root.classList.add('hk-dark');
+
+  function syncIcon() {
+    var btn = document.getElementById('hk-theme-toggle');
+    if (!btn) return;
+    var icon = btn.querySelector('i');
+    if (icon) icon.className = root.classList.contains('hk-dark') ? 'fas fa-sun' : 'fas fa-moon';
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    syncIcon();
+    var btn = document.getElementById('hk-theme-toggle');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      root.classList.toggle('hk-dark');
+      localStorage.setItem(key, root.classList.contains('hk-dark') ? 'dark' : 'light');
+      syncIcon();
+    });
+  });
+})();
+</script>
