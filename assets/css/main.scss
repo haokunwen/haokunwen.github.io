@@ -818,3 +818,44 @@ h2#preprints { /* 针对 Preprints 这个特定 ID */
 @media (prefers-reduced-motion: reduce) {
   .sidebar .author__avatar, .sidebar .author__content, .sidebar .author__urls-wrapper { animation: none; }
 }
+
+
+/* Header alignment, justified About, and light/dark theme */
+.greedy-nav { display: flex !important; align-items: center; width: 100%; }
+.masthead .visible-links, .greedy-nav .visible-links {
+  display: flex !important; align-items: center; width: 100%; font-size: initial !important;
+}
+.masthead .visible-links .masthead__menu-item--lg { margin-right: auto !important; transform: none !important; }
+.masthead .visible-links .masthead__menu-item:not(.masthead__menu-item--lg) { flex: 0 0 auto; }
+.masthead .visible-links a, .greedy-nav .visible-links a { margin-right: 8px !important; }
+.hk-about p { text-align: justify; text-justify: inter-word; hyphens: auto; }
+
+.hk-theme-toggle {
+  flex: 0 0 auto; border: 0; background: transparent; color: #555;
+  padding: 8px 10px; cursor: pointer; font-size: 16px; border-radius: 6px;
+}
+.hk-theme-toggle:hover { color: #0056b3; background: rgba(0,86,179,.05); }
+
+html.hk-dark body { background: #15171a; color: #d9dde3; }
+html.hk-dark .masthead, html.hk-dark .greedy-nav { background: #15171a !important; }
+html.hk-dark .masthead { border-bottom-color: #30343a !important; }
+html.hk-dark .masthead .visible-links a, html.hk-dark .greedy-nav .visible-links a { color: #c9ced6 !important; }
+html.hk-dark .masthead .visible-links a:hover { color: #8ab4f8 !important; background: rgba(138,180,248,.07) !important; }
+html.hk-dark .masthead .visible-links a.active-tab { color: #8ab4f8 !important; background: rgba(138,180,248,.10) !important; }
+html.hk-dark .hk-theme-toggle { color: #c9ced6; }
+html.hk-dark .archive, html.hk-dark .page__content, html.hk-dark .sidebar { color: #d9dde3; }
+html.hk-dark .archive h1, html.hk-dark .archive h2, html.hk-dark .archive h3,
+html.hk-dark .page__content h1, html.hk-dark .page__content h2, html.hk-dark .page__content h3,
+html.hk-dark .author__name, html.hk-dark .hk-pub h3, html.hk-dark .hk-edu strong { color: #f1f3f5 !important; }
+html.hk-dark a { color: #8ab4f8; }
+html.hk-dark .hk-pub, html.hk-dark .hk-edu, html.hk-dark .hk-honor { border-color: #30343a; }
+html.hk-dark .hk-pub p, html.hk-dark .hk-pub .hk-venue, html.hk-dark .hk-section-note,
+html.hk-dark .hk-joint, html.hk-dark .author__bio, html.hk-dark .author__urls li { color: #aeb5bf; }
+html.hk-dark .page__footer { background: #111315 !important; border-top-color: #30343a !important; color: #aeb5bf !important; }
+html.hk-dark .author__avatar img { box-shadow: 0 8px 26px rgba(0,0,0,.35); }
+
+@media (max-width: 768px) {
+  .greedy-nav { display: block !important; }
+  .masthead .visible-links, .greedy-nav .visible-links { display: inline-block !important; width: auto; }
+  .hk-theme-toggle { position: absolute; right: 48px; top: 7px; }
+}
