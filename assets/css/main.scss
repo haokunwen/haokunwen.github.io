@@ -1447,3 +1447,33 @@ html.hk-dark .hk-cv .hk-joint-meta a { color: #91bdf0 !important; }
   .hk-patent-title-row { display: block !important; }
   .hk-patent-title-row .hk-patent-status { display: inline-block; margin-top: 5px !important; }
 }
+
+
+/* Mobile profile cleanup */
+@media (max-width: 760px) {
+  .sidebar .author__content {
+    width: 100% !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .sidebar .author__name,
+  .sidebar .author__bio {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .sidebar .author__urls-wrapper {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .sidebar .author__urls-wrapper > button,
+  .sidebar .author__urls-wrapper .btn {
+    display: none !important;
+  }
+  .sidebar .author__urls {
+    text-align: left !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
