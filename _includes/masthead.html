@@ -5,11 +5,14 @@
       <nav id="hk-site-nav" class="hk-nav">
         <a class="hk-nav-brand" href="{{ base_path }}/">{{ site.title }}</a>
         <div class="hk-nav-links">
-          <a href="{{ base_path }}/" class="{% if page.url == '/' %}active-tab{% endif %}">About</a>
+          <a href="{{ base_path }}/#about" data-home-section="about">About</a>
+          <a href="{{ base_path }}/#education" data-home-section="education">Education</a>
+          <a href="{{ base_path }}/#honors" data-home-section="honors">Honors &amp; Awards</a>
+          <a href="{{ base_path }}/#competitions" data-home-section="competitions">Competitions</a>
           <a href="{{ base_path }}/publications/" class="{% if page.url == '/publications/' %}active-tab{% endif %}">Publications</a>
-          <a href="{{ base_path }}/#cv" data-section-link="cv">CV</a>
           <a href="{{ base_path }}/patents/" class="{% if page.url == '/patents/' %}active-tab{% endif %}">Patents</a>
           <a href="{{ base_path }}/services/" class="{% if page.url == '/services/' %}active-tab{% endif %}">Services</a>
+          <a href="{{ base_path }}/files/Haokun_Wen_CV.pdf" class="hk-nav-cv" target="_blank" rel="noopener">CV</a>
         </div>
       </nav>
     </div>
