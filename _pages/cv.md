@@ -46,8 +46,13 @@ author_profile: true
 
 <h2>Honors & Awards</h2>
 
+<div class="hk-honor"><span>2026</span><strong>Outstanding Graduate of Heilongjiang Province</strong></div>
+<div class="hk-honor"><span>2025</span><strong>Doctoral Student Program of the Young S&amp;T Talents Cultivation Project</strong><small>China Association for Science and Technology (CAST)</small></div>
+<div class="hk-honor"><span>2024</span><strong>Young Student Basic Research Program (PhD Student)</strong><small>National Natural Science Foundation of China (NSFC)</small></div>
 <div class="hk-honor"><span>2024</span><strong>National Scholarship</strong><small>Ministry of Education of China</small></div>
-<div class="hk-honor"><span>2023</span><strong>CSC Scholarship</strong><small>China Scholarship Council</small></div>
-<div class="hk-honor"><span>2022</span><strong>Outstanding Graduate Student</strong><small>Shandong University</small></div>
+
+<h2>Competitions</h2>
+
+<div class="hk-honor hk-competition"><span>2025</span><strong>Champion, Multimodal Information Retrieval Challenge</strong><small>The Web Conference (WWW 2025)</small></div>
 
 </div>
