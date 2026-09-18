@@ -50,6 +50,49 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     apply(button.dataset.filter);
   });
+  var homeSections = Array.prototype.slice.call(document.querySelectorAll('#about, #education, #honors, #competitions'));
+  var homeNavLinks = Array.prototype.slice.call(document.querySelectorAll('[data-home-section]'));
+  if (homeSections.length && homeNavLinks.length) {
+    var homeTicking = false;
+    function updateHomeActive() {
+      if (homeTicking) return;
+      homeTicking = true;
+      requestAnimationFrame(function () {
+        var header = document.querySelector('.masthead');
+        var probe = (header ? header.offsetHeight : 0) + 52;
+        var current = 'about';
+        homeSections.forEach(function (section) {
+          if (section.getBoundingClientRect().top <= probe) current = section.id;
+        });
+        homeNavLinks.forEach(function (link) {
+          link.classList.toggle('active-tab', link.dataset.homeSection === current);
+        });
+        homeTicking = false;
+      });
+    }
+    window.addEventListener('scroll', updateHomeActive, {passive:true});
+    updateHomeActive();
+  }
+
+  var nextUrl = {{ page.hk_next_url | default: "" | jsonify }};
+  var nextTitle = {{ page.hk_next_title | default: "" | jsonify }};
+  if (nextUrl && window.matchMedia('(min-width: 761px) and (hover: hover)').matches) {
+    var edgeAccum = 0, edgeLast = 0, edgeGoing = false;
+    window.addEventListener('wheel', function (e) {
+      if (edgeGoing || e.deltaY <= 0) return;
+      var atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+      if (!atBottom) { edgeAccum = 0; return; }
+      var now = Date.now();
+      if (now - edgeLast > 450) edgeAccum = 0;
+      edgeLast = now;
+      edgeAccum += e.deltaY;
+      if (edgeAccum >= 180) {
+        edgeGoing = true;
+        document.body.classList.add('hk-page-exit-up');
+        setTimeout(function () { window.location.href = nextUrl; }, 260);
+      }
+    }, {passive:true});
+  }
 });
 </script>
 
