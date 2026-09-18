@@ -2472,3 +2472,24 @@ body {
   border-color: #d8c8a9 !important;
   background: #fbf6ec !important;
 }
+
+
+/* Publication actions: unified neutral treatment */
+.hk-action,
+.hk-action-paper,
+.hk-action-code,
+.hk-action-collections,
+.hk-action-slides {
+  color: #59636e !important;
+  border-color: #d9dee4 !important;
+  background: #f8f9fa !important;
+}
+.hk-action:hover,
+.hk-action-paper:hover,
+.hk-action-code:hover,
+.hk-action-collections:hover,
+.hk-action-slides:hover {
+  color: #173f67 !important;
+  border-color: #b8c2cc !important;
+  background: #f3f5f7 !important;
+}
