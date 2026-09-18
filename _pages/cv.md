@@ -53,6 +53,6 @@ author_profile: true
 
 <h2>Competitions</h2>
 
-<div class="hk-honor hk-competition"><span>2025</span><strong>Champion, Multimodal Information Retrieval Challenge</strong><small>The Web Conference (WWW 2025)</small></div>
+<div class="hk-honor hk-competition"><span>2025</span><strong><a class="hk-award-link" href="https://erel-mir.github.io/challenge/results/" target="_blank" rel="noopener">Multimodal Document Retrieval Challenge Track</a> <span class="hk-champion-badge" aria-label="Champion">★ Champion</span></strong><small>The Web Conference (WWW 2025) · Team iLearn · 1st Place</small></div>
 
 </div>
