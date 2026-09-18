@@ -1000,3 +1000,62 @@ html.hk-dark .hk-joint-card {
 .hk-pub-filters button.active { background: #173f67; border-color: #173f67; color: #fff; }
 html.hk-dark .hk-pub-filters button { background: #1b1e22; border-color: #34383e; color: #b8c0ca; }
 html.hk-dark .hk-pub-filters button.active { background: #8ab4f8; border-color: #8ab4f8; color: #121417; }
+
+
+/* Stable custom navigation: do not use AcademicPages greedy-nav JS. */
+.hk-nav {
+  display: flex;
+  align-items: center;
+  min-height: 58px;
+  width: 100%;
+  background: #fff;
+}
+.hk-nav-brand {
+  flex: 0 0 auto;
+  color: #2f343b !important;
+  text-decoration: none !important;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.hk-nav-links {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.hk-nav-links > a {
+  color: #555 !important;
+  text-decoration: none !important;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px 11px;
+  border-radius: 6px;
+}
+.hk-nav-links > a:hover { color: #174a7e !important; background: rgba(23,74,126,.05); }
+.hk-nav-links > a.active-tab { color: #174a7e !important; background: rgba(23,74,126,.08); }
+.hk-nav .hk-theme-toggle {
+  position: static !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  transform: none !important;
+  margin-left: 3px;
+}
+html.hk-dark .hk-nav { background: #15171a; }
+html.hk-dark .hk-nav-brand { color: #f1f3f5 !important; }
+html.hk-dark .hk-nav-links > a { color: #c9ced6 !important; }
+html.hk-dark .hk-nav-links > a:hover,
+html.hk-dark .hk-nav-links > a.active-tab { color: #8ab4f8 !important; background: rgba(138,180,248,.08); }
+
+.hk-selected .hk-pub { padding: .52rem 0 .56rem !important; }
+.hk-selected .hk-pub h3 { margin: 0 0 .14rem !important; }
+.hk-selected .hk-pub p { margin: .05rem 0 !important; line-height: 1.42; }
+
+@media (max-width: 760px) {
+  .hk-nav { min-height: 54px; }
+  .hk-nav-brand { font-size: 16px; }
+  .hk-nav-links { gap: 0; overflow-x: auto; }
+  .hk-nav-links > a { font-size: 13px; padding: 7px 6px; }
+  .hk-nav .hk-theme-toggle { padding: 7px 5px; }
+}
