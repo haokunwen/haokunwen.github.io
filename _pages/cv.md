@@ -5,19 +5,13 @@ permalink: /cv/
 author_profile: true
 ---
 
-## Current Position
-
-**National University of Singapore**  
-Research Fellow  
-Working with Prof. Wynne Hsu and Prof. Mong-Li Lee.
-
 ## Education
 
 **City University of Hong Kong** · Sep. 2024 — Present  
 Joint Ph.D. Student, School of Data Science, AML Lab  
 Supervisor: Prof. Xiangyu Zhao
 
-**Harbin Institute of Technology (Shenzhen)** · Mar. 2023 — Present  
+**Harbin Institute of Technology (Shenzhen)** · Mar. 2023 — 2026  
 Ph.D. Student, School of Computer Science and Technology, iLearn Lab  
 Supervisors: Prof. Liqiang Nie and Prof. Xuemeng Song
 
@@ -38,10 +32,3 @@ Bachelor, School of Computer Science and Technology
 **2023** · CSC Scholarship, China Scholarship Council  
 **2022** · Outstanding Graduate Student, Shandong University
 
-## Academic Service
-
-See the complete list on the [Services page](/services/).
-
-## Patents
-
-See the complete list on the [Patents page](/patents/).
