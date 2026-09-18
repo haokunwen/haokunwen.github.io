@@ -859,3 +859,54 @@ html.hk-dark .author__avatar img { box-shadow: 0 8px 26px rgba(0,0,0,.35); }
   .masthead .visible-links, .greedy-nav .visible-links { display: inline-block !important; width: auto; }
   .hk-theme-toggle { position: absolute; right: 48px; top: 7px; }
 }
+
+
+/* Final navigation/link/CV refinements */
+.hk-about a {
+  color: #174a7e !important;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  font-weight: 500;
+}
+.hk-about a:hover { color: #0b3158 !important; }
+
+@media (min-width: 769px) {
+  .greedy-nav { display: flex !important; align-items: center !important; }
+  .greedy-nav > .visible-links { display: flex !important; flex: 1 1 auto !important; align-items: center !important; width: auto !important; }
+  .greedy-nav > .visible-links > .masthead__menu-item--lg { margin-right: auto !important; }
+  .greedy-nav > .visible-links > .masthead__menu-item:not(.masthead__menu-item--lg) { flex: 0 0 auto !important; }
+  .greedy-nav > .hk-theme-toggle { margin-left: 2px; margin-right: 4px; }
+}
+
+.hk-cv > h2 { margin: 1.4rem 0 .5rem; padding-bottom: .45rem; border-bottom: 1px solid #e8e8e8; font-size: 1.3em; }
+.hk-edu-body { min-width: 0; }
+.hk-edu-head { display: flex; justify-content: space-between; gap: 18px; align-items: baseline; }
+.hk-edu-head > span { flex: 0 0 auto; color: #888; font-size: .86em; }
+.hk-degree { margin-top: 4px; color: #444; }
+.hk-supervisor { margin-top: 2px; color: #777; font-size: .9em; }
+.hk-joint-card {
+  display: grid; grid-template-columns: 82px 1fr; gap: 14px; align-items: center;
+  margin-top: 14px; padding: 13px 15px; border: 1px solid #e8ebef; border-radius: 8px;
+  background: #fafbfc;
+}
+.hk-joint-card img { width: 70px; max-height: 38px; object-fit: contain; margin: 0; }
+.hk-joint-card strong { display: block; font-size: .94em; color: #30343a; }
+.hk-joint-role { display: block; margin-top: 2px; color: #555; font-size: .88em; }
+.hk-joint-meta { display: block; margin-top: 1px; color: #858b94; font-size: .82em; }
+
+html.hk-dark .hk-about a { color: #91bdf0 !important; }
+html.hk-dark .hk-about a:hover { color: #b8d5f5 !important; }
+html.hk-dark .hk-cv > h2 { border-color: #30343a; }
+html.hk-dark .hk-degree { color: #c2c7ce; }
+html.hk-dark .hk-supervisor { color: #9fa6b0; }
+html.hk-dark .hk-joint-card { background: #1b1e22; border-color: #30343a; }
+html.hk-dark .hk-joint-card strong { color: #e7e9ec !important; }
+html.hk-dark .hk-joint-role { color: #bdc3cb; }
+html.hk-dark .hk-joint-meta { color: #9098a3; }
+
+@media (max-width: 600px) {
+  .hk-edu-head { display: block; }
+  .hk-edu-head > span { display: block; margin-top: 2px; }
+  .hk-joint-card { grid-template-columns: 70px 1fr; padding: 11px; }
+  .hk-joint-card img { width: 60px; }
+}
