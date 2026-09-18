@@ -2426,3 +2426,36 @@ body {
   .hk-pub-authors { font-size: .74rem; }
   .hk-action { font-size: .62rem; padding: 2px 6px; }
 }
+
+
+/* Publication action colors + clean section endings */
+.hk-action-paper {
+  color: #8b4b45 !important;
+  border-color: #ead4d1 !important;
+  background: #fff8f7 !important;
+}
+.hk-action-code {
+  color: #3f6651 !important;
+  border-color: #d2e3d8 !important;
+  background: #f7fbf8 !important;
+}
+.hk-action-collections {
+  color: #66558a !important;
+  border-color: #ddd5eb !important;
+  background: #faf8fd !important;
+}
+.hk-action-slides {
+  color: #496987 !important;
+  border-color: #d4e0ea !important;
+  background: #f7fafc !important;
+}
+.hk-action-paper:hover { color: #713934 !important; border-color: #dcbdb9 !important; }
+.hk-action-code:hover { color: #31533f !important; border-color: #bad3c3 !important; }
+.hk-action-collections:hover { color: #514174 !important; border-color: #cbbfe0 !important; }
+.hk-action-slides:hover { color: #365b7a !important; border-color: #bccfdd !important; }
+
+/* No separator after the final publication in a section or filtered result. */
+.hk-pub-section .hk-publication:last-child,
+.hk-publication.hk-last-visible {
+  border-bottom: 0 !important;
+}
