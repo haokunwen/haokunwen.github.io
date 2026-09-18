@@ -1596,3 +1596,36 @@ html.hk-dark .hk-cv .hk-joint-meta a { color: #91bdf0 !important; }
   }
   .sidebar .author__urls li a { padding: 0 !important; }
 }
+
+
+/* Mobile CV education: keep school logos beside school information */
+@media (max-width: 760px) {
+  .hk-cv .hk-edu {
+    display: grid !important;
+    grid-template-columns: 68px minmax(0, 1fr) !important;
+    column-gap: 12px !important;
+    row-gap: 4px !important;
+    align-items: start !important;
+  }
+  .hk-cv .hk-edu > img {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    width: 62px !important;
+    max-height: 44px !important;
+    margin: 2px 0 0 !important;
+    justify-self: center !important;
+    align-self: start !important;
+  }
+  .hk-cv .hk-edu > .hk-edu-body {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    min-width: 0 !important;
+  }
+  .hk-cv .hk-edu-head {
+    display: block !important;
+  }
+  .hk-cv .hk-edu-head > span {
+    display: block !important;
+    margin-top: 1px !important;
+  }
+}
