@@ -2638,3 +2638,22 @@ body.hk-page-exit-down { opacity: .12; transform: translateY(8px); }
     width: calc(100% - 9px) !important;
   }
 }
+
+
+/* Mobile next control: own the single separator, suppress adjacent trailing rules */
+@media (max-width: 760px), (hover: none) {
+  .archive > .hk-mobile-next,
+  .page__content > .hk-mobile-next {
+    border-top: 1px solid #e3e6ea !important;
+  }
+  .archive > *:has(+ .hk-mobile-next),
+  .page__content > *:has(+ .hk-mobile-next) {
+    border-bottom: 0 !important;
+  }
+  .hk-pub-section:last-of-type .hk-publication:last-child,
+  .hk-patents .hk-patent:last-child,
+  .services-wrapper,
+  .hk-cv > *:last-child {
+    border-bottom: 0 !important;
+  }
+}
