@@ -5,6 +5,8 @@ excerpt: ""
 author_profile: true
 layout: archive
 footer: true
+hk_next_url: "/publications/"
+hk_next_title: "Publications"
 ---
 
 <div class="hk-single-page">
