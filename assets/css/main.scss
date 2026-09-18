@@ -1261,3 +1261,59 @@ html.hk-dark .hk-cv .hk-joint-meta a { color: #91bdf0 !important; }
 .hk-clean-page .pub-content + details {
   margin-top: 15px !important;
 }
+
+
+/* Exact baseline alignment for patents and CV awards */
+.hk-patent-meta {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) auto !important;
+  align-items: baseline !important;
+  column-gap: 16px !important;
+  margin-top: 3px !important;
+  font-size: .8em !important;
+  line-height: 1.45 !important;
+  color: #8a9098 !important;
+}
+.hk-patent-meta > span,
+.hk-patent-meta > .hk-patent-year {
+  font: inherit !important;
+  line-height: inherit !important;
+  color: inherit !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  vertical-align: baseline !important;
+}
+
+.hk-honor {
+  display: grid !important;
+  grid-template-columns: 58px minmax(0,1fr) !important;
+  column-gap: 12px !important;
+  row-gap: 2px !important;
+  align-items: start !important;
+  padding: 8px 0 !important;
+}
+.hk-honor > span,
+.hk-honor > strong {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.4 !important;
+  align-self: start !important;
+}
+.hk-honor > span {
+  font-size: .9em !important;
+  padding-top: .08em !important;
+}
+.hk-honor > strong { font-size: 1em !important; }
+.hk-honor > small { margin: 0 !important; line-height: 1.35 !important; }
+
+/* Publication separators live on a dedicated wrapper, not pub-content. */
+.hk-clean-page .pub-entry {
+  padding-bottom: 14px !important;
+  margin-bottom: 14px !important;
+  border-bottom: 1px solid #e5e8ec !important;
+}
+.hk-clean-page .pub-entry .pub-content {
+  border-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
