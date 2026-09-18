@@ -46,7 +46,7 @@ author_profile: true
 
 <h2>Honors & Awards</h2>
 
-<div class="hk-honor"><span>2026</span><strong>Outstanding Graduate of Heilongjiang Province</strong></div>
+<div class="hk-honor"><span>2026</span><strong>Outstanding Graduate of Heilongjiang Province</strong><small>Heilongjiang Provincial Department of Education</small></div>
 <div class="hk-honor"><span>2025</span><strong>Doctoral Student Program of the Young S&amp;T Talents Cultivation Project</strong><small>China Association for Science and Technology (CAST)</small></div>
 <div class="hk-honor"><span>2024</span><strong>Young Student Basic Research Program (PhD Student)</strong><small>National Natural Science Foundation of China (NSFC)</small></div>
 <div class="hk-honor"><span>2024</span><strong>National Scholarship</strong><small>Ministry of Education of China</small></div>
