@@ -2817,3 +2817,46 @@ html { scroll-behavior: smooth; scroll-padding-top: 72px; }
 @media (min-width: 761px) and (hover: hover) {
   .hk-mobile-next { display: none !important; }
 }
+
+
+/* CV stays visible beside the mobile menu; desktop keeps it as the final nav item */
+.hk-mobile-cv { display: none; }
+@media (min-width: 761px) {
+  .hk-nav-links::after {
+    content: "CV";
+    display: inline-block;
+    padding: 7px 11px;
+    color: #58616c;
+    font-size: 14.5px;
+    line-height: 1;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+@media (max-width: 760px) {
+  .hk-mobile-cv {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 7px;
+    padding: 5px 8px;
+    border: 1px solid #dce1e6;
+    border-radius: 5px;
+    color: #4f5964 !important;
+    background: rgba(255,255,255,.7);
+    font-size: .72rem;
+    line-height: 1;
+    font-weight: 650;
+    text-decoration: none !important;
+  }
+  .hk-mobile-menu-toggle { margin-left: 0 !important; }
+  .hk-nav-links .hk-nav-cv { display: none !important; }
+
+  /* Ensure the chapter continuation is visible after the homepage wrapper. */
+  .archive > .hk-mobile-next {
+    display: block !important;
+    position: relative !important;
+    z-index: 2;
+  }
+}
