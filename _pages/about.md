@@ -21,7 +21,7 @@ I am currently a Research Fellow at the <a href="https://ctic.nus.edu.sg/">Centr
 
 <div class="hk-selected">
 <h2>Selected Publications</h2>
-<p class="hk-section-note">Selected first-author works. <a href="#publications">View all publications →</a></p>
+<p class="hk-section-note">Selected first-author works. <a href="/publications/">View all publications →</a></p>
 
 <div class="hk-pub"><h3>FashionLens: Toward Versatile Fashion Image Retrieval via Task-Adaptive Learning</h3><p><strong>Haokun Wen</strong>, Xuemeng Song, Xinghao Xie, Xiaolin Chen, Xiangyu Zhao, and Weili Guan.</p><p class="hk-venue">arXiv, 2026 · <a href="https://arxiv.org/abs/2605.22552">Paper</a></p></div>
 <div class="hk-pub"><h3>UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval</h3><p><strong>Haokun Wen</strong>, Xuemeng Song, Haoyu Zhang, Xiangyu Zhao, Weili Guan, and Liqiang Nie.</p><p class="hk-venue">arXiv, 2026 · <a href="https://arxiv.org/abs/2604.20318">Paper</a></p></div>
