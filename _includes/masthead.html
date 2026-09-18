@@ -4,6 +4,7 @@
     <div class="masthead__menu">
       <nav id="hk-site-nav" class="hk-nav">
         <a class="hk-nav-brand" href="{{ base_path }}/">{{ site.title }}</a>
+        <a href="{{ base_path }}/files/Haokun_Wen_CV.pdf" class="hk-mobile-cv" target="_blank" rel="noopener">CV</a>
         <button class="hk-mobile-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
         <div class="hk-nav-links">
           <a href="{{ base_path }}/#about" data-home-section="about">About</a>
@@ -13,7 +14,6 @@
           <a href="{{ base_path }}/publications/" class="{% if page.url == '/publications/' %}active-tab{% endif %}">Publications</a>
           <a href="{{ base_path }}/patents/" class="{% if page.url == '/patents/' %}active-tab{% endif %}">Patents</a>
           <a href="{{ base_path }}/services/" class="{% if page.url == '/services/' %}active-tab{% endif %}">Services</a>
-          <a href="{{ base_path }}/files/Haokun_Wen_CV.pdf" class="hk-nav-cv" target="_blank" rel="noopener">CV</a>
         </div>
       </nav>
     </div>
