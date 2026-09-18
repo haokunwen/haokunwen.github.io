@@ -750,3 +750,25 @@ h2#preprints { /* 针对 Preprints 这个特定 ID */
     transform: translateX(-20px) !important;
     margin-right: 10px !important; /* 标题右边稍微留点空，不要贴着第一个链接 */
 }
+
+
+/* homepage-v1 */
+.hk-home { max-width: 760px; }
+.hk-about { font-size: 1.03em; line-height: 1.72; margin-bottom: 2.2rem; }
+.hk-news { margin-bottom: 3rem; }
+.hk-news h2, .hk-selected h2 { font-size: 1.35em; margin: 0 0 .85rem; color: #202124; }
+.hk-news ul { list-style: none; padding: 0; margin: 0; }
+.hk-news li { padding: .36rem 0; line-height: 1.55; color: #444; }
+.hk-news li span { display: inline-block; width: 74px; color: #888; font-size: .9em; }
+.hk-section-note { margin: -.35rem 0 1.25rem; color: #777; font-size: .9em; }
+.hk-pub { padding: 1.05rem 0 1.15rem; border-bottom: 1px solid #ececec; transition: transform .18s ease; }
+.hk-pub:first-of-type { border-top: 1px solid #ececec; }
+.hk-pub:hover { transform: translateX(3px); }
+.hk-pub h3 { margin: 0 0 .35rem; font-size: 1.03em; line-height: 1.45; font-weight: 650; color: #222; }
+.hk-pub p { margin: .18rem 0; font-size: .91em; line-height: 1.55; color: #555; }
+.hk-pub .hk-venue { color: #777; font-size: .86em; }
+.hk-all-link { margin-top: 1.25rem; font-size: .92em; font-weight: 600; }
+@media (max-width: 600px) {
+  .hk-news li span { width: auto; margin-right: .55rem; }
+  .hk-pub:hover { transform: none; }
+}
