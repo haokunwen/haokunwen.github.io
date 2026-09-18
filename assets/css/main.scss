@@ -2369,3 +2369,60 @@ body {
 @media (max-width: 760px) {
   .archive .pub-content .pub-tag { font-size: .58rem !important; padding: 2px 5px !important; }
 }
+
+
+/* Rebuilt publications component */
+.hk-pub-section { display: block; }
+.hk-publication {
+  padding: 8px 0 9px;
+  border-bottom: 1px solid #e5e8ec;
+}
+.hk-publication[hidden], .hk-pub-section[hidden] { display: none !important; }
+.hk-pub-details { margin: 0 !important; }
+.hk-pub-details > summary,
+.hk-pub-title {
+  color: #252b33;
+  font-size: .88rem;
+  line-height: 1.42;
+  font-weight: 650;
+  cursor: pointer;
+}
+.hk-pub-title { cursor: default; }
+.hk-pub-details pre { margin: 8px 0 !important; font-size: .72rem !important; }
+.hk-pub-info { margin-top: 3px; }
+.hk-pub-authors {
+  color: #59616b;
+  font-size: .79rem;
+  line-height: 1.45;
+}
+.hk-pub-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin-top: 3px;
+}
+.hk-pub-actions .pub-tag {
+  margin-right: 2px !important;
+  font-size: .62rem !important;
+  padding: 2px 6px !important;
+}
+.hk-action {
+  display: inline-block;
+  padding: 2px 7px;
+  border: 1px solid #d9dee4;
+  border-radius: 4px;
+  color: #53606d !important;
+  background: #fff;
+  font-size: .66rem;
+  line-height: 1.35;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.hk-action:hover { color: #173f67 !important; border-color: #aebac6; background: #fafbfd; }
+@media (max-width: 760px) {
+  .hk-publication { padding: 7px 0 8px; }
+  .hk-pub-details > summary, .hk-pub-title { font-size: .83rem; }
+  .hk-pub-authors { font-size: .74rem; }
+  .hk-action { font-size: .62rem; padding: 2px 6px; }
+}
