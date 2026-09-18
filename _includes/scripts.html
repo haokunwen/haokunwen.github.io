@@ -5,6 +5,22 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+  if (location.pathname === '/' && location.hash) {
+    var hashTarget = document.getElementById(location.hash.slice(1));
+    if (hashTarget) {
+      setTimeout(function () {
+        var header = document.querySelector('.masthead');
+        var top = hashTarget.getBoundingClientRect().top + window.pageYOffset - (header ? header.offsetHeight : 0) - 12;
+        window.scrollTo(0, Math.max(0, top));
+        var hashLink = document.querySelector('[data-home-section="' + hashTarget.id + '"]');
+        if (hashLink) {
+          document.querySelectorAll('[data-home-section]').forEach(function (link) { link.classList.remove('active-tab'); });
+          hashLink.classList.add('active-tab');
+        }
+      }, 60);
+    }
+  }
+
   var menuToggle = document.querySelector('.hk-mobile-menu-toggle');
   var navPanel = document.querySelector('.hk-nav-links');
   if (menuToggle && navPanel) {
