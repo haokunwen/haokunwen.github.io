@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Haokun Wen | 温皓琨"
-title_separator          : "-"
+title_separator          : "|"
 name                     : &name "Haokun Wen | 温皓琨"
 description              : &description "Haokun Wen's Homepage"
 url                      : https://haokunwen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
