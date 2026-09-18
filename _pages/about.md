@@ -14,7 +14,7 @@ I am currently a Research Fellow at the <a href="https://www.nus.edu.sg/">Nation
 </p>
 </div>
 
-\n\n<div class="hk-selected">
+<div class="hk-selected">
 <h2>Selected Publications</h2>
 <p class="hk-section-note">Selected first-author works. <a href="/publications/">View all publications →</a></p>
 
