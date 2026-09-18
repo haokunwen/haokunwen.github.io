@@ -1317,3 +1317,19 @@ html.hk-dark .hk-cv .hk-joint-meta a { color: #91bdf0 !important; }
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 }
+
+
+/* Publication separator fix: pub-entry is outside hk-clean-page in generated markup. */
+.archive .pub-entry,
+.page__content .pub-entry {
+  display: block !important;
+  padding-bottom: 13px !important;
+  margin-bottom: 13px !important;
+  border-bottom: 1px solid #dfe3e8 !important;
+}
+.archive .pub-entry .pub-content,
+.page__content .pub-entry .pub-content {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  border-bottom: 0 !important;
+}
