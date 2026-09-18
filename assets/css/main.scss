@@ -2278,3 +2278,19 @@ body {
 @media (max-width: 760px) {
   .hk-patent-title { font-size: .82rem !important; }
 }
+
+
+/* Smaller publication action badges (Paper / Code / Slides) */
+.archive .pub-content a img {
+  height: 18px !important;
+  width: auto !important;
+  vertical-align: middle !important;
+}
+.archive .pub-content a {
+  display: inline-block;
+  line-height: 1 !important;
+  margin-left: 2px !important;
+}
+@media (max-width: 760px) {
+  .archive .pub-content a img { height: 16px !important; }
+}
