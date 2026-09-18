@@ -2100,3 +2100,46 @@ body {
     padding-top: 5px !important;
   }
 }
+
+
+/* Subtle micro-interactions */
+.hk-honor {
+  transition: transform .18s ease, background-color .18s ease !important;
+}
+.hk-honor:hover {
+  transform: translateX(3px);
+  background: rgba(23,63,103,.025);
+}
+.hk-edu {
+  transition: transform .18s ease !important;
+}
+.hk-edu:hover { transform: translateX(2px); }
+.hk-patent {
+  transition: transform .18s ease, background-color .18s ease !important;
+}
+.hk-patent:hover {
+  transform: translateX(3px);
+  background: rgba(23,63,103,.018);
+}
+.service-card {
+  transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease !important;
+}
+.service-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 5px 14px rgba(25,35,45,.045) !important;
+}
+.hk-pub-filters button { transition: transform .15s ease, background-color .15s ease, color .15s ease, border-color .15s ease !important; }
+.hk-pub-filters button:hover { transform: translateY(-1px); }
+.hk-nav-links > a { transition: color .16s ease, background-color .16s ease !important; }
+
+@media (hover: none), (max-width: 760px) {
+  .hk-honor:hover, .hk-edu:hover, .hk-patent:hover, .service-card:hover, .hk-pub-filters button:hover {
+    transform: none !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hk-honor, .hk-edu, .hk-patent, .service-card, .hk-pub-filters button, .hk-nav-links > a {
+    transition: none !important;
+    transform: none !important;
+  }
+}
