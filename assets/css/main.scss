@@ -2459,3 +2459,16 @@ body {
 .hk-publication.hk-last-visible {
   border-bottom: 0 !important;
 }
+
+
+/* Paper action: soft amber to avoid journal-red collision */
+.hk-action-paper {
+  color: #80612f !important;
+  border-color: #e7dcc7 !important;
+  background: #fdfaf4 !important;
+}
+.hk-action-paper:hover {
+  color: #684b20 !important;
+  border-color: #d8c8a9 !important;
+  background: #fbf6ec !important;
+}
