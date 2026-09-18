@@ -3,6 +3,10 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+hk_prev_url: "/"
+hk_prev_title: "About"
+hk_next_url: "/cv/"
+hk_next_title: "CV"
 ---
 
 <div class="hk-pub-filters" role="group" aria-label="Filter publications">
@@ -36,9 +40,3 @@ author_profile: true
   </section>
   {% endif %}
 {% endfor %}
-
-<a class="hk-next-section" href="/cv/">
-  <span class="hk-next-label">Next</span>
-  <span class="hk-next-main"><strong>CV</strong><span aria-hidden="true">→</span></span>
-  <span class="hk-next-desc">Education, honors, and competitions</span>
-</a>
