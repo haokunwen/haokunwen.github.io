@@ -27,3 +27,9 @@ I am currently a Research Fellow at the <a href="https://ctic.nus.edu.sg/">Centr
 
 </div>
 </div>
+
+<a class="hk-next-section" href="/publications/">
+  <span class="hk-next-label">Next</span>
+  <span class="hk-next-main"><strong>Publications</strong><span aria-hidden="true">→</span></span>
+  <span class="hk-next-desc">View the full publication list</span>
+</a>
