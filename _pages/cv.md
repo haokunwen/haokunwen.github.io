@@ -14,15 +14,15 @@ author_profile: true
   <div class="hk-edu-body">
     <div class="hk-edu-head"><strong>Harbin Institute of Technology (Shenzhen)</strong><span>2023 — 2026</span></div>
     <div class="hk-degree">Ph.D. in Computer Science and Technology</div>
-    <div class="hk-supervisor">Supervisors: Prof. Liqiang Nie and Prof. Xuemeng Song</div>
+    <div class="hk-supervisor">Supervisors: Prof. <a href="https://liqiangnie.github.io/">Liqiang Nie</a> and Prof. <a href="https://xuemengsong.github.io/">Xuemeng Song</a></div>
 
     <div class="hk-joint-card">
       <img src="/images/NUS-LOGO.png" alt="NUS">
-      <div><strong>National University of Singapore</strong><span class="hk-joint-role">Joint Ph.D. Student</span><span class="hk-joint-meta">2023 — 2024</span><span class="hk-joint-meta">Supervisor: Prof. Tat-Seng Chua</span></div>
+      <div><strong>National University of Singapore</strong><span class="hk-joint-role">Joint Ph.D. Student</span><span class="hk-joint-meta">2023 — 2024</span><span class="hk-joint-meta">Supervisor: Prof. <a href="https://www.comp.nus.edu.sg/~chuats/">Tat-Seng Chua</a></span></div>
     </div>
     <div class="hk-joint-card">
       <img src="/images/CityU-LOGO.png" alt="CityU">
-      <div><strong>City University of Hong Kong</strong><span class="hk-joint-role">Joint Ph.D. Student</span><span class="hk-joint-meta">2024 — 2026</span><span class="hk-joint-meta">Supervisor: Prof. Xiangyu Zhao</span></div>
+      <div><strong>City University of Hong Kong</strong><span class="hk-joint-role">Joint Ph.D. Student</span><span class="hk-joint-meta">2024 — 2026</span><span class="hk-joint-meta">Supervisor: Prof. <a href="https://xiangyu-zhao.github.io/">Xiangyu Zhao</a></span></div>
     </div>
   </div>
 </div>
