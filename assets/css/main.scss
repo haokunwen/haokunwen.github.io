@@ -2143,3 +2143,36 @@ body {
     transform: none !important;
   }
 }
+
+
+/* First-load reveal: subtle PRISM-inspired entrance */
+@keyframes hkReveal {
+  from { opacity: 0; transform: translateY(7px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.hk-about {
+  animation: hkReveal .48s ease-out both;
+}
+.hk-selected {
+  animation: hkReveal .52s ease-out .08s both;
+}
+.sidebar .hk-profile {
+  animation: hkReveal .46s ease-out .03s both;
+}
+.hk-cv,
+.hk-patents,
+.services-wrapper,
+.hk-clean-page,
+.archive > .hk-pub-year,
+.archive > details,
+.archive > .pub-entry {
+  animation: hkReveal .48s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hk-about, .hk-selected, .sidebar .hk-profile, .hk-cv, .hk-patents,
+  .services-wrapper, .hk-clean-page, .archive > .hk-pub-year,
+  .archive > details, .archive > .pub-entry {
+    animation: none !important;
+  }
+}
