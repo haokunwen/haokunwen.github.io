@@ -910,3 +910,93 @@ html.hk-dark .hk-joint-meta { color: #9098a3; }
   .hk-joint-card { grid-template-columns: 70px 1fr; padding: 11px; }
   .hk-joint-card img { width: 60px; }
 }
+
+
+/* 2026-09-18 targeted fixes */
+.hk-about p {
+  text-align: justify !important;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+.hk-about p a,
+.hk-home .hk-about p a:link,
+.hk-home .hk-about p a:visited {
+  color: #173f67 !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+.hk-about p a:hover { color: #0b2d4d !important; text-decoration: none !important; }
+
+/* Keep the native greedy-nav mechanics intact; only distribute desktop items. */
+@media (min-width: 769px) {
+  .masthead__menu { position: relative; }
+  .greedy-nav { display: block !important; }
+  .greedy-nav .visible-links {
+    display: flex !important;
+    align-items: center;
+    width: 100% !important;
+    padding-right: 42px !important;
+  }
+  .greedy-nav .visible-links .masthead__menu-item--lg {
+    margin-right: auto !important;
+    transform: none !important;
+  }
+  .greedy-nav .visible-links .masthead__menu-item:not(.masthead__menu-item--lg) { flex: 0 0 auto; }
+  .hk-theme-toggle {
+    display: block !important;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 20;
+  }
+}
+@media (max-width: 768px) {
+  .hk-theme-toggle { display: block !important; position: absolute; right: 48px; top: 9px; z-index: 20; }
+}
+
+/* Compact selected publications. */
+.hk-selected .hk-pub { padding: .72rem 0 .78rem !important; }
+.hk-selected .hk-pub h3 { margin-bottom: .22rem !important; line-height: 1.38; }
+.hk-selected .hk-pub p { margin: .10rem 0 !important; line-height: 1.48; }
+.hk-selected .hk-section-note { margin-bottom: .75rem !important; }
+
+/* White joint-experience rows: logo remains visually clean. */
+.hk-joint-card {
+  background: transparent !important;
+  border: 0 !important;
+  border-top: 1px solid #e5e8ec !important;
+  border-radius: 0 !important;
+  margin-top: 12px !important;
+  padding: 12px 0 2px !important;
+}
+.hk-joint-card + .hk-joint-card { margin-top: 8px !important; }
+html.hk-dark .hk-joint-card {
+  background: transparent !important;
+  border-color: #34383e !important;
+}
+
+/* Publication filters */
+.hk-pub-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 1.5rem;
+}
+.hk-pub-filters button {
+  appearance: none;
+  border: 1px solid #dfe3e8;
+  background: #fff;
+  color: #59636f;
+  border-radius: 999px;
+  padding: 6px 13px;
+  font-size: .82em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+.hk-pub-filters button:hover { border-color: #9fb1c4; color: #173f67; }
+.hk-pub-filters button.active { background: #173f67; border-color: #173f67; color: #fff; }
+html.hk-dark .hk-pub-filters button { background: #1b1e22; border-color: #34383e; color: #b8c0ca; }
+html.hk-dark .hk-pub-filters button.active { background: #8ab4f8; border-color: #8ab4f8; color: #121417; }
