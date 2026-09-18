@@ -38,3 +38,9 @@ author_profile: true
 </div>
 
 </div>
+
+<a class="hk-next-section" href="/">
+  <span class="hk-next-label">Next</span>
+  <span class="hk-next-main"><strong>About</strong><span aria-hidden="true">→</span></span>
+  <span class="hk-next-desc">Back to the homepage</span>
+</a>
