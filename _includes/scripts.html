@@ -6,6 +6,21 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+  var menuToggle = document.querySelector('.hk-mobile-menu-toggle');
+  var navLinksPanel = document.querySelector('.hk-nav-links');
+  if (menuToggle && navLinksPanel) {
+    menuToggle.addEventListener('click', function () {
+      var open = navLinksPanel.classList.toggle('hk-mobile-open');
+      menuToggle.classList.toggle('is-open', open);
+      menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    navLinksPanel.addEventListener('click', function (e) {
+      if (!e.target.closest('a')) return;
+      navLinksPanel.classList.remove('hk-mobile-open');
+      menuToggle.classList.remove('is-open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    });
+  }
   var filters = document.querySelector('.hk-pub-filters');
   if (!filters) return;
   var publications = Array.prototype.slice.call(document.querySelectorAll('.hk-publication'));
