@@ -2657,3 +2657,14 @@ body.hk-page-exit-down { opacity: .12; transform: translateY(8px); }
     border-bottom: 0 !important;
   }
 }
+
+
+/* About mobile ending: prevent selected-publication rule from doubling Next separator */
+@media (max-width: 760px), (hover: none) {
+  .hk-home .hk-selected .hk-pub:last-child {
+    border-bottom: 0 !important;
+  }
+  .hk-home {
+    border-bottom: 0 !important;
+  }
+}
