@@ -36,3 +36,9 @@ author_profile: true
   </section>
   {% endif %}
 {% endfor %}
+
+<a class="hk-next-section" href="/cv/">
+  <span class="hk-next-label">Next</span>
+  <span class="hk-next-main"><strong>CV</strong><span aria-hidden="true">→</span></span>
+  <span class="hk-next-desc">Education, honors, and competitions</span>
+</a>
