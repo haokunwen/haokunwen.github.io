@@ -1830,3 +1830,239 @@ html.hk-dark .hk-cv .hk-joint-meta a { color: #91bdf0 !important; }
     line-height: 1.3 !important;
   }
 }
+
+
+/* =========================================================
+   2026 typography system: restrained academic editorial style
+   ========================================================= */
+:root {
+  --hk-ink: #222831;
+  --hk-body: #4a515a;
+  --hk-muted: #7b838d;
+  --hk-blue: #173f67;
+  --hk-line: #e4e7eb;
+  --hk-nav-bg: #f7f8fa;
+}
+
+/* Global reading rhythm */
+body {
+  color: var(--hk-body);
+  font-size: 15px !important;
+  line-height: 1.62 !important;
+  -webkit-font-smoothing: antialiased;
+}
+.archive, .page__content { font-size: 1rem !important; }
+.archive p, .page__content p { line-height: 1.65; }
+.archive h1, .page__content h1 { color: var(--hk-ink); }
+.archive h2, .page__content h2 {
+  color: var(--hk-ink) !important;
+  font-size: 1.28rem !important;
+  line-height: 1.3 !important;
+  font-weight: 700 !important;
+  letter-spacing: -.015em;
+}
+.archive h3, .page__content h3 {
+  color: var(--hk-ink);
+  font-size: 1.03rem !important;
+  line-height: 1.4 !important;
+}
+
+/* Header: warm cool-gray, quieter than pure white */
+.masthead {
+  background: rgba(247,248,250,.96) !important;
+  border-bottom: 1px solid #e2e5e9 !important;
+  box-shadow: none !important;
+}
+.hk-nav {
+  min-height: 46px !important;
+  background: transparent !important;
+}
+.hk-nav-brand {
+  color: #252b33 !important;
+  font-size: 15.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: -.01em;
+}
+.hk-nav-links { gap: 4px !important; }
+.hk-nav-links > a {
+  color: #59616b !important;
+  font-size: 13.5px !important;
+  line-height: 1 !important;
+  font-weight: 600 !important;
+  padding: 6px 9px !important;
+}
+.hk-nav-links > a:hover {
+  color: var(--hk-blue) !important;
+  background: rgba(23,63,103,.045) !important;
+}
+.hk-nav-links > a.active-tab {
+  color: var(--hk-blue) !important;
+  background: rgba(23,63,103,.075) !important;
+}
+
+/* Desktop profile */
+.sidebar .author__name {
+  color: var(--hk-ink);
+  font-size: 1rem !important;
+  line-height: 1.3 !important;
+  font-weight: 700;
+}
+.sidebar .author__bio {
+  color: #69717b;
+  font-size: .84rem !important;
+  line-height: 1.45 !important;
+}
+.sidebar .author__urls li,
+.sidebar .author__urls a {
+  font-size: .82rem !important;
+  line-height: 1.45 !important;
+}
+
+/* Home */
+.hk-about {
+  color: var(--hk-body);
+  font-size: .98rem !important;
+  line-height: 1.72 !important;
+}
+.hk-about p { line-height: 1.72 !important; }
+.hk-about a { color: var(--hk-blue) !important; font-weight: 500 !important; }
+.hk-selected h2 { margin-bottom: .55rem !important; }
+.hk-section-note {
+  color: var(--hk-muted) !important;
+  font-size: .82rem !important;
+  line-height: 1.45 !important;
+}
+.hk-selected .hk-pub { padding: .45rem 0 .5rem !important; }
+.hk-selected .hk-pub h3 {
+  color: var(--hk-ink);
+  font-size: .94rem !important;
+  line-height: 1.38 !important;
+  font-weight: 650 !important;
+}
+.hk-selected .hk-pub p {
+  color: #59616b;
+  font-size: .82rem !important;
+  line-height: 1.42 !important;
+}
+.hk-selected .hk-pub .hk-venue {
+  color: var(--hk-muted) !important;
+  font-size: .76rem !important;
+}
+
+/* Full publications */
+.hk-pub-filters { margin-bottom: 1rem !important; gap: 6px !important; }
+.hk-pub-filters button {
+  font-size: .75rem !important;
+  padding: 5px 11px !important;
+}
+.hk-pub-year {
+  color: var(--hk-ink) !important;
+  font-size: 1.2rem !important;
+  line-height: 1.25 !important;
+  margin: 21px 0 8px !important;
+  padding-top: 2px !important;
+}
+.archive details > summary {
+  color: #252b33 !important;
+  font-size: .9rem !important;
+  line-height: 1.42 !important;
+  font-weight: 650 !important;
+}
+.archive .pub-content {
+  color: #59616b;
+  font-size: .8rem !important;
+  line-height: 1.45 !important;
+}
+.pub-tag {
+  font-size: .68rem !important;
+  line-height: 1.3 !important;
+  padding: 2px 6px !important;
+}
+.archive .pub-entry {
+  padding-bottom: 7px !important;
+  margin-bottom: 7px !important;
+  border-color: var(--hk-line) !important;
+}
+
+/* CV */
+.hk-cv > h2 {
+  font-size: 1.2rem !important;
+  margin-top: 1.45rem !important;
+  margin-bottom: .35rem !important;
+}
+.hk-cv .hk-edu { padding: 11px 0 !important; }
+.hk-edu-head strong { font-size: .94rem !important; line-height: 1.4 !important; }
+.hk-edu-head > span,
+.hk-joint-head > span { font-size: .76rem !important; color: var(--hk-muted) !important; }
+.hk-degree { font-size: .84rem !important; line-height: 1.45 !important; }
+.hk-supervisor { font-size: .78rem !important; line-height: 1.45 !important; }
+.hk-joint-card strong { font-size: .84rem !important; }
+.hk-joint-role { font-size: .77rem !important; }
+.hk-joint-meta { font-size: .73rem !important; }
+.hk-honor { padding: 6px 0 !important; }
+.hk-honor > span { color: var(--hk-muted); font-size: .78rem !important; }
+.hk-honor > strong { color: var(--hk-ink); font-size: .86rem !important; line-height: 1.4 !important; }
+.hk-honor > small { color: var(--hk-muted); font-size: .75rem !important; line-height: 1.4 !important; }
+
+/* Patents */
+.hk-patent { padding: 10px 0 11px !important; }
+.hk-patent-title { font-size: .91rem !important; line-height: 1.45 !important; }
+.hk-patent-authors { font-size: .79rem !important; line-height: 1.45 !important; }
+.hk-patent-meta { font-size: .72rem !important; line-height: 1.4 !important; }
+.hk-patent-status { font-size: .65rem !important; padding: 2px 7px !important; }
+
+/* Services */
+.service-card { padding: 11px 14px 9px !important; }
+.service-title {
+  font-size: .92rem !important;
+  line-height: 1.35 !important;
+  margin-bottom: 6px !important;
+  padding-bottom: 6px !important;
+}
+.service-list li {
+  color: #59616b !important;
+  font-size: .78rem !important;
+  line-height: 1.42 !important;
+  padding: 3px 0 !important;
+}
+.service-list .venue-name { color: #303741 !important; }
+
+/* Mobile type scale and spacing */
+@media (max-width: 760px) {
+  body { font-size: 14px !important; line-height: 1.58 !important; }
+  .masthead { background: rgba(247,248,250,.98) !important; }
+  .hk-nav { padding: 8px 0 6px !important; }
+  .hk-nav-brand { font-size: 14.5px !important; margin-bottom: 6px !important; }
+  .hk-nav-links > a { font-size: 11.5px !important; padding: 4px 6px !important; }
+
+  .archive h2, .page__content h2 { font-size: 1.12rem !important; }
+  .hk-about { font-size: .92rem !important; line-height: 1.66 !important; }
+  .hk-about p { line-height: 1.66 !important; }
+
+  .sidebar .hk-profile-avatar,
+  .sidebar .hk-profile-avatar img { width: 72px !important; height: 72px !important; }
+  .sidebar .hk-profile { grid-template-columns: 72px minmax(0,1fr) !important; column-gap: 11px !important; }
+  .sidebar .hk-profile-content .author__name { font-size: .96rem !important; }
+  .sidebar .hk-profile-content .author__bio { font-size: .76rem !important; }
+  .sidebar .hk-profile-links a i { font-size: 15px !important; }
+
+  .hk-selected .hk-pub h3 { font-size: .88rem !important; }
+  .hk-selected .hk-pub p { font-size: .77rem !important; }
+  .hk-selected .hk-pub .hk-venue { font-size: .71rem !important; }
+
+  .hk-pub-year { font-size: 1.08rem !important; margin-top: 18px !important; }
+  .archive details > summary { font-size: .84rem !important; }
+  .archive .pub-content { font-size: .75rem !important; }
+
+  .hk-cv > h2 { font-size: 1.08rem !important; }
+  .hk-edu-head strong { font-size: .88rem !important; }
+  .hk-degree { font-size: .79rem !important; }
+  .hk-supervisor { font-size: .74rem !important; }
+  .hk-joint-card strong { font-size: .8rem !important; }
+  .hk-honor > strong { font-size: .81rem !important; }
+
+  .hk-patent-title { font-size: .86rem !important; }
+  .hk-patent-authors { font-size: .75rem !important; }
+  .service-title { font-size: .87rem !important; }
+  .service-list li { font-size: .75rem !important; }
+}
