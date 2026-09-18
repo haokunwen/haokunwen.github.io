@@ -2668,3 +2668,41 @@ body.hk-page-exit-down { opacity: .12; transform: translateY(8px); }
     border-bottom: 0 !important;
   }
 }
+
+
+/* True single-page academic layout */
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+.hk-single-page { width: 100%; }
+.hk-site-section {
+  scroll-margin-top: 72px;
+  padding-top: 28px;
+  margin-top: 28px;
+  border-top: 1px solid #e5e8ec;
+}
+.hk-site-about {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: 0;
+}
+.hk-site-section-title {
+  margin: 0 0 16px !important;
+  font-size: 1.32rem !important;
+  color: #20262e !important;
+}
+#publications .hk-pub-year { font-size: 1.05rem !important; }
+#cv .hk-cv > h2:first-child { margin-top: 0 !important; }
+#services .hk-clean-page, #patents .hk-patents, #cv .hk-cv { max-width: none; }
+
+/* Old multi-page continuation controls are obsolete on the homepage. */
+.hk-single-page ~ .hk-mobile-next,
+.hk-single-page ~ .hk-scroll-transition { display: none !important; }
+
+@media (max-width: 760px) {
+  html { scroll-padding-top: 92px; }
+  .hk-site-section {
+    scroll-margin-top: 92px;
+    padding-top: 22px;
+    margin-top: 22px;
+  }
+  .hk-site-section-title { font-size: 1.15rem !important; margin-bottom: 12px !important; }
+}
