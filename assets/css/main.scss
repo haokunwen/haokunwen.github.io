@@ -2066,3 +2066,37 @@ body {
   .service-title { font-size: .87rem !important; }
   .service-list li { font-size: .75rem !important; }
 }
+
+
+/* Final density tweaks: publication section labels + CV education */
+.hk-pub-year {
+  font-size: 1.05rem !important;
+  line-height: 1.25 !important;
+  margin: 17px 0 7px !important;
+  padding-top: 1px !important;
+}
+.hk-cv .hk-edu {
+  padding: 8px 0 !important;
+  gap: 14px !important;
+}
+.hk-cv .hk-joint-card {
+  margin-top: 6px !important;
+  padding-top: 6px !important;
+}
+.hk-cv .hk-joint-card + .hk-joint-card {
+  margin-top: 3px !important;
+}
+@media (max-width: 760px) {
+  .hk-pub-year {
+    font-size: .98rem !important;
+    margin: 15px 0 6px !important;
+  }
+  .hk-cv .hk-edu {
+    padding: 8px 0 !important;
+    row-gap: 3px !important;
+  }
+  .hk-cv .hk-joint-card {
+    margin-top: 5px !important;
+    padding-top: 5px !important;
+  }
+}
