@@ -1108,3 +1108,51 @@ html.hk-dark .hk-nav .hk-theme-toggle:hover { color: #8ab4f8 !important; }
 html.hk-dark .hk-cv .hk-supervisor a,
 html.hk-dark .hk-cv .hk-joint-meta a { color: #91bdf0 !important; }
 
+
+
+/* Service page: compact, understated academic lists */
+.services-wrapper {
+  grid-template-columns: 1fr 1fr !important;
+  gap: 16px !important;
+  margin-top: 6px !important;
+  align-items: start;
+}
+.service-card {
+  padding: 13px 16px 11px !important;
+  border: 1px solid #e7e9ec !important;
+  border-top: 2px solid #173f67 !important;
+  border-radius: 5px !important;
+  box-shadow: none !important;
+  background: #fff !important;
+}
+.service-card:hover {
+  transform: none !important;
+  box-shadow: 0 3px 10px rgba(0,0,0,.035) !important;
+  border-color: #d9dde2 !important;
+  border-top-color: #173f67 !important;
+}
+.service-title {
+  font-size: 1.02em !important;
+  margin-bottom: 7px !important;
+  padding-bottom: 7px !important;
+  border-bottom: 1px solid #eceef1 !important;
+}
+.service-title i { font-size: .9em; color: #173f67 !important; }
+.service-list li {
+  padding: 3px 0 !important;
+  font-size: .88em !important;
+  line-height: 1.4 !important;
+  border-bottom: 1px solid #f1f2f4 !important;
+}
+.service-list .venue-name { font-weight: 600; color: #343a42; }
+
+/* Align homepage content edge with the right-side navigation group. */
+@media (min-width: 1024px) {
+  .hk-home {
+    max-width: none !important;
+    width: 100% !important;
+  }
+}
+@media (max-width: 768px) {
+  .services-wrapper { grid-template-columns: 1fr !important; gap: 12px !important; }
+}
