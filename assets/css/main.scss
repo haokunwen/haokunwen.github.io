@@ -2860,3 +2860,24 @@ html { scroll-behavior: smooth; scroll-padding-top: 72px; }
     z-index: 2;
   }
 }
+
+
+/* Real desktop CV link (replaces decorative fallback). */
+@media (min-width: 761px) {
+  .hk-nav-links::after { display: none !important; content: none !important; }
+  .hk-desktop-cv {
+    display: inline-block;
+    margin-left: 4px;
+    padding: 7px 11px;
+    color: #58616c !important;
+    font-size: 14.5px;
+    line-height: 1;
+    font-weight: 600;
+    text-decoration: none !important;
+    border-radius: 5px;
+  }
+  .hk-desktop-cv:hover { color: #123f6d !important; background: rgba(18,63,109,.045); }
+}
+@media (max-width: 760px) {
+  .hk-desktop-cv { display: none !important; }
+}
