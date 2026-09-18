@@ -2608,3 +2608,33 @@ body.hk-page-exit-down { opacity: .12; transform: translateY(8px); }
   }
   .hk-mobile-next-row > span { color: #173f67; font-size: 1.05em; }
 }
+
+
+/* Publication section rhythm and hierarchy */
+.hk-pub-section {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.hk-pub-section + .hk-pub-section {
+  margin-top: 18px !important;
+}
+.hk-pub-section > .hk-pub-year {
+  margin: 0 0 8px !important;
+  padding: 0 !important;
+}
+.hk-pub-section > .hk-publication {
+  margin-left: 14px !important;
+  width: calc(100% - 14px) !important;
+}
+@media (max-width: 760px) {
+  .hk-pub-section + .hk-pub-section {
+    margin-top: 15px !important;
+  }
+  .hk-pub-section > .hk-pub-year {
+    margin-bottom: 6px !important;
+  }
+  .hk-pub-section > .hk-publication {
+    margin-left: 9px !important;
+    width: calc(100% - 9px) !important;
+  }
+}
