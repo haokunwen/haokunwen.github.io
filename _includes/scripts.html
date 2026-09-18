@@ -7,51 +7,55 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   var filters = document.querySelector('.hk-pub-filters');
-  if (!filters) return;
+  var archive = document.querySelector('.archive');
+  if (!filters || !archive) return;
 
-  function entries() {
-    var out = [];
-    var nodes = document.querySelectorAll('.archive details');
-    Array.prototype.forEach.call(nodes, function (details) {
-      var entry = details.nextElementSibling;
-      if (!entry || !entry.classList.contains('pub-entry')) return;
-      var tag = entry.querySelector('.pub-tag');
-      var type = 'other';
-      if (tag) {
-        if (tag.classList.contains('tag-conf')) type = 'conference';
-        else if (tag.classList.contains('tag-journal')) type = 'journal';
-        else if (tag.classList.contains('tag-preprint')) type = 'preprint';
-      }
-      out.push({details: details, entry: entry, type: type});
-    });
-    return out;
+  function classify(entry) {
+    var tag = entry.querySelector('.pub-tag');
+    if (!tag) return 'other';
+    if (tag.classList.contains('tag-preprint')) return 'preprint';
+    if (tag.classList.contains('tag-journal')) return 'journal';
+    if (tag.classList.contains('tag-conf')) return 'conference';
+    return 'other';
   }
 
-  function updateYears() {
-    Array.prototype.forEach.call(document.querySelectorAll('.archive .hk-pub-year'), function (heading) {
-      var node = heading.nextElementSibling;
-      var hasVisible = false;
-      while (node && !(node.classList && node.classList.contains('hk-pub-year'))) {
-        if (node.tagName === 'DETAILS' && node.hidden === false) { hasVisible = true; break; }
-        node = node.nextElementSibling;
+  function applyFilter(filter) {
+    var children = Array.prototype.slice.call(archive.children);
+    var currentHeading = null;
+    var sections = [];
+
+    children.forEach(function (node) {
+      if (node.classList && node.classList.contains('hk-pub-year')) {
+        currentHeading = node;
+        sections.push({ heading: node, visibleCount: 0 });
+        return;
       }
-      heading.hidden = !hasVisible;
+      if (node.tagName !== 'DETAILS') return;
+
+      var entry = node.nextElementSibling;
+      if (!entry || !entry.classList.contains('pub-entry')) return;
+
+      var show = filter === 'all' || classify(entry) === filter;
+      node.hidden = !show;
+      entry.hidden = !show;
+
+      if (show && sections.length) sections[sections.length - 1].visibleCount++;
+    });
+
+    sections.forEach(function (section) {
+      section.heading.hidden = section.visibleCount === 0;
     });
   }
 
   filters.addEventListener('click', function (event) {
     var btn = event.target.closest('button[data-filter]');
     if (!btn) return;
-    var filter = btn.dataset.filter;
     Array.prototype.forEach.call(filters.querySelectorAll('button[data-filter]'), function (b) {
       b.classList.toggle('active', b === btn);
     });
-    entries().forEach(function (item) {
-      var visible = filter === 'all' || item.type === filter;
-      item.details.hidden = !visible;
-      item.entry.hidden = !visible;
-    });
-    updateYears();
+    applyFilter(btn.getAttribute('data-filter'));
   });
+
+  applyFilter('all');
 });
 </script>
