@@ -32,7 +32,7 @@ author_profile: true
   <div class="hk-edu-body">
     <div class="hk-edu-head"><strong>Shandong University</strong><span>2019 — 2022</span></div>
     <div class="hk-degree">M.Sc. in Computer Science and Technology</div>
-    <div class="hk-supervisor">Supervisors: Prof. Xuemeng Song and Prof. Liqiang Nie</div>
+    <div class="hk-supervisor">Supervisors: Prof. <a href="https://xuemengsong.github.io/">Xuemeng Song</a> and Prof. <a href="https://liqiangnie.github.io/">Liqiang Nie</a></div>
   </div>
 </div>
 
