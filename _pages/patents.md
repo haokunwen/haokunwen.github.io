@@ -3,8 +3,8 @@ layout: archive
 title: "Patents"
 permalink: /patents/
 author_profile: true
-hk_prev_url: "/cv/"
-hk_prev_title: "CV"
+hk_prev_url: "/publications/"
+hk_prev_title: "Publications"
 hk_next_url: "/services/"
 hk_next_title: "Services"
 ---
