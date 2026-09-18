@@ -45,3 +45,9 @@ author_profile: true
 
 </div>
 </div>
+
+<a class="hk-next-section" href="/patents/">
+  <span class="hk-next-label">Next</span>
+  <span class="hk-next-main"><strong>Patents</strong><span aria-hidden="true">→</span></span>
+  <span class="hk-next-desc">Granted and pending patents</span>
+</a>
