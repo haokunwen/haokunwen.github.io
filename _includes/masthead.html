@@ -14,7 +14,7 @@
             {% if link_clean == page_clean %}{% assign active_status = "active-tab" %}{% elsif page.url contains link.url %}{% assign active_status = "active-tab" %}{% endif %}
             <a href="{{ domain }}{{ link.url }}" class="{{ active_status }}">{{ link.title }}</a>
           {% endfor %}
-          <button id="hk-theme-toggle" class="hk-theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle theme"><i class="fas fa-moon" aria-hidden="true"></i></button>
+          <button id="hk-theme-toggle" class="hk-theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle theme"><span class="hk-theme-glyph" aria-hidden="true">☾</span></button>
         </div>
       </nav>
     </div>
