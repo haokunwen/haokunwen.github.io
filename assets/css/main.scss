@@ -2214,3 +2214,30 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .hk-honor, .hk-honor:hover { transform: none !important; transition: none !important; }
 }
+
+
+/* Modern navigation surface: clean white with subtle glass separation */
+.masthead {
+  background: rgba(255,255,255,.92) !important;
+  border-bottom: 1px solid rgba(31,41,55,.075) !important;
+  box-shadow: 0 1px 8px rgba(20,30,45,.025) !important;
+  backdrop-filter: saturate(140%) blur(12px) !important;
+  -webkit-backdrop-filter: saturate(140%) blur(12px) !important;
+}
+.hk-nav { background: transparent !important; }
+.hk-nav-brand { color: #1f2933 !important; }
+.hk-nav-links > a {
+  color: #58616c !important;
+  background: transparent !important;
+}
+.hk-nav-links > a:hover {
+  color: #123f6d !important;
+  background: rgba(18,63,109,.045) !important;
+}
+.hk-nav-links > a.active-tab {
+  color: #123f6d !important;
+  background: rgba(18,63,109,.065) !important;
+}
+@media (max-width: 760px) {
+  .masthead { background: rgba(255,255,255,.96) !important; }
+}
