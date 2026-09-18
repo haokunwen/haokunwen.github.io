@@ -10,9 +10,9 @@ author_profile: true
   <button data-filter="conference">Conference</button>
   <button data-filter="journal">Journal</button>
   <button data-filter="preprint">Preprint</button>
-</div></div>
+</div></div></div>
 <h2 class="hk-pub-year">Preprints</h2>
-<details>
+<div class="hk-publication" data-pub-type="preprint"><details>
   <summary>Diverse-Intent Multi-Turn Fashion Image Retrieval</summary>
   <pre><code>@article{tang2026diverse,
   author       = {Mingqiang Tang and
@@ -32,7 +32,7 @@ author_profile: true
   <span class="pub-tag tag-preprint">ArXiv Preprint</span>
   <a href="https://arxiv.org/abs/2607.20291" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="preprint"><details>
   <summary>FashionLens: Toward Versatile Fashion Image Retrieval via Task-Adaptive Learning</summary>
   <pre><code>@article{unicvr,
   author       = {Haokun Wen and
@@ -52,7 +52,7 @@ author_profile: true
   <span class="pub-tag tag-preprint">ArXiv Preprint</span>
   <a href="https://arxiv.org/abs/2605.22552" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="preprint"><details>
   <summary>UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval</summary>
   <pre><code>@article{unicvr,
   author       = {Haokun Wen and
@@ -72,7 +72,7 @@ author_profile: true
   <span class="pub-tag tag-preprint">ArXiv Preprint</span>
   <a href="https://arxiv.org/abs/2604.20318" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="preprint"><details>
   <summary>FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval</summary>
   <pre><code>@article{li2025finecir,
   author       = {Zixu Li and
@@ -93,7 +93,7 @@ author_profile: true
   <span class="pub-tag tag-preprint">ArXiv Preprint</span>
   <a href="https://arxiv.org/pdf/2503.21309" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="preprint"><details>
   <summary>Dual Knowledge-Enhanced Two-Stage Reasoner for Multimodal Dialog Systems</summary>
   <pre><code>@article{chen2025dual,
   author       = {Xiaolin Chen and
@@ -116,7 +116,7 @@ author_profile: true
 
 <h2 class="hk-pub-year">2026</h2>
 
-<details>
+<div class="hk-publication" data-pub-type="journal"><details>
   <summary>D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation</summary>
   <pre><code>@inproceedings{zuo2026d2mora,
   title={D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation},
@@ -129,16 +129,16 @@ author_profile: true
   Jianhui Zuo, Xuemeng Song, <b>Haokun Wen</b>, Meng Liu, Yupeng Hu, Jiuru Wang, and Liqiang Nie. <br>
   <span class="pub-tag tag-conf">AAAI 2026</span>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>COMBINER: Composed Image Retrieval Guided by Attribute-based Neighbor Relations</summary>
 </details>
 <div class="pub-entry"><div class="pub-content">
   Zixu Li, Yupeng Hu, Zhiwei Chen, <b>Haokun Wen</b>, Xuemeng Song, and Liqiang Nie.<br>
   <span class="pub-tag tag-journal">IEEE TIP 2026</span>
-</div></div>
+</div></div></div>
 <h2 class="hk-pub-year">2025</h2>
 
-<details>
+<div class="hk-publication" data-pub-type="journal"><details>
   <summary>Multi-modal Recommendation with Joint Content and Interaction Augmentation</summary>
   <pre><code>@inproceedings{deng2025multimodal,
   title={Multi-modal Recommendation with Joint Content and Interaction Augmentation},
@@ -152,7 +152,7 @@ author_profile: true
   <span class="pub-tag tag-conf">MMAsia 2025</span>
   <a href="https://dl.acm.org/doi/10.1145/3743093.3771016" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>Spatial Understanding from Videos: Structured Prompts Meet Simulation Data</summary>
   <pre><code>@inproceedings{zhang2025spatial,
   title={Spatial Understanding from Videos: Structured Prompts Meet Simulation Data},
@@ -166,7 +166,7 @@ author_profile: true
   <span class="pub-tag tag-conf">NeurIPS 2025</span>
   <a href="https://arxiv.org/pdf/2506.03642" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>A Comprehensive Survey on Composed Image Retrieval</summary>
   <pre><code>@article{song2025survey,
 author = {Song, Xuemeng and Lin, Haoqiang and Wen, Haokun and Hou, Bohan and Xu, Mingzhu and Nie, Liqiang},
@@ -187,7 +187,7 @@ numpages = {54}
   <a href="https://github.com/haokunwen/Awesome-Composed-Image-Retrieval" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Collections-GitHub-181717"></a>
 </div>
     
-<details>
+<div class="hk-publication" data-pub-type="journal"><details>
   <summary>ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval</summary>
   <pre><code>@inproceedings{li2025encoder,
   author       = {Zixu Li and
@@ -211,7 +211,7 @@ numpages = {54}
   <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://sdu-l.github.io/ENCODER.github.io/" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex Image Retrieval</summary>
   <pre><code>@inproceedings{hou2025fire,
   author       = {Bohan Hou and
@@ -235,7 +235,7 @@ numpages = {54}
   <span class="pub-tag tag-conf">ACM SIGIR 2025</span>
   <a href="https://dl.acm.org/doi/10.1145/3726302.3729979" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>Pseudo-triplet Guided Few-shot Composed Image Retrieval</summary>
   <pre><code>@inproceedings{hou2025pseudo,
   author       = {Bohan Hou and
@@ -257,7 +257,7 @@ numpages = {54}
   <a href="https://arxiv.org/abs/2407.06001" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div>  
    
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval</summary>
   <pre><code>@inproceedings{chen2025hud,
   title={HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval},
@@ -277,7 +277,7 @@ numpages = {54}
 
 <h2 class="hk-pub-year">2024</h2>
 
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval</summary>
   <pre><code>@inproceedings{wen2024simple,
   title={Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval},
@@ -296,7 +296,7 @@ numpages = {54}
   <a href="https://github.com/haokunwen/DQU-CIR" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
   <a href="http://haokunwen.github.io/files/SIGIR24_DQU-CIR.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Slides-PDF-0056b3"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval</summary>
   <pre><code>@article{wen2024self,
   title={Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval},
@@ -314,7 +314,7 @@ numpages = {54}
   <a href="https://ieeexplore.ieee.org/abstract/document/10373096" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://anosite.wixsite.com/limn" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="journal"><details>
   <summary>Fine-Grained Textual Inversion Network for Zero-Shot Composed Image Retrieval</summary>
   <pre><code>@inproceedings{lin2024fine,
   title={Fine-Grained Textual Inversion Network for Zero-Shot Composed Image Retrieval},
@@ -331,7 +331,7 @@ numpages = {54}
   <a href="https://dl.acm.org/doi/10.1145/3626772.3657831" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://github.com/ZiChao111/FTI4CIR" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning</summary>
   <pre><code>@inproceedings{zhang2024differential,
   title={Differential-Perceptive and Retrieval-Augmented MLLM for Change Captioning},
@@ -348,7 +348,7 @@ numpages = {54}
   <a href="https://openreview.net/attachment?id=eiGs5VCsYM&name=pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://github.com/xianzhangzx/FINER-MLLM" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-GitHub-181717"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>Interactive Garment Recommendation with User in the Loop</summary>
   <pre><code>@article{becattini2024interactive,
   title={Interactive Garment Recommendation with User in the Loop},
@@ -368,7 +368,7 @@ numpages = {54}
 
 
 <h2 class="hk-pub-year">2023</h2>
-<details>
+<div class="hk-publication" data-pub-type="journal"><details>
   <summary>Target-Guided Composed Image Retrieval</summary>
   <pre><code>@inproceedings{wen2023target,
   title={Target-Guided Composed Image Retrieval},
@@ -386,7 +386,7 @@ numpages = {54}
   <a href="https://anosite.wixsite.com/tg-cir" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
   <a href="http://haokunwen.github.io/files/mm23-TG-CIR.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Slides-PDF-0056b3"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>Finetuning Language Models for Multimodal Question Answering</summary>
   <pre><code>@inproceedings{zhang2023finetuning,
   title={Finetuning Language Models for Multimodal Question Answering},
@@ -402,7 +402,7 @@ numpages = {54}
   <span class="pub-tag tag-conf">ACM MM 2023 (Grand Challenge)</span> <span class="pub-tag tag-award">🏆 Ranked 1st in VTQA</span>
   <a href="http://haokunwen.github.io/files/acmmm2023_grandchallenge.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>Egocentric Early Action Prediction via Multimodal Transformer-Based Dual Action Prediction</summary>
   <pre><code>@article{guan2023egocentric,
   title={Egocentric Early Action Prediction via Multimodal Transformer-Based Dual Action Prediction},
@@ -420,10 +420,10 @@ numpages = {54}
   <span class="pub-tag tag-journal">IEEE TCSVT 2023</span>
   <a href="http://haokunwen.github.io/files/tcsvt2023.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://trace729.wixsite.com/trace" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
-</div></div>
+</div></div></div>
 <h2 class="hk-pub-year">2022</h2>
 
-<details>
+<div class="hk-publication" data-pub-type="journal"><details>
   <summary>Personalized Fashion Compatibility Modeling via Metapath-guided Heterogeneous Graph Learning</summary>
   <pre><code>@inproceedings{guan2022personalized,
   title={Personalized Fashion Compatibility Modeling via Metapath-guided Heterogeneous Graph Learning},
@@ -440,7 +440,7 @@ numpages = {54}
   <a href="http://haokunwen.github.io/files/acmsigir2022.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://anosite.wixsite.com/pfcm" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>Partially Supervised Compatibility Modeling</summary>
   <pre><code>@article{guan2022partially,
   title={Partially Supervised Compatibility Modeling},
@@ -457,10 +457,10 @@ numpages = {54}
   <span class="pub-tag tag-journal">IEEE TIP 2022</span>
   <a href="http://haokunwen.github.io/files/tip2022.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://site2750.wixsite.com/ps-ocm" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
-</div></div>
+</div></div></div>
 <h2 class="hk-pub-year">2021</h2>
 
-<details>
+<div class="hk-publication" data-pub-type="journal"><details>
   <summary>Comprehensive Linguistic-Visual Composition Network for Image Retrieval</summary>
   <pre><code>@inproceedings{wen2021comprehensive,
   title={Comprehensive Linguistic-Visual Composition Network for Image Retrieval},
@@ -477,7 +477,7 @@ numpages = {54}
   <a href="http://haokunwen.github.io/files/acmsigir2021.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://site2750.wixsite.com/clvcnet" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>Multimodal Compatibility Modeling via Exploring the Consistent and Complementary Correlations</summary>
   <pre><code>@inproceedings{guan2021multimodal,
   title={Multimodal Compatibility Modeling via Exploring the Consistent and Complementary Correlations},
@@ -494,7 +494,7 @@ numpages = {54}
   <a href="http://haokunwen.github.io/files/acmmm2021.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://site2750.wixsite.com/mmocm" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
 </div></div>
-<details>
+<div class="hk-publication" data-pub-type="conference"><details>
   <summary>Attribute-wise Explainable Fashion Compatibility Modeling</summary>
   <pre><code>@article{yang2021attribute,
   title={Attribute-wise Explainable Fashion Compatibility Modeling},
@@ -512,10 +512,10 @@ numpages = {54}
   <span class="pub-tag tag-journal">ACM ToMM 2021</span>
   <a href="http://haokunwen.github.io/files/acmtomm2021.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://joeyangbuer.wixsite.com/exfcm" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
-</div></div>
+</div></div></div>
 <h2 class="hk-pub-year">2020</h2>
 
-<details>
+<div class="hk-publication" data-pub-type="other"><details>
   <summary>Generative Attribute Manipulation Scheme for Flexible Fashion Search</summary>
   <pre><code>@inproceedings{yang2020generative,
   title={Generative Attribute Manipulation Scheme for Flexible Fashion Search},
