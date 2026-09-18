@@ -2197,3 +2197,20 @@ body {
 .hk-patents {
   animation: none !important;
 }
+
+
+/* Honors/competitions: motion only, no hover fill */
+.hk-honor {
+  transition: transform .18s ease !important;
+  background: transparent !important;
+}
+.hk-honor:hover {
+  transform: translateX(3px) !important;
+  background: transparent !important;
+}
+@media (hover: none), (max-width: 760px) {
+  .hk-honor:hover { transform: none !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hk-honor, .hk-honor:hover { transform: none !important; transition: none !important; }
+}
