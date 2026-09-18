@@ -7,44 +7,46 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   var filters = document.querySelector('.hk-pub-filters');
-  var archive = document.querySelector('.archive');
-  if (!filters || !archive) return;
+  if (!filters) return;
 
-  function classify(entry) {
+  var entries = Array.prototype.slice.call(document.querySelectorAll('.pub-entry')).map(function (entry) {
     var tag = entry.querySelector('.pub-tag');
-    if (!tag) return 'other';
-    if (tag.classList.contains('tag-preprint')) return 'preprint';
-    if (tag.classList.contains('tag-journal')) return 'journal';
-    if (tag.classList.contains('tag-conf')) return 'conference';
-    return 'other';
+    var type = 'other';
+    if (tag) {
+      if (tag.classList.contains('tag-preprint')) type = 'preprint';
+      else if (tag.classList.contains('tag-journal')) type = 'journal';
+      else if (tag.classList.contains('tag-conf')) type = 'conference';
+    }
+
+    var details = entry.previousElementSibling;
+    while (details && details.tagName !== 'DETAILS' && !(details.classList && details.classList.contains('hk-pub-year'))) {
+      details = details.previousElementSibling;
+    }
+    if (!details || details.tagName !== 'DETAILS') details = null;
+    return { entry: entry, details: details, type: type };
+  });
+
+  function updateHeadings() {
+    var headings = Array.prototype.slice.call(document.querySelectorAll('.hk-pub-year'));
+    headings.forEach(function (heading, i) {
+      var nextHeading = headings[i + 1] || null;
+      var visible = entries.some(function (item) {
+        if (item.entry.hidden) return false;
+        var afterStart = !!(heading.compareDocumentPosition(item.entry) & Node.DOCUMENT_POSITION_FOLLOWING);
+        var beforeEnd = !nextHeading || !!(item.entry.compareDocumentPosition(nextHeading) & Node.DOCUMENT_POSITION_FOLLOWING);
+        return afterStart && beforeEnd;
+      });
+      heading.hidden = !visible;
+    });
   }
 
-  function applyFilter(filter) {
-    var children = Array.prototype.slice.call(archive.children);
-    var currentHeading = null;
-    var sections = [];
-
-    children.forEach(function (node) {
-      if (node.classList && node.classList.contains('hk-pub-year')) {
-        currentHeading = node;
-        sections.push({ heading: node, visibleCount: 0 });
-        return;
-      }
-      if (node.tagName !== 'DETAILS') return;
-
-      var entry = node.nextElementSibling;
-      if (!entry || !entry.classList.contains('pub-entry')) return;
-
-      var show = filter === 'all' || classify(entry) === filter;
-      node.hidden = !show;
-      entry.hidden = !show;
-
-      if (show && sections.length) sections[sections.length - 1].visibleCount++;
+  function apply(filter) {
+    entries.forEach(function (item) {
+      var show = filter === 'all' || item.type === filter;
+      item.entry.hidden = !show;
+      if (item.details) item.details.hidden = !show;
     });
-
-    sections.forEach(function (section) {
-      section.heading.hidden = section.visibleCount === 0;
-    });
+    updateHeadings();
   }
 
   filters.addEventListener('click', function (event) {
@@ -53,9 +55,9 @@ document.addEventListener('DOMContentLoaded', function () {
     Array.prototype.forEach.call(filters.querySelectorAll('button[data-filter]'), function (b) {
       b.classList.toggle('active', b === btn);
     });
-    applyFilter(btn.getAttribute('data-filter'));
+    apply(btn.getAttribute('data-filter'));
   });
 
-  applyFilter('all');
+  apply('all');
 });
 </script>
