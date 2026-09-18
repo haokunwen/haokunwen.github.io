@@ -29,3 +29,48 @@
   });
 })();
 </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var filters = document.querySelector('.hk-pub-filters');
+  if (!filters) return;
+  var details = Array.prototype.slice.call(document.querySelectorAll('.page__content details, .archive details'));
+  var groups = details.map(function (d) {
+    var content = d.nextElementSibling && d.nextElementSibling.classList.contains('pub-content') ? d.nextElementSibling : null;
+    if (!content) return null;
+    var tag = content.querySelector('.pub-tag');
+    var type = tag && tag.classList.contains('tag-conf') ? 'conference' :
+               tag && tag.classList.contains('tag-journal') ? 'journal' :
+               tag && tag.classList.contains('tag-preprint') ? 'preprint' : 'other';
+    return { details: d, content: content, type: type };
+  }).filter(Boolean);
+
+  function refreshHeadings() {
+    var root = filters.parentElement;
+    Array.prototype.forEach.call(root.querySelectorAll('h2'), function (h) {
+      var node = h.nextElementSibling;
+      var visible = false;
+      while (node && node.tagName !== 'H2') {
+        if ((node.tagName === 'DETAILS' || (node.classList && node.classList.contains('pub-content'))) && node.style.display !== 'none') visible = true;
+        node = node.nextElementSibling;
+      }
+      h.style.display = visible ? '' : 'none';
+      var hr = h.nextElementSibling;
+      if (hr && hr.tagName === 'HR') hr.style.display = visible ? '' : 'none';
+    });
+  }
+
+  filters.addEventListener('click', function (e) {
+    var btn = e.target.closest('button[data-filter]');
+    if (!btn) return;
+    var wanted = btn.getAttribute('data-filter');
+    Array.prototype.forEach.call(filters.querySelectorAll('button'), function (b) { b.classList.toggle('active', b === btn); });
+    groups.forEach(function (g) {
+      var show = wanted === 'all' || g.type === wanted;
+      g.details.style.display = show ? '' : 'none';
+      g.content.style.display = show ? '' : 'none';
+    });
+    refreshHeadings();
+  });
+});
+</script>
