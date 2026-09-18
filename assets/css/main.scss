@@ -2176,3 +2176,24 @@ body {
     animation: none !important;
   }
 }
+
+
+/* Keep CV honors, education, and patents static and understated */
+.hk-honor,
+.hk-honor:hover {
+  transform: none !important;
+  background: transparent !important;
+}
+.hk-edu,
+.hk-edu:hover {
+  transform: none !important;
+}
+.hk-patent,
+.hk-patent:hover {
+  transform: none !important;
+  background: transparent !important;
+}
+.hk-cv,
+.hk-patents {
+  animation: none !important;
+}
