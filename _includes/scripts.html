@@ -9,46 +9,49 @@ document.addEventListener('DOMContentLoaded', function () {
   var filters = document.querySelector('.hk-pub-filters');
   if (!filters) return;
 
-  function getEntries() {
-    return Array.prototype.slice.call(document.querySelectorAll('.archive details')).map(function (details) {
+  function entries() {
+    var out = [];
+    var nodes = document.querySelectorAll('.archive details');
+    Array.prototype.forEach.call(nodes, function (details) {
       var entry = details.nextElementSibling;
-      if (!entry || !entry.classList.contains('pub-entry')) return null;
-      var content = entry.querySelector('.pub-content');
-      if (!content) return null;
-      var tag = content.querySelector('.pub-tag');
-      var type = tag && tag.classList.contains('tag-conf') ? 'conference' :
-                 tag && tag.classList.contains('tag-journal') ? 'journal' :
-                 tag && tag.classList.contains('tag-preprint') ? 'preprint' : 'other';
-      return { details: details, entry: entry, type: type };
-    }).filter(Boolean);
+      if (!entry || !entry.classList.contains('pub-entry')) return;
+      var tag = entry.querySelector('.pub-tag');
+      var type = 'other';
+      if (tag) {
+        if (tag.classList.contains('tag-conf')) type = 'conference';
+        else if (tag.classList.contains('tag-journal')) type = 'journal';
+        else if (tag.classList.contains('tag-preprint')) type = 'preprint';
+      }
+      out.push({details: details, entry: entry, type: type});
+    });
+    return out;
   }
 
-  function refreshHeadings() {
-    var headings = Array.prototype.slice.call(document.querySelectorAll('.archive .hk-pub-year'));
-    headings.forEach(function (h) {
-      var node = h.nextElementSibling;
-      var visible = false;
+  function updateYears() {
+    Array.prototype.forEach.call(document.querySelectorAll('.archive .hk-pub-year'), function (heading) {
+      var node = heading.nextElementSibling;
+      var hasVisible = false;
       while (node && !(node.classList && node.classList.contains('hk-pub-year'))) {
-        if (node.tagName === 'DETAILS' && node.style.display !== 'none') { visible = true; break; }
+        if (node.tagName === 'DETAILS' && node.hidden === false) { hasVisible = true; break; }
         node = node.nextElementSibling;
       }
-      h.style.display = visible ? '' : 'none';
+      heading.hidden = !hasVisible;
     });
   }
 
-  filters.addEventListener('click', function (e) {
-    var btn = e.target.closest('button[data-filter]');
+  filters.addEventListener('click', function (event) {
+    var btn = event.target.closest('button[data-filter]');
     if (!btn) return;
-    var wanted = btn.getAttribute('data-filter');
-    Array.prototype.forEach.call(filters.querySelectorAll('button'), function (b) {
+    var filter = btn.dataset.filter;
+    Array.prototype.forEach.call(filters.querySelectorAll('button[data-filter]'), function (b) {
       b.classList.toggle('active', b === btn);
     });
-    getEntries().forEach(function (g) {
-      var show = wanted === 'all' || g.type === wanted;
-      g.details.style.display = show ? '' : 'none';
-      g.entry.style.display = show ? '' : 'none';
+    entries().forEach(function (item) {
+      var visible = filter === 'all' || item.type === filter;
+      item.details.hidden = !visible;
+      item.entry.hidden = !visible;
     });
-    refreshHeadings();
+    updateYears();
   });
 });
 </script>
