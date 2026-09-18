@@ -8,20 +8,13 @@ footer: true
 ---
 <div class="hk-home">
 <div class="hk-about">
-<p>I am currently a <strong>Research Fellow at the National University of Singapore (NUS)</strong>, working with Prof. Wynne Hsu and Prof. Mong-Li Lee. My research interests include multimedia computing, information retrieval, and multimodal learning, with a particular focus on composed visual retrieval.</p>
+<h2>About Me</h2>
+<p>
+I am currently a Research Fellow at the <a href="https://www.nus.edu.sg/">National University of Singapore</a>, working with Prof. <a href="https://www.comp.nus.edu.sg/~whsu/">Wynne Hsu</a> and Prof. <a href="https://www.comp.nus.edu.sg/~leeml/">Mong-Li Lee</a>. I received my Ph.D. degree from <a href="https://www.hitsz.edu.cn/">Harbin Institute of Technology (Shenzhen)</a>, under the supervision of Prof. <a href="https://liqiangnie.github.io/">Liqiang Nie</a> and Prof. <a href="https://xuemengsong.github.io/">Xuemeng Song</a>. During my Ph.D., I was a joint Ph.D. student at <a href="https://www.cityu.edu.hk/">City University of Hong Kong</a>, supervised by Prof. <a href="https://xiangyu-zhao.github.io/">Xiangyu Zhao</a>, and at the <a href="https://www.nus.edu.sg/">National University of Singapore</a>, supervised by Prof. <a href="https://www.comp.nus.edu.sg/~chuats/">Tat-Seng Chua</a>. My research interests include multimedia computing, information retrieval, and misinformation detection.
+</p>
 </div>
 
-<div class="hk-news">
-<h2>News</h2>
-<ul>
-<li><span>2026.05</span> FashionLens is available on arXiv.</li>
-<li><span>2026.04</span> UniCVR is available on arXiv.</li>
-<li><span>2026</span> D2MoRA was accepted by AAAI 2026.</li>
-<li><span>2025</span> Our works appeared at NeurIPS, SIGIR, ACM MM, AAAI, and MMAsia.</li>
-</ul>
-</div>
-
-<div class="hk-selected">
+<div class="hk-news">\n<h2>News</h2>\n<p class="hk-news-placeholder">News will be updated soon.</p>\n</div>\n\n<div class="hk-selected">
 <h2>Selected Publications</h2>
 <p class="hk-section-note">Selected first-author works. <a href="/publications/">View all publications →</a></p>
 
@@ -31,6 +24,6 @@ footer: true
 <div class="hk-pub"><h3>Self-Training Boosted Multi-Factor Matching Network for Composed Image Retrieval</h3><p><strong>Haokun Wen</strong>, Xuemeng Song, Jianhua Yin, Jianlong Wu, Weili Guan, and Liqiang Nie.</p><p class="hk-venue">IEEE TPAMI, 2024 · <a href="https://ieeexplore.ieee.org/abstract/document/10373096">Paper</a></p></div>
 <div class="hk-pub"><h3>Target-Guided Composed Image Retrieval</h3><p><strong>Haokun Wen</strong>, Xian Zhang, Xuemeng Song, Yinwei Wei, and Liqiang Nie.</p><p class="hk-venue">ACM MM, 2023 · <a href="https://arxiv.org/pdf/2309.01366.pdf">Paper</a></p></div>
 <div class="hk-pub"><h3>Comprehensive Linguistic-Visual Composition Network for Image Retrieval</h3><p><strong>Haokun Wen</strong>, Xuemeng Song, Xin Yang, Yibing Zhan, and Liqiang Nie.</p><p class="hk-venue">ACM SIGIR, 2021 · <a href="/files/acmsigir2021.pdf">Paper</a></p></div>
-<p class="hk-all-link"><a href="/publications/">All Publications →</a></p>
+
 </div>
 </div>
