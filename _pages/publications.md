@@ -3,7 +3,6 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
----
 <div class="hk-clean-page">
 <div class="hk-pub-filters" role="group" aria-label="Filter publications">
   <button class="active" data-filter="all">All</button>
@@ -13,7 +12,6 @@ author_profile: true
 </div>
 
 <h2 class="hk-pub-year">Preprints</h2>
----
 <details>
   <summary>FashionLens: Toward Versatile Fashion Image Retrieval via Task-Adaptive Learning</summary>
   <pre><code>@article{unicvr,
@@ -101,7 +99,6 @@ author_profile: true
 
 
 <h2 class="hk-pub-year">2026</h2>
----
 
 <details>
   <summary>D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation</summary>
@@ -126,7 +123,6 @@ author_profile: true
 </div>
 
 <h2 class="hk-pub-year">2025</h2>
----
 
 <details>
   <summary>Multi-modal Recommendation with Joint Content and Interaction Augmentation</summary>
@@ -270,7 +266,6 @@ numpages = {54}
      
 
 <h2 class="hk-pub-year">2024</h2>
----
 
 <details>
   <summary>Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval</summary>
@@ -367,7 +362,6 @@ numpages = {54}
 
 
 <h2 class="hk-pub-year">2023</h2>
----
 <details>
   <summary>Target-Guided Composed Image Retrieval</summary>
   <pre><code>@inproceedings{wen2023target,
@@ -425,7 +419,6 @@ numpages = {54}
 </div>
 
 <h2 class="hk-pub-year">2022</h2>
----
 
 <details>
   <summary>Personalized Fashion Compatibility Modeling via Metapath-guided Heterogeneous Graph Learning</summary>
@@ -465,7 +458,6 @@ numpages = {54}
 </div>
 
 <h2 class="hk-pub-year">2021</h2>
----
 
 <details>
   <summary>Comprehensive Linguistic-Visual Composition Network for Image Retrieval</summary>
@@ -524,7 +516,6 @@ numpages = {54}
 </div>
 
 <h2 class="hk-pub-year">2020</h2>
----
 
 <details>
   <summary>Generative Attribute Manipulation Scheme for Flexible Fashion Search</summary>
