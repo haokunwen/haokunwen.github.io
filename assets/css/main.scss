@@ -2721,3 +2721,79 @@ html { scroll-behavior: smooth; scroll-padding-top: 72px; }
 @media (max-width: 760px) {
   .hk-citation { font-size: .7rem; padding: 7px 9px; }
 }
+
+
+/* Mobile navigation: compact dropdown list */
+.hk-mobile-menu-toggle { display: none; }
+@media (max-width: 760px) {
+  .hk-nav {
+    position: relative;
+    display: flex !important;
+    align-items: center !important;
+    padding: 10px 0 !important;
+  }
+  .hk-nav-brand {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.35 !important;
+  }
+  .hk-mobile-menu-toggle {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    width: 32px;
+    height: 30px;
+    margin-left: auto;
+    padding: 6px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+  .hk-mobile-menu-toggle span {
+    display: block;
+    width: 18px;
+    height: 1.5px;
+    background: #4f5964;
+    border-radius: 2px;
+    transition: transform .18s ease, opacity .18s ease;
+  }
+  .hk-mobile-menu-toggle.is-open span:nth-child(1) { transform: translateY(5.5px) rotate(45deg); }
+  .hk-mobile-menu-toggle.is-open span:nth-child(2) { opacity: 0; }
+  .hk-mobile-menu-toggle.is-open span:nth-child(3) { transform: translateY(-5.5px) rotate(-45deg); }
+
+  .hk-nav-links {
+    display: none !important;
+    position: absolute !important;
+    top: calc(100% + 1px);
+    left: 0;
+    right: 0;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 7px !important;
+    overflow: visible !important;
+    border: 1px solid rgba(31,41,55,.08);
+    border-radius: 0 0 8px 8px;
+    background: rgba(255,255,255,.98);
+    box-shadow: 0 10px 24px rgba(25,35,45,.07);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .hk-nav-links.hk-mobile-open { display: flex !important; }
+  .hk-nav-links > a,
+  .hk-nav-links > a:first-child {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 8px 10px !important;
+    border-radius: 5px;
+    font-size: .78rem !important;
+    line-height: 1.35 !important;
+    text-align: left !important;
+  }
+  .hk-nav-links > a + a { margin-top: 1px !important; }
+  .hk-nav-cv { border-top: 1px solid #edf0f2 !important; margin-top: 4px !important; padding-top: 9px !important; }
+}
