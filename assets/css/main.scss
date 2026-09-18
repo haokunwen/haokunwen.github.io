@@ -2956,3 +2956,57 @@ html { scroll-behavior: smooth; scroll-padding-top: 72px; }
   .hk-champion-badge { transition: none !important; }
   .hk-champion-badge:hover { transform: none !important; }
 }
+
+
+/* Refined multilingual system font stack: zero extra font downloads */
+body,
+input,
+button,
+select,
+textarea {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Noto Sans CJK SC",
+    "Microsoft YaHei",
+    "Microsoft JhengHei",
+    sans-serif !important;
+}
+
+/* Bilingual site signature */
+.hk-nav-brand {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Noto Sans CJK SC",
+    "Microsoft YaHei",
+    sans-serif !important;
+  font-weight: 650 !important;
+  letter-spacing: -.012em !important;
+  word-spacing: .04em;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+}
+@media (min-width: 761px) {
+  .hk-nav-brand {
+    font-size: 16.5px !important;
+    line-height: 1.25 !important;
+  }
+}
+@media (max-width: 760px) {
+  .hk-nav-brand {
+    font-size: 14.5px !important;
+    line-height: 1.3 !important;
+    letter-spacing: -.006em !important;
+  }
+}
