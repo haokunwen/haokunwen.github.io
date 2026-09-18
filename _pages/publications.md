@@ -4,6 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+<div class="hk-clean-page">
 <div class="hk-pub-filters" role="group" aria-label="Filter publications">
   <button class="active" data-filter="all">All</button>
   <button data-filter="conference">Conference</button>
@@ -541,4 +542,5 @@ numpages = {54}
   <span class="pub-tag tag-conf">ACM SIGIR 2020</span>
   <a href="http://haokunwen.github.io/files/acmsigir2020.pdf" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
   <a href="https://joeyangbuer.wixsite.com/amgan" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Code-Project-181717"></a>
+</div>
 </div>
