@@ -1190,3 +1190,26 @@ html.hk-dark .hk-cv .hk-joint-meta a { color: #91bdf0 !important; }
 .hk-patent-title { color: #252b33; font-size: 1em; font-weight: 650; line-height: 1.5; }
 .hk-patent-authors { margin-top: 4px; color: #5f6670; font-size: .88em; line-height: 1.5; }
 .hk-patent-meta { margin-top: 3px; color: #8a9098; font-size: .8em; }
+
+
+/* Patent row alignment refinement */
+.hk-patents { border-top: 0 !important; }
+.hk-patent:first-child { padding-top: 2px !important; }
+.hk-patent-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+.hk-patent-title-row .hk-patent-title { flex: 1 1 auto; min-width: 0; }
+.hk-patent-title-row .hk-patent-status { flex: 0 0 auto; margin-top: 1px; }
+.hk-patent-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+.hk-patent-meta .hk-patent-year { flex: 0 0 auto; }
+@media (max-width: 600px) {
+  .hk-patent-title-row { gap: 10px; }
+}
