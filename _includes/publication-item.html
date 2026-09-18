@@ -14,9 +14,9 @@
     <div class="hk-pub-actions">
       <span class="pub-tag tag-{{ pub.type | replace: 'conference', 'conf' }}">{{ pub.venue }}</span>
       {% if pub.award %}<span class="pub-tag tag-award">🏆 {{ pub.award }}</span>{% endif %}
-      {% if pub.paper %}<a class="hk-action" href="{{ pub.paper }}">Paper</a>{% endif %}
-      {% if pub.code %}<a class="hk-action" href="{{ pub.code }}">{{ pub.code_label | default: "Code" }}</a>{% endif %}
-      {% if pub.slides %}<a class="hk-action" href="{{ pub.slides }}">Slides</a>{% endif %}
+      {% if pub.paper %}<a class="hk-action hk-action-paper" href="{{ pub.paper }}">Paper</a>{% endif %}
+      {% if pub.code %}<a class="hk-action {% if pub.code_label == "Collections" %}hk-action-collections{% else %}hk-action-code{% endif %}" href="{{ pub.code }}">{{ pub.code_label | default: "Code" }}</a>{% endif %}
+      {% if pub.slides %}<a class="hk-action hk-action-slides" href="{{ pub.slides }}">Slides</a>{% endif %}
     </div>
   </div>
 </article>
