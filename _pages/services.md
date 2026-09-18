@@ -3,6 +3,10 @@ layout: archive
 title: "Academic Services"
 permalink: /services/
 author_profile: true
+hk_prev_url: "/patents/"
+hk_prev_title: "Patents"
+hk_next_url: "/"
+hk_next_title: "About"
 ---
 <div class="hk-clean-page">
 <div class="services-wrapper">
@@ -45,9 +49,3 @@ author_profile: true
 
 </div>
 </div>
-
-<a class="hk-next-section" href="/patents/">
-  <span class="hk-next-label">Next</span>
-  <span class="hk-next-main"><strong>Patents</strong><span aria-hidden="true">→</span></span>
-  <span class="hk-next-desc">Granted and pending patents</span>
-</a>
