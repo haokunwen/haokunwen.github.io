@@ -2336,3 +2336,36 @@ body {
   .hk-nav-brand { font-size: 14.5px !important; }
   .hk-nav-links > a { font-size: 11.5px !important; padding: 4px 6px !important; }
 }
+
+
+/* Publication cleanup: exactly one separator per visible entry */
+.archive .pub-entry,
+.page__content .pub-entry,
+.hk-clean-page .pub-entry {
+  border-bottom: 0 !important;
+  margin-bottom: 7px !important;
+  padding-bottom: 7px !important;
+}
+.archive .pub-entry:not([hidden]) + details {
+  border-top: 1px solid #e5e8ec !important;
+  padding-top: 8px !important;
+}
+.archive .pub-entry:not([hidden]) + .hk-pub-year {
+  border-top: 0 !important;
+}
+.archive details {
+  border-top: 0;
+}
+
+/* Venue/type labels should be secondary, not headline-sized. */
+.archive .pub-content .pub-tag {
+  font-size: .62rem !important;
+  line-height: 1.25 !important;
+  font-weight: 700 !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  vertical-align: middle !important;
+}
+@media (max-width: 760px) {
+  .archive .pub-content .pub-tag { font-size: .58rem !important; padding: 2px 5px !important; }
+}
