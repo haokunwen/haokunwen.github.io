@@ -1514,3 +1514,85 @@ html.hk-dark .hk-cv .hk-joint-meta a { color: #91bdf0 !important; }
   .archive details > summary { font-size: .92em !important; }
   .archive .pub-content { font-size: .86em !important; }
 }
+
+
+/* Mobile profile: compact left-aligned identity block, always show contacts */
+@media (max-width: 760px) {
+  .sidebar {
+    display: grid !important;
+    grid-template-columns: 92px minmax(0,1fr) !important;
+    column-gap: 14px !important;
+    row-gap: 6px !important;
+    align-items: start !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 4px 0 18px !important;
+    text-align: left !important;
+  }
+  .sidebar .author__avatar {
+    grid-column: 1 !important;
+    grid-row: 1 / span 2 !important;
+    width: 92px !important;
+    height: 92px !important;
+    margin: 0 !important;
+    display: block !important;
+  }
+  .sidebar .author__avatar img {
+    width: 92px !important;
+    height: 92px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    border-radius: 6px !important;
+    margin: 0 !important;
+  }
+  .sidebar .author__content {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    width: auto !important;
+    margin: 0 !important;
+    text-align: left !important;
+  }
+  .sidebar .author__name,
+  .sidebar .author__bio {
+    text-align: left !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .sidebar .author__name { margin-top: 2px !important; margin-bottom: 3px !important; }
+  .sidebar .author__bio { margin-bottom: 0 !important; }
+
+  .sidebar .author__urls-wrapper {
+    grid-column: 2 !important;
+    grid-row: 2 !important;
+    width: auto !important;
+    max-width: none !important;
+    margin: 0 !important;
+    text-align: left !important;
+  }
+  .sidebar .author__urls-wrapper > button,
+  .sidebar .author__urls-wrapper > .btn,
+  .sidebar button.btn--inverse {
+    display: none !important;
+  }
+  .sidebar .author__urls {
+    display: flex !important;
+    position: static !important;
+    flex-wrap: wrap !important;
+    gap: 3px 10px !important;
+    width: auto !important;
+    margin: 3px 0 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+  }
+  .sidebar .author__urls li {
+    display: block !important;
+    margin: 0 !important;
+    padding: 1px 0 !important;
+    font-size: .82em !important;
+    white-space: nowrap;
+  }
+  .sidebar .author__urls li a { padding: 0 !important; }
+}
