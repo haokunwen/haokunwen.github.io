@@ -21,5 +21,11 @@ layout: default
     {% endunless %}
     {{ content }}
     <div id="hk-scroll-transition" class="hk-scroll-transition" aria-hidden="true"><span></span></div>
+    {% if page.hk_next_url %}
+    <a class="hk-mobile-next" href="{{ page.hk_next_url }}">
+      <span class="hk-mobile-next-label">Next</span>
+      <span class="hk-mobile-next-row"><strong>{{ page.hk_next_title }}</strong><span aria-hidden="true">→</span></span>
+    </a>
+    {% endif %}
   </div>
 </div>
