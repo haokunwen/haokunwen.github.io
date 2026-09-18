@@ -13,6 +13,26 @@ author_profile: true
 </div></div>
 <h2 class="hk-pub-year">Preprints</h2>
 <details>
+  <summary>Diverse-Intent Multi-Turn Fashion Image Retrieval</summary>
+  <pre><code>@article{tang2026diverse,
+  author       = {Mingqiang Tang and
+                  Haokun Wen and
+                  Meng Liu and
+                  Yupeng Hu and
+                  Weili Guan and
+                  Xuemeng Song},
+  title        = {Diverse-Intent Multi-Turn Fashion Image Retrieval},
+  journal      = {CoRR},
+  volume       = {abs/2607.20291},
+  year         = {2026}
+}</code></pre>
+</details>
+<div class="pub-entry"><div class="pub-content">
+  Mingqiang Tang, <b>Haokun Wen</b>, Meng Liu, Yupeng Hu, Weili Guan, and Xuemeng Song.<br>
+  <span class="pub-tag tag-preprint">ArXiv Preprint</span>
+  <a href="https://arxiv.org/abs/2607.20291" style="margin-left: 2px;"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b"></a>
+</div></div>
+<details>
   <summary>FashionLens: Toward Versatile Fashion Image Retrieval via Task-Adaptive Learning</summary>
   <pre><code>@article{unicvr,
   author       = {Haokun Wen and
