@@ -1,5 +1,19 @@
 # Publication data. Add a new item here; the page renders automatically.
 # type: conference | journal | preprint
+-title: "Same Verdict, Different Readers: Personalizing Fact-Checking Explanations from Relative Preferences"
+ authors: "<strong>Haokun Wen</strong>, Xuemeng Song, Mong-Li Lee, and Wynne Hsu"
+ year: 2026
+ section: "Preprints"
+ type: "preprint"
+ venue: "ArXiv Preprint"
+ paper: "https://arxiv.org/abs/2610.37380"
+ bibtex: |
+    @article{wen2026same,
+      author={Haokun Wen and Xuemeng Song and Mong-Li Lee and Wynne Hsu},
+      title={Same Verdict, Different Readers: Personalizing Fact-Checking Explanations from Relative Preferences},
+      journal={CoRR}, volume={abs/2610.37380}, year={2026}
+    }
+
 - title: "Diverse-Intent Multi-Turn Fashion Image Retrieval"
   authors: "Mingqiang Tang, <strong>Haokun Wen</strong>, Meng Liu, Yupeng Hu, Weili Guan, and Xuemeng Song"
   year: 2026
