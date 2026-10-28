@@ -123,7 +123,9 @@
       title={D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation},
       author={Zuo, Jianhui and Song, Xuemeng and Wen, Haokun and Liu, Meng and Hu, Yupeng and Wang, Jiuru and Nie, Liqiang},
       booktitle={AAAI Conference on Artificial Intelligence},
-      year={2026}
+      pages        = {29286--29294},
+      publisher    = {{AAAI} Press},
+      year         = {2026},
     }
 
 - title: "COMBINER: Composed Image Retrieval Guided by Attribute-based Neighbor Relations"
@@ -131,6 +133,22 @@
   year: 2026
   type: "journal"
   venue: "IEEE TIP 2026"
+  paper: "https://ieeexplore.ieee.org/document/11534406"
+  bibtex: 
+    @article{li2026combiner,
+      author       = {Zixu Li and
+                      Yupeng Hu and
+                      Zhiwei Chen and
+                      Haokun Wen and
+                      Xuemeng Song and
+                      Liqiang Nie},
+      title        = {{COMBINER:} Composed Image Retrieval Guided by Attribute-Based Neighbor
+                      Relations},
+      journal      = {{IEEE} Transactions on Image Processing},
+      volume       = {35},
+      pages        = {5377--5392},
+      year         = {2026}
+    }
 
 - title: "Multi-modal Recommendation with Joint Content and Interaction Augmentation"
   authors: "Jiajie Deng, <strong>Haokun Wen</strong>, Xiao Han, Xuemeng Song, and Xiangyu Zhao"
@@ -138,6 +156,20 @@
   type: "conference"
   venue: "MMAsia 2025"
   paper: "https://dl.acm.org/doi/10.1145/3743093.3771016"
+  bibtex: 
+    @inproceedings{deng2025multi,
+        author       = {Jiajie Deng and
+                        Haokun Wen and
+                        Xiao Han and
+                        Xuemeng Song and
+                        Xiangyu Zhao},
+        title        = {Multi-modal Recommendation with Joint Content and Interaction Augmentation},
+        booktitle    = {Proceedings of the {ACM} International Conference on Multimedia
+                        in Asia},
+        pages        = {70:1--70:8},
+        publisher    = {{ACM}},
+        year         = {2025}
+  }
 
 - title: "Spatial Understanding from Videos: Structured Prompts Meet Simulation Data"
   authors: "Haoyu Zhang, Meng Liu, Zaijing Li, <strong>Haokun Wen</strong>, Weili Guan, Yaowei Wang, and Liqiang Nie"
