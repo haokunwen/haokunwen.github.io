@@ -94,10 +94,9 @@
 
 - title: "Dual Knowledge-Enhanced Two-Stage Reasoner for Multimodal Dialog Systems"
   authors: "Xiaolin Chen, Xuemeng Song, <strong>Haokun Wen</strong>, Weili Guan, Xiangyu Zhao, and Liqiang Nie"
-  year: 2025
-  section: "Preprints"
-  type: "preprint"
-  venue: "ArXiv Preprint"
+  year: 2026
+  type: "journal"
+  venue: "ACM TOIS 2026"
   paper: "https://arxiv.org/abs/2509.07817v1"
   bibtex: |
     @article{chen2025dual,
@@ -118,6 +117,7 @@
   year: 2026
   type: "conference"
   venue: "AAAI 2026"
+  paper: "https://ojs.aaai.org/index.php/AAAI/article/view/40168"
   bibtex: |
     @inproceedings{zuo2026d2mora,
       title={D2MoRA: Diversity-Regulated Asymmetric MoE-LoRA Decomposition for Efficient Multi-Task Adaptation},
