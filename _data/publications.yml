@@ -169,7 +169,7 @@
         pages        = {70:1--70:8},
         publisher    = {{ACM}},
         year         = {2025}
-  }
+    }
 
 - title: "Spatial Understanding from Videos: Structured Prompts Meet Simulation Data"
   authors: "Haoyu Zhang, Meng Liu, Zaijing Li, <strong>Haokun Wen</strong>, Weili Guan, Yaowei Wang, and Liqiang Nie"
