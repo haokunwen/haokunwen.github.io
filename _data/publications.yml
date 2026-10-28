@@ -134,7 +134,7 @@
   type: "journal"
   venue: "IEEE TIP 2026"
   paper: "https://ieeexplore.ieee.org/document/11534406"
-  bibtex: 
+  bibtex: |
     @article{li2026combiner,
       author       = {Zixu Li and
                       Yupeng Hu and
@@ -156,7 +156,7 @@
   type: "conference"
   venue: "MMAsia 2025"
   paper: "https://dl.acm.org/doi/10.1145/3743093.3771016"
-  bibtex: 
+  bibtex: |
     @inproceedings{deng2025multi,
         author       = {Jiajie Deng and
                         Haokun Wen and
